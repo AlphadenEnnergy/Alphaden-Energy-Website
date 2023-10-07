@@ -5,13 +5,78 @@
 body {
   background: white;
 }
-
-.hero {
-  background-image: url('./../assets/images/landing/bg.svg');
+.bg {
   width: 100vw;
-  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  background-blend-mode: multiply;
+}
+
+.hero {
+  background-image: url("./../assets/images/landing/bg.svg");
+  height: auto;
+}
+
+.clientele {
+  background-image: url("./../assets/images/landing/clientele/clientele.svg");
+}
+
+.who-we-are {
+  background-image: url("./../assets/images/landing/whoWeAre/whoweare.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+.scroll-parent {
+  position: relative;
+  width: 85vw;
+  height: 10rem;
+  overflow-x: hidden;
+  overflow-y: none;
+}
+
+.scroll-child {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 30s linear infinite;
+}
+
+.primary {
+  animation: primary 30s linear infinite;
+}
+
+.secondary {
+  animation: secondary 30s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .clientele {
+    background-image: url("./../assets/images/landing/clientele/clientel.svg");
+  }
+  .who-we-are {
+    background-image: none;
+  }
+  
 }

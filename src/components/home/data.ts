@@ -22,3 +22,26 @@ export const locations = [
     address: "5048 Nicollet Avenue, Minneapolis Mn. 55419, USA",
   },
 ];
+
+export const clientele = [
+    {
+      name: "Chevron",
+      url: "@/assets/images/landing/clientele/chevron.svg",
+    },
+    {
+      name: "Seplat",
+      url: "@/assets/images/landing/clientele/seplat.svg",
+    },
+    {
+      name: "NNPC",
+      url: "@/assets/images/landing/clientele/nnpc.svg",
+    },
+    {
+      name: "Shell",
+      url: "@/assets/images/landing/clientele/shell.svg",
+    },
+    {
+      name: "Total",
+      url: "@/assets/images/landing/clientele/total.svg",
+    },
+  ];

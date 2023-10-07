@@ -8,7 +8,7 @@ export default function LocationMap() {
 
   return (
     <section className="flex justify-center">
-      <div className=" w-full max-w-5xl my-20 h-auto flex flex-col justify-center items-start px-8 md:px-0 md:h-auto">
+      <div className=" w-full max-w-5xl mb-20 h-auto flex flex-col justify-center items-start px-8 md:px-0 md:h-auto">
         <div className="my-8 flex flex-col space-y-1">
           <span className="text-[10px] text-secondary">Our location</span>
           <h2 className="font-semibold text-xl">Visit Us</h2>
