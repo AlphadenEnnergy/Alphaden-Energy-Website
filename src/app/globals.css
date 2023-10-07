@@ -5,6 +5,7 @@
 body {
   background: white;
 }
+
 .bg {
   width: 100vw;
   background-repeat: no-repeat;
@@ -25,6 +26,23 @@ body {
 .hero-2 {
   background-image: url("./../assets/images/landing/bg-3.jpg");
   height: auto;
+}
+
+.pulse {
+  animation: pulse 6s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 1,
+  }
+
+  /* 50% {
+    opacity: 0.8;
+  } */
 }
 
 .darker {
