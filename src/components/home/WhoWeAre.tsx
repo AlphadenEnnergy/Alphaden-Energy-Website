@@ -11,7 +11,7 @@ const WhoWeAre = () => {
         
       </div> */}
       <div className="who-we-are w-full max-w-5xl h-auto flex flex-col justify-center items-start px-8 md:px-0 md:h-[30rem]">
-        <div className="flex flex-col mt-0 md:mt-20">
+        <div className="flex flex-col mt-0 md:mt-32">
           <div className="flex flex-col items-center md:block">
             <h2 className="text-3xl font-bold text-primary">
               Who We <span className="text-secondary">Are?</span>
@@ -24,11 +24,11 @@ const WhoWeAre = () => {
             Alpha’s, championing their fields while collectively making up a
             provider of fit-for-purpose services to clients across various
             industries.
-            <br />
+            <br /><br />
             An Indigenous company, founded over 2 decades ago yet quite modern
             as we continue to show that People, Innovation, Integrity &
             Efficiency values are key towards the success of every project.
-            <br />
+            <br /><br />
             We have an unquenchable desire to contribute positively to the
             development of our natural environment & have stayed true to our
             name due to our excellence and strategic contrivance in successfully

@@ -13,8 +13,22 @@ body {
 }
 
 .hero {
-  background-image: url("./../assets/images/landing/bg.svg");
+  background-image: url("./../assets/images/landing/bg-1.jpg");
   height: auto;
+}
+
+.hero-1 {
+  background-image: url("./../assets/images/landing/bg-2.jpg");
+  height: auto;
+}
+
+.hero-2 {
+  background-image: url("./../assets/images/landing/bg-3.jpg");
+  height: auto;
+}
+
+.darker {
+  filter: brightness(10%);
 }
 
 .clientele {
@@ -30,14 +44,14 @@ body {
 
 .scroll-parent {
   position: relative;
-  width: 85vw;
+  width: 80vw;
   height: 10rem;
   overflow-x: hidden;
   overflow-y: none;
 }
 
 .scroll-child {
-  width: inherit;
+  /* width: inherit; */
   height: inherit;
   position: absolute;
   left: 0%;
@@ -77,6 +91,27 @@ body {
   }
   .who-we-are {
     background-image: none;
+  }
+  .scroll-parent {
+    width: 85vw;
+  }
+
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -50%;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 500%;
+    }
+    to {
+      left: 0%;
+    }
   }
   
 }

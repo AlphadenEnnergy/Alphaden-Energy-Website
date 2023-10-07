@@ -7,7 +7,7 @@ import LocationMap from "@/components/home/LocationMap";
 import Clientele from "@/components/home/Clientele";
 import WhoWeAre from "@/components/home/WhoWeAre";
 import OurServices from "@/components/home/OurServices";
-
+// import Slider from "@/components/home/Slider";
 export default function Page({ children }: any) {
   return (
     <main className="flex min-h-screen flex-col justify-between ">
@@ -19,7 +19,7 @@ export default function Page({ children }: any) {
 
         <div className="bg hero z-10 w-full items-center justify-between text-sm lg:flex">
           <div className=" w-full flex flex-col justify-center items-center">
-            <div className="z-40 max-w-5xl my-40 h-40 flex flex-col justify-center items-start px-8 md:h-80">
+            <div className="z-40 max-w-5xl my-40 h-40 flex flex-col justify-center items-start px-8 md:px-0 md:h-80">
               <h1 className="text-white text-3xl leading-tight font-bold md:text-5xl">
                 Providing the most efficient dynamic processes using business
                 intelligence, technology and innovation.
@@ -33,6 +33,7 @@ export default function Page({ children }: any) {
             </div>
           </div>
         </div>
+        {/* <Slider/> */}
         <WhoWeAre/>
         <OurServices/>
         <Clientele />
