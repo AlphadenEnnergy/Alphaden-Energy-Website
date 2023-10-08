@@ -5,8 +5,8 @@ import Image from "next/image";
 import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../buttons";
 import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
-const Navbar = () => {
-  const [state, setState] = useState({
+const Navbar = ({ setState }: any) => {
+  const [navstate, setNavstate] = useState({
     activeTab: "Home",
     hoverClass: "cursor-pointer pb-1 hover:text-red-500",
     activeClass: "text-red-500 border-b-2 border-red-500",
@@ -20,85 +20,132 @@ const Navbar = () => {
         </div>
         <div className="space-x-5 hidden md:flex">
           <div
-            className={`${state.hoverClass} ${
-              state.activeTab == "Home" ? state.activeClass : ""
+            className={`${navstate.hoverClass} ${
+              navstate.activeTab == "Home" ? navstate.activeClass : ""
             }`}
-            onClick={(prev) => {
-              return {
-                ...prev,
-                activeTab: "Home",
-              };
+            onClick={() => {
+              setNavstate((prev) => {
+                return {
+                  ...prev,
+                  activeTab: "Home",
+                };
+              });
+              setState((prev: any) => {
+                return {
+                  ...prev,
+                  active: "Home",
+                };
+              });
             }}
           >
             {" "}
             Home
           </div>
           <div
-            onClick={(prev) => {
-              return {
-                ...prev,
-                activeTab: "About Us",
-              };
+            onClick={() => {
+              setNavstate((prev) => {
+                return {
+                  ...prev,
+                  activeTab: "About Us",
+                };
+              });
+              setState((prev: any) => {
+                return {
+                  ...prev,
+                  active: "About Us",
+                };
+              });
             }}
-            className={`${state.hoverClass} ${
-              state.activeTab == "About Us" ? state.activeClass : ""
+            className={`${navstate.hoverClass} ${
+              navstate.activeTab == "About Us" ? navstate.activeClass : ""
             }`}
           >
             {" "}
             About Us
           </div>
           <div
-            className={`flex ${state.hoverClass} ${
-              state.activeTab == "Our Services" ? state.activeClass : ""
+            className={`flex ${navstate.hoverClass} ${
+              navstate.activeTab == "Our Services" ? navstate.activeClass : ""
             }`}
-            onClick={(prev) => {
-              return {
-                ...prev,
-                activeTab: "Our Services",
-              };
+            onClick={() => {
+              setNavstate((prev) => {
+                return {
+                  ...prev,
+                  activeTab: "Our Services",
+                };
+              });
+              setState((prev: any) => {
+                return {
+                  ...prev,
+                  active: "Our Services",
+                };
+              });
             }}
           >
             <span>Our Services</span>
             <RiArrowDropDownLine className="text-xl" />
           </div>
           <div
-            className={`${state.hoverClass} ${
-              state.activeTab == "HEQ Policy" ? state.activeClass : ""
+            className={`${navstate.hoverClass} ${
+              navstate.activeTab == "HEQ Policy" ? navstate.activeClass : ""
             }`}
-            onClick={(prev) => {
-              return {
-                ...prev,
-                activeTab: "HEQ Policy",
-              };
+            onClick={() => {
+              setNavstate((prev) => {
+                return {
+                  ...prev,
+                  activeTab: "HEQ Policy",
+                };
+              });
+              setState((prev: any) => {
+                return {
+                  ...prev,
+                  active: "HEQ Policy",
+                };
+              });
             }}
           >
             {" "}
             HEQ Policy
           </div>
           <div
-            onClick={(prev) => {
-              console.log("Project");
-              return {
-                ...prev,
-                activeTab: "Projects",
-              };
+            onClick={() => {
+              setNavstate((prev) => {
+                return {
+                  ...prev,
+                  activeTab: "Projects",
+                };
+              });
+              setState((prev: any) => {
+                return {
+                  ...prev,
+                  active: "Projects",
+                };
+              });
             }}
-            className={`${state.hoverClass} ${
-              state.activeTab == "Projects" ? state.activeClass : ""
+            className={`${navstate.hoverClass} ${
+              navstate.activeTab == "Projects" ? navstate.activeClass : ""
             }`}
           >
             {" "}
             Projects
           </div>
           <div
-            className={`${state.hoverClass} ${
-              state.activeTab == "OEM/Partners" ? state.activeClass : ""
+            className={`${navstate.hoverClass} ${
+              navstate.activeTab == "OEM/Partners" ? navstate.activeClass : ""
             }`}
-            onClick={(prev) => {
-              return {
-                ...prev,
-                activeTab: "OEM/Partners",
-              };
+            onClick={() => {
+              setNavstate((prev) => {
+                return {
+                  ...prev,
+                  activeTab: "OEM/Partners",
+                };
+              });
+              setState((prev: any) => {
+                return {
+                  ...prev,
+                  active: "OEM/Partners",
+                };
+              });
             }}
           >
             {" "}
@@ -112,7 +159,7 @@ const Navbar = () => {
 
         <div
           onClick={() =>
-            setState((prev: any) => {
+            setNavstate((prev: any) => {
               return {
                 ...prev,
                 openNav: true,
@@ -124,7 +171,7 @@ const Navbar = () => {
           <RiMenuFill className="text-3xl" />
         </div>
       </div>
-      {state.openNav && (
+      {navstate.openNav && (
         <div
           className={`bg-black bg-opacity-10 absolute inset-0 flex justify-end transition-all duration-700 ease-in-out`}
         >
@@ -137,7 +184,7 @@ const Navbar = () => {
                   <p className="text-md md:text-xl font-bold"></p>
                   <div
                     onClick={() =>
-                      setState((prev: any) => {
+                      setNavstate((prev: any) => {
                         return {
                           ...prev,
                           openNav: false,
@@ -151,92 +198,113 @@ const Navbar = () => {
                 </div>
                 <div className="space-y-4">
                   <div
-                    className={`${state.hoverClass} ${
-                      state.activeTab == "Home" ? state.activeClass : ""
+                    className={`${navstate.hoverClass} ${
+                      navstate.activeTab == "Home" ? navstate.activeClass : ""
                     }`}
-                    onClick={(prev) => {
-                      return {
-                        ...prev,
-                        openNav: false,
-                        activeTab: "Home",
-                      };
-                    }}
+                    onClick={() =>
+                      setNavstate((prev) => {
+                        return {
+                          ...prev,
+                          openNav: false,
+                          activeTab: "Home",
+                        };
+                      })
+                    }
                   >
                     {" "}
                     Home
                   </div>
                   <div
-                    onClick={(prev) => {
-                      return {
-                        ...prev,
-                        openNav: false,
-                        activeTab: "About Us",
-                      };
-                    }}
-                    className={`${state.hoverClass} ${
-                      state.activeTab == "About Us" ? state.activeClass : ""
+                    onClick={() =>
+                      setNavstate((prev) => {
+                        return {
+                          ...prev,
+                          openNav: false,
+                          activeTab: "About Us",
+                        };
+                      })
+                    }
+                    className={`${navstate.hoverClass} ${
+                      navstate.activeTab == "About Us"
+                        ? navstate.activeClass
+                        : ""
                     }`}
                   >
                     {" "}
                     About Us
                   </div>
                   <div
-                    className={`flex ${state.hoverClass} ${
-                      state.activeTab == "Our Services" ? state.activeClass : ""
+                    className={`flex ${navstate.hoverClass} ${
+                      navstate.activeTab == "Our Services"
+                        ? navstate.activeClass
+                        : ""
                     }`}
-                    onClick={(prev) => {
-                      return {
-                        ...prev,
-                        openNav: false,
-                        activeTab: "Our Services",
-                      };
-                    }}
+                    onClick={() =>
+                      setNavstate((prev) => {
+                        return {
+                          ...prev,
+                          openNav: false,
+                          activeTab: "Our Services",
+                        };
+                      })
+                    }
                   >
                     <span>Our Services</span>
                     <RiArrowDropDownLine className="text-xl" />
                   </div>
                   <div
-                    className={`${state.hoverClass} ${
-                      state.activeTab == "HEQ Policy" ? state.activeClass : ""
+                    className={`${navstate.hoverClass} ${
+                      navstate.activeTab == "HEQ Policy"
+                        ? navstate.activeClass
+                        : ""
                     }`}
-                    onClick={(prev) => {
-                      return {
-                        ...prev,
-                        openNav: false,
-                        activeTab: "HEQ Policy",
-                      };
-                    }}
+                    onClick={() =>
+                      setNavstate((prev) => {
+                        return {
+                          ...prev,
+                          openNav: false,
+                          activeTab: "HEQ Policy",
+                        };
+                      })
+                    }
                   >
                     {" "}
                     HEQ Policy
                   </div>
                   <div
-                    onClick={(prev) => {
-                      console.log("Project");
-                      return {
-                        ...prev,
-                        openNav: false,
-                        activeTab: "Projects",
-                      };
-                    }}
-                    className={`${state.hoverClass} ${
-                      state.activeTab == "Projects" ? state.activeClass : ""
+                    onClick={() =>
+                      setNavstate((prev) => {
+                        return {
+                          ...prev,
+                          openNav: false,
+                          activeTab: "Projects",
+                        };
+                      })
+                    }
+                    className={`${navstate.hoverClass} ${
+                      navstate.activeTab == "Projects"
+                        ? navstate.activeClass
+                        : ""
                     }`}
                   >
                     {" "}
                     Projects
                   </div>
                   <div
-                    className={`${state.hoverClass} ${
-                      state.activeTab == "OEM/Partners" ? state.activeClass : ""
+                    className={`${navstate.hoverClass} ${
+                      navstate.activeTab == "OEM/Partners"
+                        ? navstate.activeClass
+                        : ""
                     }`}
-                    onClick={(prev) => {
-                      return {
-                        ...prev,
-                        openNav: false,
-                        activeTab: "OEM/Partners",
-                      };
-                    }}
+                    onClick={() =>
+                      setNavstate((prev) => {
+                        return {
+                          ...prev,
+                          openNav: false,
+                          activeTab: "OEM/Partners",
+                        };
+                      })
+                    }
                   >
                     {" "}
                     OEM/Partners

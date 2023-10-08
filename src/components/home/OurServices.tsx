@@ -4,7 +4,7 @@ import React from "react";
 const OurServices = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-4">
-      {/* <div className="w-full max-w-5xl my-16 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
+      <div className="w-full max-w-5xl my-16 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <h2 className="text-3xl font-bold text-primary">
             Our <span className="text-secondary">Services</span>
@@ -19,7 +19,7 @@ const OurServices = () => {
             dynamic landscape.
           </p>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
