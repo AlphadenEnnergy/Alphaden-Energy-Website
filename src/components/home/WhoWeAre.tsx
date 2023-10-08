@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRightCircle } from "react-icons/bs"
 import HeaderText from "../shared/headerText/HeaderText";
@@ -18,8 +17,8 @@ const WhoWeAre = () => {
           </div>
 
           <p className="text-xs text-gray-400 w-full max-w-md mt-8 leading-loose">
-            The ‘ALPHA’S DEN’ is a hub of professional and well experienced
-            Alpha’s, championing their fields while collectively making up a
+            The &apos;ALPHA&apos;S DEN&apos; is a hub of professional and well experienced
+            Alpha&apos;s, championing their fields while collectively making up a
             provider of fit-for-purpose services to clients across various
             industries.
             <br /><br />
