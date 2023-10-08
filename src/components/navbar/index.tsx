@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../buttons";
 import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
@@ -19,7 +20,8 @@ const Navbar = ({ setState }: any) => {
           <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
         </div>
         <div className="space-x-5 hidden md:flex">
-          <div
+          <Link
+            href="/"
             className={`${navstate.hoverClass} ${
               navstate.activeTab == "Home" ? navstate.activeClass : ""
             }`}
@@ -40,8 +42,9 @@ const Navbar = ({ setState }: any) => {
           >
             {" "}
             Home
-          </div>
-          <div
+          </Link>
+          <Link
+            href="/about"
             onClick={() => {
               setNavstate((prev) => {
                 return {
@@ -62,7 +65,7 @@ const Navbar = ({ setState }: any) => {
           >
             {" "}
             About Us
-          </div>
+          </Link>
           <div
             className={`flex ${navstate.hoverClass} ${
               navstate.activeTab == "Our Services" ? navstate.activeClass : ""

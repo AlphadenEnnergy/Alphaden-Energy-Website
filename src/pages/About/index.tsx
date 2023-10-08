@@ -1,10 +1,12 @@
 import React from "react";
 import WhatWeDo from "@/components/aboutUs/WhatWeDo";
 import Features from "@/components/aboutUs/Features";
+import OurManagement from "@/components/aboutUs/OurManagement";
+import Page from "@/app/page";
 
 const AboutUs = () => {
   return (
-    <div>
+    <Page>
       <div
         className={`z-10 w-full flex-col items-center justify-between text-sm lg:flex transition delay-700 duration-300 ease-in-ou`}
       >
@@ -19,8 +21,9 @@ const AboutUs = () => {
         </div> */}
         <WhatWeDo/>
         <Features/>
+        <OurManagement/>
       </div>
-    </div>
+    </Page>
   );
 };
 

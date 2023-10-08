@@ -23,3 +23,49 @@ export const data = [
     text: "Our Strategy seeks to maintain us as one of the global leaders in the oil and gas industry with a focus.",
   },
 ];
+
+
+export const management = [
+  {
+    name: "Pascal Anyanwu",
+    position: "Group Managing Director",
+    url: "/",
+    imgSrc: "",
+  },
+  {
+    name: "Damilola F. Abimaje",
+    position: "General Manager",
+    url: "/",
+    imgSrc: "",
+  },
+  {
+    name: "Peter Aisagbonhi",
+    position: "Assistant General Manager",
+    url: "/",
+    imgSrc: "",
+  },
+  {
+    name: "Asieyemia Ipeghan",
+    position: "Facility Manager/Project Manager",
+    url: "/",
+    imgSrc: "",
+  },
+  {
+    name: "Celestine Stephen",
+    position: "Celestine Stephen",
+    url: "/",
+    imgSrc: "",
+  },
+  {
+    name: "Mary Prisca Okolie",
+    position: "Admin Control Manager",
+    url: "/",
+    imgSrc: "",
+  },
+  {
+    name: "Nneoma Onukwu.",
+    position: "Manager Buss/Dev & Admin",
+    url: "/",
+    imgSrc: "",
+  },
+]

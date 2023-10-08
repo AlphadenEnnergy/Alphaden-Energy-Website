@@ -6,6 +6,8 @@ import LocationMap from "@/components/home/LocationMap";
 import Clientele from "@/components/home/Clientele";
 import WhoWeAre from "@/components/home/WhoWeAre";
 import OurServices from "@/components/home/OurServices";
+import Page from "@/app/page";
+import RootLayout from "@/app/layout";
 
 const Home = () => {
   const [currentNumber, setCurrentNumber] = useState(1);
@@ -19,7 +21,7 @@ const Home = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div>
+    <RootLayout>
       <div
         className={`pulse bg ${
           currentNumber === 1
@@ -75,7 +77,7 @@ const Home = () => {
       <OurServices />
       <Clientele />
       <LocationMap />
-    </div>
+    </RootLayout>
   );
 };
 
