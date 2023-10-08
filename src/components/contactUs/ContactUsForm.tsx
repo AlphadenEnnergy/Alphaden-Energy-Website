@@ -5,7 +5,7 @@ import Link from "next/link";
 import { BsArrowRightCircle } from "react-icons/bs"
 import HeaderText from "../shared/headerText/HeaderText";
 
-const WhoWeAre = () => {
+const ContactUsForm = () => {
   return (
     <section className="WhoWeAre my-4 flex flex-col items-center justify-center">
       {/* <div className="bg WhoWeAre h-80">
@@ -14,12 +14,12 @@ const WhoWeAre = () => {
       <div className="who-we-are w-full max-w-5xl h-auto flex flex-col justify-center items-start px-8 md:px-0 md:h-[30rem]">
         <div className="flex flex-col mt-0 md:mt-32">
           <div className="flex flex-col items-center md:block">
-          <HeaderText primary="Who" secondary="We Are"/>
+            <HeaderText primary="Contact" secondary="Us"/>
           </div>
 
           <p className="text-xs text-gray-400 w-full max-w-md mt-8 leading-loose">
-            The ‘ALPHA’S DEN’ is a hub of professional and well experienced
-            Alpha’s, championing their fields while collectively making up a
+            The &apos;ALPHA&apos;S DEN&apos; is a hub of professional and well experienced
+            Alpha&aposs, championing their fields while collectively making up a
             provider of fit-for-purpose services to clients across various
             industries.
             <br /><br />
@@ -44,4 +44,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default ContactUsForm;

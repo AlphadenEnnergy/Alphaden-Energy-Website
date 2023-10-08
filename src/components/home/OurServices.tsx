@@ -15,7 +15,7 @@ const OurServices = () => {
             innovation, offering a diverse range of services that empower
             growth, sustainability, and success across various sectors. With a
             commitment to excellence, safety, and environmental responsibility,
-            our services are designed to meet the unique challenges of today's
+            our services are designed to meet the unique challenges of today&apos;s
             dynamic landscape.
           </p>
         </div>
