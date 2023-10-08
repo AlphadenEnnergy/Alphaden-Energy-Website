@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/images/shared/logo.svg";
-import { Button } from "../buttons";
+import { Button } from "../shared/buttons";
 import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
 const Navbar = ({ setState }: any) => {
   const [navstate, setNavstate] = useState({

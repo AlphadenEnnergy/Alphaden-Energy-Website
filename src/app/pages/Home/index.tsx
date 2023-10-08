@@ -1,12 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Button } from "@/components/shared/buttons";
 import { BiRightArrowAlt } from "react-icons/bi";
-import LocationMap from "@/components/home/LocationMap";
-import Clientele from "@/components/home/Clientele";
-import WhoWeAre from "@/components/home/WhoWeAre";
-import OurServices from "@/components/home/OurServices";
-import RootLayout from "@/app/layout";
+import { Button } from "react-scroll";
 
 const Home = () => {
   const [currentNumber, setCurrentNumber] = useState(1);
@@ -20,7 +15,7 @@ const Home = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section>
+    <Page>
       <div
         className={`pulse bg ${
           currentNumber === 1
@@ -76,7 +71,7 @@ const Home = () => {
       <OurServices />
       <Clientele />
       <LocationMap />
-    </section>
+    </Page>
   );
 };
 

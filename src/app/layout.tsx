@@ -4,16 +4,16 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
 import "./globals.css";
-// import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-//   title: "Aphaden Renewable Energy",
-//   description:
-//     "Alphaden Gas Limited is an indigenous gas processing and distribution company domiciled in Lagos state, Nigeria.",
-// };
+const metadata: Metadata = {
+  title: "Aphaden Renewable Energy",
+  description:
+    "Alphaden Gas Limited is an indigenous gas processing and distribution company domiciled in Lagos state, Nigeria.",
+};
 
 export default function RootLayout({
   children,
@@ -24,22 +24,22 @@ export default function RootLayout({
     active: "Home",
   });
   return (
-    <html lang="en">
-      <body
+    <section lang="en">
+      <div
         className={`${inter.className} flex min-h-screen flex-col justify-between`}
       >
-        <div>
+        <section>
           <nav>
             <Subnav />
             <Navbar setState={setState} />
           </nav>{" "}
           {children}
-        </div>
+        </section>
 
         <footer>
           <Footer />
         </footer>
-      </body>
-    </html>
+      </div>
+    </section>
   );
 }
