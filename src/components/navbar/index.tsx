@@ -9,17 +9,17 @@ import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
 const Navbar = ({ setState }: any) => {
   const [navstate, setNavstate] = useState({
     activeTab: "Home",
-    hoverClass: "cursor-pointer pb-1 hover:text-red-500",
+    hoverClass: "cursor-pointer text-sm pb-1 hover:text-red-500",
     activeClass: "text-red-500 border-b-2 border-red-500",
     openNav: false,
   });
   return (
     <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
-      <div className="flex justify-between items-center md:space-x-10 lg:space-x-32 text-sm p-3 ">
+      <div className="flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm p-3 ">
         <div>
           <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
         </div>
-        <div className="space-x-5 hidden md:flex">
+        <div className="space-x-6 hidden md:flex">
           <Link
             href="/"
             className={`${navstate.hoverClass} ${

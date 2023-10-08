@@ -7,8 +7,8 @@ const Footer = () => {
   const currentYear = (() => new Date().getFullYear())();
 
   return (
-    <div className="px-4 bg-primary text-white flex flex-col items-center justify-center md:px-0">
-      <div className="w-full max-w-5xl my-12 flex justify-between">
+    <div className="px-5 bg-primary text-white flex flex-col items-center justify-center md:px-0">
+      <div className="px-2 w-full max-w-5xl my-12 flex justify-between">
         <div className="hidden md:flex flex-col">
           <div className="flex flex-col space-y-3 text-xs ">
             <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
