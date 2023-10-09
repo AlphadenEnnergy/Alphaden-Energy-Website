@@ -3,8 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../../assets/images/shared/logo.svg";
 import { BsTwitter, BsInstagram, BsLinkedin, BsFacebook } from "react-icons/bs"
+
 const Footer = () => {
   const currentYear = (() => new Date().getFullYear())();
+  // const router = useRouter();
 
   return (
     <div className="px-5 bg-primary text-white flex flex-col items-center justify-center md:px-0">
@@ -24,12 +26,12 @@ const Footer = () => {
         </div>
         <div className="w-full max-w-xl grid grid-cols-2 md:grid-cols-3 text-gray-300">
           <div className="flex flex-col space-y-3 text-xs">
-            <Link href={"/"} className="text-gray-400 md:text-white">
+            <Link href={"/about"} className="text-gray-400 md:text-white">
               About Us
             </Link>
-            <Link href={"/"}>What we do</Link>
-            <Link href={"/"}>Our Company</Link>
-            <Link href={"/"}>Management</Link>
+            <Link href={"/about"}>What we do</Link>
+            <Link href={"/about"}>Our Company</Link>
+            <Link href={"/about"}>Management</Link>
           </div>
           <div className="flex flex-col space-y-3 text-xs">
             <Link href={"/"} className="text-gray-400 md:text-white">
@@ -44,8 +46,8 @@ const Footer = () => {
             <Link href={"/"} className="text-gray-400 md:text-white">
               Legal{" "}
             </Link>
-            <Link href={"/"}>Terms and Condition</Link>
-            <Link href={"/"}>Privacy Policy</Link>
+            <Link href={"/terms"}>Terms and Condition</Link>
+            <Link href={"/privacy"}>Privacy Policy</Link>
           </div>
         </div>
       </div>
