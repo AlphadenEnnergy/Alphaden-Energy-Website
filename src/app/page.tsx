@@ -1,11 +1,12 @@
+"use client";
 import React from "react";
 import Home from "@/pages/home/Index";
-import RootLayout from "./layout";
+import PageLayout from "@/layouts/SubLayout";
 
 export default function Page() {
   return (
-    // <RootLayout>
-    <Home />
-    // </RootLayout>
+    // <PageLayout>
+      <Home />
+    // </PageLayout>
   );
 }
