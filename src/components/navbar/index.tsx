@@ -9,7 +9,7 @@ import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
 const Navbar = ({ setState }: any) => {
   const [navstate, setNavstate] = useState({
     activeTab: "Home",
-    openNav: true,
+    openNav: false,
   });
 
   const links = [
