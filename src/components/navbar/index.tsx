@@ -26,17 +26,17 @@ const Navbar = ({ setState }: any) => {
     {
       id: 3,
       name: "HEQ Policy",
-      path: "/heq-policy",
+      path: "/",
     },
     {
       id: 4,
       name: "Projects",
-      path: "/projects",
+      path: "/",
     },
     {
       id: 5,
       name: "OEM/Partners",
-      path: "/oem-partners",
+      path: "/",
     },
   ];
   return (
@@ -50,11 +50,7 @@ const Navbar = ({ setState }: any) => {
             <Link
               key={link.id || index}
               href={link.path}
-              className={`cursor-pointer text-sm pb-1 hover:text-red-500 ${
-                navstate.activeTab == `${link.name}`
-                  ? "text-red-500 border-b-2 border-red-500"
-                  : ""
-              }`}
+             
               onClick={() => {
                 setNavstate((prev) => {
                   return {
@@ -69,6 +65,11 @@ const Navbar = ({ setState }: any) => {
                   };
                 });
               }}
+               className={`cursor-pointer text-sm pb-1 hover:text-red-500 ${
+                navstate.activeTab == `${link.name}`
+                  ? "text-red-500 border-b-2 border-red-500"
+                  : ""
+              }`}
             >
               {" "}
               {link.name}
