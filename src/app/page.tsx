@@ -14,9 +14,8 @@ const Home = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // Cycle through 1, 2, 3 and reset to 1 after 3 seconds
       setCurrentNumber((currentNumber) => (currentNumber % 3) + 1);
-    }, 6000); // Change the interval to 3000 milliseconds (3 seconds) for cycling
+    }, 6000); 
 
     return () => clearInterval(interval);
   }, []);

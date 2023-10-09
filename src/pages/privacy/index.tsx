@@ -1,6 +1,7 @@
 import React from "react"
 import PageLayout from "@/layouts/SubLayout"
 import Header from "@/components/privacyPolicy/Header"
+import Data from "@/components/privacyPolicy/Data";
 // import Data from "@/components/privacyPolicy/data"
 
 const PrivacyPolicy = () => {
@@ -8,7 +9,7 @@ const PrivacyPolicy = () => {
     <PageLayout>
       <Header />
       <div className="w-full flex justify-center">
-        {/* <Data /> */}
+        <Data />
       </div>
     </PageLayout>
   );
