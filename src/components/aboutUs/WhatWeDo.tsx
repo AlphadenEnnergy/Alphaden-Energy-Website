@@ -5,7 +5,7 @@ import HeaderText from "../shared/headerText/HeaderText";
 const WhatWeDo = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-4">
-      <div className="w-full max-w-5xl my-10 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
+      <div className="w-full max-w-5xl md:my-10 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <HeaderText primary="What" secondary="We Do" />
           <p className="hidden ext-xs text-gray-400 w-full max-w-4xl mt-8 leading-loose md:block">
