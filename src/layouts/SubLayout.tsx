@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
 import React, { useState } from "react";
 import "./../app/globals.css";
-import Home from "@/pages/home/Index";
+// import Home from "@/pages/home/Index";
 const SubLayout = ({ children }: { children: React.ReactNode }) => {
   const [state, setState] = useState({
     active: "Home",
@@ -16,7 +16,7 @@ const SubLayout = ({ children }: { children: React.ReactNode }) => {
           <Navbar setState={setState} />
         </nav>{" "}
         {children}
-        <Home/>
+        {/* <Home/> */}
       </section>
 
       <footer>
