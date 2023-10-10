@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderText = ({primary, secondary}: any) => {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <h2 className="text-3xl font-bold text-primary">
         {primary} <span className="text-secondary">{secondary}</span>
       </h2>
