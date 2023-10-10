@@ -18,7 +18,7 @@ const OurManagement = () => {
         </div>
       </div>
 
-      <div className="w-full max-w-5xl my-14 gap-4 justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="w-full max-w-5xl my-14 gap-4 justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:px-5 lg:px-0">
         {management.map((person, i) => (
           <div key={i} className="w-auto h-80 mx-5 border-2 flex flex-col justify-end bg-gray-400 md:mx-0">
             <div className="flex flex-col space-y-2 border p-4 m-4 text-white">
