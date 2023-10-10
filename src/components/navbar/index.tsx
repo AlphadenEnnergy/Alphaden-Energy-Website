@@ -41,6 +41,11 @@ const Navbar = ({ setState }: any) => {
       path: "/about",
     },
     {
+      id: 6,
+      name: "Our Services",
+      path: "/services",
+    },
+    {
       id: 3,
       name: "HEQ Policy",
       path: "/",
@@ -99,30 +104,7 @@ const Navbar = ({ setState }: any) => {
                   {link.name}
                 </Link>
               ))}
-              <div
-                className={`flex cursor-pointer text-sm pb-1 hover:text-red-500 ${
-                  navstate.activeTab == "Our Services"
-                    ? "text-red-500 border-b-2 border-red-500"
-                    : ""
-                }`}
-                onClick={() => {
-                  setNavstate((prev) => {
-                    return {
-                      ...prev,
-                      activeTab: "Our Services",
-                    };
-                  });
-                  setState((prev: any) => {
-                    return {
-                      ...prev,
-                      active: "Our Services",
-                    };
-                  });
-                }}
-              >
-                <span>Our Services</span>
-                <RiArrowDropDownLine className="text-xl" />
-              </div>
+         
             </div>
 
             <Link href={"/contact"} className="space-x-5 hidden lg:flex">
@@ -196,30 +178,7 @@ const Navbar = ({ setState }: any) => {
                         {link.name}
                       </Link>
                     ))}
-                    <div
-                      className={`flex cursor-pointer font-bold text-xl pb-1 hover:text-red-500 ${
-                        navstate.activeTab == "Our Services"
-                          ? "text-red-500 border-b-2 border-red-500"
-                          : ""
-                      }`}
-                      onClick={() => {
-                        setNavstate((prev) => {
-                          return {
-                            ...prev,
-                            activeTab: "Our Services",
-                          };
-                        });
-                        setState((prev: any) => {
-                          return {
-                            ...prev,
-                            active: "Our Services",
-                          };
-                        });
-                      }}
-                    >
-                      <span>Our Services</span>
-                      <RiArrowDropDownLine className="text-xl" />
-                    </div>
+                    
                   </div>
 
                   <Link href={"/contact"} className="mt-4 h-auto">
