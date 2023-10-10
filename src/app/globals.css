@@ -53,6 +53,10 @@ body {
   background-image: url("./../assets/images/landing/clientele/clientele.svg");
 }
 
+.hseq {
+  background-image: url("./../assets/images/HSEQPolicy/banner.svg");
+}
+
 .about-us {
   background-image: url("./../assets/images/aboutUs/aboutUs.svg");
 }

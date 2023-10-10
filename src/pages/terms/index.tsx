@@ -1,17 +1,17 @@
 import React from "react"
-import PageLayout from "@/layouts/SubLayout"
+import SubLayout from "@/layouts/SubLayout"
 import Data from "@/components/privacyPolicy/Data";
 import Header from "@/components/termsAndCondition/Header";
 
-const PrivacyPolicy = () => {
+const TermsAndConditions = () => {
   return (
-    <PageLayout>
+    <SubLayout>
       <Header />
       <div className="w-full flex justify-center">
         <Data />
       </div>
-    </PageLayout>
+    </SubLayout>
   );
 }
 
-export default PrivacyPolicy;
+export default TermsAndConditions;

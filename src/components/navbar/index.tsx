@@ -63,8 +63,8 @@ const Navbar = ({ setState }: any) => {
     },
     {
       id: 3,
-      name: "HEQ Policy",
-      path: "/",
+      name: "HSEQ Policy",
+      path: "/hseq",
     },
     {
       id: 4,
