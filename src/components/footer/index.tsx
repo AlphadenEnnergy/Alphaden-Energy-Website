@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col space-y-3 text-xs mt-3 w-48">
             <Link href={"/"} className="uppercase">
-              Alpha Den Energy
+              Alphaden Energy
             </Link>
             <Link href={"/"} className="leading-loose">
               Powering Progress: Your Trusted Energy Partner
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-500 w-full max-w-5xl py-8 text-gray-300 text-xs flex items-center flex-col-reverse md:flex-row md:justify-between ">
-        <div className="text-gray-400 mt-3 md:mt-0">&copy; {currentYear} Alpha Den Energy. All rights reserved.</div>
+        <div className="text-gray-400 mt-3 md:mt-0">&copy; {currentYear} Alphaden Energy. All rights reserved.</div>
         <div className="flex justify-between w-28 text-lg">
           <Link href={"/"}><BsTwitter/></Link>
           <Link href={"/"}><BsInstagram/></Link>

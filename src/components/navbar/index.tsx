@@ -1,16 +1,33 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../shared/buttons";
 import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
 const Navbar = ({ setState }: any) => {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [navstate, setNavstate] = useState({
     activeTab: "Home",
     openNav: false,
   });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [])
 
   const links = [
     {
@@ -22,6 +39,11 @@ const Navbar = ({ setState }: any) => {
       id: 2,
       name: "About Us",
       path: "/about",
+    },
+    {
+      id: 6,
+      name: "Our Services",
+      path: "/services",
     },
     {
       id: 3,
@@ -39,7 +61,16 @@ const Navbar = ({ setState }: any) => {
       path: "/",
     },
   ];
+
   return (
+    <div className="bg-white transition-opacity duration-700 ease-in-out z-10">
+    {isScrolled ? (
+      <div className="text-gray-700 border-primary w-full justify-center flex py-4">
+        <div>
+          <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+        </div>
+      </div>
+    ) : (
     <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
       <div className="flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm p-3 ">
         <div>
@@ -75,30 +106,7 @@ const Navbar = ({ setState }: any) => {
               {link.name}
             </Link>
           ))}
-          <div
-            className={`flex cursor-pointer text-sm pb-1 hover:text-red-500 ${
-              navstate.activeTab == "Our Services"
-                ? "text-red-500 border-b-2 border-red-500"
-                : ""
-            }`}
-            onClick={() => {
-              setNavstate((prev) => {
-                return {
-                  ...prev,
-                  activeTab: "Our Services",
-                };
-              });
-              setState((prev: any) => {
-                return {
-                  ...prev,
-                  active: "Our Services",
-                };
-              });
-            }}
-          >
-            <span>Our Services</span>
-            <RiArrowDropDownLine className="text-xl" />
-          </div>
+      
         </div>
 
         <Link href={"/contact"} className="space-x-5 hidden md:flex">
@@ -172,30 +180,7 @@ const Navbar = ({ setState }: any) => {
                     {link.name}
                   </Link>
                 ))}
-                <div
-                  className={`flex cursor-pointer font-bold text-xl pb-1 hover:text-red-500 ${
-                    navstate.activeTab == "Our Services"
-                      ? "text-red-500 border-b-2 border-red-500"
-                      : ""
-                  }`}
-                  onClick={() => {
-                    setNavstate((prev) => {
-                      return {
-                        ...prev,
-                        activeTab: "Our Services",
-                      };
-                    });
-                    setState((prev: any) => {
-                      return {
-                        ...prev,
-                        active: "Our Services",
-                      };
-                    });
-                  }}
-                >
-                  <span>Our Services</span>
-                  <RiArrowDropDownLine className="text-xl" />
-                </div>
+                
               </div>
 
               <Link href={"/contact"} className="mt-4 h-auto">
@@ -206,7 +191,12 @@ const Navbar = ({ setState }: any) => {
         </div>
       )}
     </div>
+     )}
+     </div>
+
   );
 };
 
 export default Navbar;
+
+

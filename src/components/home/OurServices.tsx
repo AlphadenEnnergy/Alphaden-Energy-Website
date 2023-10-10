@@ -9,7 +9,7 @@ const OurServices = () => {
         <div className="flex flex-col items-center">
           <HeaderText primary="Our" secondary="Services"/>
           <p className="text-xs text-gray-400 w-full max-w-2xl mt-8 leading-loose">
-            At Alpha Den Energy, we stand at the forefront of industry
+            At Alphaden Energy, we stand at the forefront of industry
             innovation, offering a diverse range of services that empower
             growth, sustainability, and success across various sectors. With a
             commitment to excellence, safety, and environmental responsibility,

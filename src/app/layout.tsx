@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Alphaden Energy',
-  description: 'The ALPHA DEN is a hub of professional and well experienced Alphas, championing their fields while collectively making up a provider of fit-for-purpose services to clients across various industries.',
+  description: 'The ALPHADEN is a hub of professional and well experienced Alphas, championing their fields while collectively making up a provider of fit-for-purpose services to clients across various industries.',
 }
 
 export default function RootLayout({

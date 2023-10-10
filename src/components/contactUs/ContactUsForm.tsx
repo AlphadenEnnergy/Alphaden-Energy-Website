@@ -93,7 +93,7 @@ const ContactUsForm = () => {
               />
             </div>
 
-            <div className="relative flex items-start">
+            <div className=" flex items-start">
               <div className="flex h-6 items-center">
                 <input
                   id="offers"
