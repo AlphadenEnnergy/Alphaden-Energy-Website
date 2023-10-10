@@ -17,7 +17,7 @@ const WhoWeAre = () => {
           </div>
 
           <p className="text-xs text-gray-400 w-full max-w-md mt-8 leading-loose">
-            The &apos;ALPHA&apos;S DEN&apos; is a hub of professional and well experienced
+            The &apos;ALPHA DEN&apos;S is a hub of professional and well experienced
             Alpha&apos;s, championing their fields while collectively making up a
             provider of fit-for-purpose services to clients across various
             industries.
