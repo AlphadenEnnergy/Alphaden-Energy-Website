@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav
       className={`${
         isScrolled ? 'opacity-0' : 'opacity-100'
-      } transition-opacity duration-300 ease-in-out fixed left-0 right-0 bg-white p-4 flex justify-between items-center z-10`}
+      } transition-opacity duration-300 ease-in-out fixed left-0 right-0 bg-white p-4 flex justify-between items-center`}
     >
       <div className="text-2xl font-bold">Logo</div>
       {/* Menu items */}

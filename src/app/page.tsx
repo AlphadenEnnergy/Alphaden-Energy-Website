@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <PageLayout>
       <div
-        className={`pulse bg z-0 ${
+        className={`pulse bg ${
           currentNumber === 1
             ? "hero"
             : currentNumber === 2

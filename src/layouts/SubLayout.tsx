@@ -10,7 +10,8 @@ const SubLayout = ({ children }: { children: React.ReactNode }) => {
   });
   return (
     <main className={`flex min-h-screen flex-col justify-between relative`}>
-      <section className="sticky top-0 left-0 right-0 z-50">
+      {/* <section className="sticky top-0 left-0 right-0 z-50"> */}
+      <section>
         <nav className="">
           <Subnav />
           <Navbar state={state} setState={setState} />
