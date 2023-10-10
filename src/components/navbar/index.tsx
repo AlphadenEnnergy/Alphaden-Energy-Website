@@ -29,6 +29,22 @@ const Navbar = ({ setState }: any) => {
     };
   }, [])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const links = [
     {
       id: 1,
@@ -63,14 +79,7 @@ const Navbar = ({ setState }: any) => {
   ];
 
   return (
-    <div className="bg-white transition-opacity duration-700 ease-in-out z-10">
-    {isScrolled ? (
-      <div className="text-gray-700 border-primary w-full justify-center flex py-4">
-        <div>
-          <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
-        </div>
-      </div>
-    ) : (
+    
     <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
       <div className="flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm p-3 ">
         <div>
@@ -191,9 +200,6 @@ const Navbar = ({ setState }: any) => {
         </div>
       )}
     </div>
-     )}
-     </div>
-
   );
 };
 

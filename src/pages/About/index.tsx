@@ -10,7 +10,7 @@ const AboutUs = () => {
   return (
     <PageLayout>
       <section
-        className={`z-10 w-full flex-col items-center justify-between text-sm lg:flex transition delay-700 duration-300 ease-in-ou`}
+        className={`w-full flex-col items-center justify-between text-sm lg:flex transition delay-700 duration-300 ease-in-ou`}
       >
          <WhatWeDo/>
         <Features/>

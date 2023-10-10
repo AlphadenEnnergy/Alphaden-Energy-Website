@@ -3,22 +3,22 @@ import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
 import React, { useState } from "react";
 import "./../app/globals.css";
-// import Home from "@/pages/home/Index";
+// import TestNavbar from "@/components/testNav";
 const SubLayout = ({ children }: { children: React.ReactNode }) => {
   const [state, setState] = useState({
     active: "Home",
   });
   return (
-    <main className={`flex min-h-screen flex-col justify-between`}>
+    <main className={`flex min-h-screen flex-col justify-between relative`}>
+      {/* <section className="sticky top-0 left-0 right-0 z-50"> */}
       <section>
-        <nav>
+        <nav className="">
           <Subnav />
-          <Navbar setState={setState} />
+          <Navbar state={state} setState={setState} />
+          {/* <TestNavbar/> */}
         </nav>{" "}
-        {children}
-        {/* <Home/> */}
       </section>
-
+      {children}
       <footer>
         <Footer />
       </footer>
