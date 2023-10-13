@@ -3,7 +3,6 @@ import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
 import React, { useState } from "react";
 import "./../app/globals.css";
-import TestNavbar from "@/components/testNav";
 const SubLayout = ({ children }: { children: React.ReactNode }) => {
   const [state, setState] = useState({
     active: "Home",
