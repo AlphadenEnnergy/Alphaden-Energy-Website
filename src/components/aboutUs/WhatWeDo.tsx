@@ -16,7 +16,7 @@ const WhatWeDo = () => {
             array of demands, from project design to construction.
             <br />
             <br />
-            The name &quot;Alphaden&quot; derives from &quot;Alpha's Den,&quot; signifying a
+            The name &quot;Alphaden&quot; derives from &quot;Alpha&apos;s Den,&quot; signifying a
             collective of individuals who are champions in their respective
             fields. We work collaboratively with a shared mission, focusing on
             safe and efficient service delivery, as well as customer
