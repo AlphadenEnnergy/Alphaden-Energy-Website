@@ -16,7 +16,7 @@ const SubLayout = ({ children }: { children: React.ReactNode }) => {
           <Navbar state={state} setState={setState} />
           {/* <TestNavbar/> */}
         </nav>{" "}
-        <section className="mt-16">
+        <section className="mt-20">
           {children}
         </section>
         
