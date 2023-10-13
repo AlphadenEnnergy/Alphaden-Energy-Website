@@ -16,7 +16,7 @@ const WhatWeDo = () => {
             array of demands, from project design to construction.
             <br />
             <br />
-            The name "Alphaden" derives from "Alpha's Den," signifying a
+            The name &quot;Alphaden&quot; derives from &quot;Alpha's Den,&quot; signifying a
             collective of individuals who are champions in their respective
             fields. We work collaboratively with a shared mission, focusing on
             safe and efficient service delivery, as well as customer
@@ -37,7 +37,7 @@ const WhatWeDo = () => {
             <br /> We take pride in our ability to deliver intricate projects to
             clients in the oil, gas, and energy sectors. Leveraging industry
             relationships and providing cost-effective, fit-for-purpose service
-            delivery, we ensure that we not only meet but exceed our clients'
+            delivery, we ensure that we not only meet but exceed our clients&apos;
             needs.
             <br />
             <br /> Equipped with versatile project management capabilities and a
