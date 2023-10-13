@@ -76,6 +76,11 @@ const Navbar = ({ setState }: any) => {
       name: "OEM/Partners",
       path: "/",
     },
+    {
+      id: 7,
+      name: "Affiliates",
+      path: "/affiliates",
+    },
   ];
 
   return (
@@ -88,11 +93,11 @@ const Navbar = ({ setState }: any) => {
         </div>
       ) : (
         <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
-          <div className="flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm p-3 ">
-            <div>
+          <div className=" w-full max-w-5xl flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm p-3 ">
+            {/* <div>
               <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
-            </div>
-            <div className="space-x-6 hidden md:flex">
+            </div> */}
+            <div className="space-x-6 hidden md:flex ">
               {links.map((link, index) => (
                 <Link
                   key={link.id || index}

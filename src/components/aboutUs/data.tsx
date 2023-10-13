@@ -33,14 +33,14 @@ export const management = [
   {
     id: 1,
     name: "Pascal Anyanwu",
-    position: "Group Managing Director",
+    position: "CEO",
     url: "/",
     imgSrc: "",
   },
   {
     id: 2,
     name: "Damilola F. Abimaje",
-    position: "General Manager",
+    position: "GM, Operations and Strategy",
     url: "/",
     imgSrc: "",
   },

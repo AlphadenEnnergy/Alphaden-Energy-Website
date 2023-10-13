@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import menAtWork from "./../../assets/images/HSEQPolicy/hseq.svg"
 const Data = () => {
   return (
     <section className="px-0 flex flex-col justify-center items-center w-full md:px-20">
@@ -23,28 +24,41 @@ const Data = () => {
         </p>
       </div>
       <div className="flex w-full max-w-5xl mb-20 h-auto px-8 md:px-0 md:h-auto">
-        <p className="leading-loose text-gray-500 text-xs">
+        <p className="leading-loose text-gray-500 text-xs  max-w-xl mr-2">
           From the foregoing, utmost importance is given to conformance with
           international and local acceptable quality standards, which is
           intended to sustain Alphaden Energy & Oilfield Limited in the
-          competitive market. It is required of all personnel to operate in
+          competitive market. 
+          {/* <br /> */}
+          <br />
+          It is required of all personnel to operate in
           strict accordance with the quality system, performing their tasks
           correctly, and contributing to the application and continued
           improvement of the quality management system. All personnel has the
           responsibility for ensuring that all personnel in the company are
           fully aware of the company&apos;s quality policy and their individual
-          responsibilities as defined in the quality manual. The company&apos;s
+          responsibilities as defined in the quality manual. 
+          
+          <br />
+          <br />The company&apos;s
           policy remains as follows: “All activities by individuals or teams
           will be planned and executed in such a way that client&apos;s requirements,
           as well as Alphaden Energy & Oil Field Limited business objectives,
-          are met safely, efficiently and cost-effectively”. With each project
+          are met safely, efficiently and cost-effectively”. 
+          
+          <br />
+          {/* <br /> */}
+          With each project
           we undertake, a quality plan is implemented, encompassing control
           measures that ensure the client&apos;s requirements are met, within the
           specified time, and in line with the budget. To this end, we endeavor
           to work as a committed team in a spirit of co-operation with the
           client and their customers.
         </p>
-        <Image src={"/"} height={100} width={100} alt="Men working" />
+        {/* <div className="w-full max-w-xl border-2"> */}
+          <Image src={menAtWork} height={550} width={550} alt="Men working" />
+        {/* </div> */}
+        
       </div>
     </section>
   );
