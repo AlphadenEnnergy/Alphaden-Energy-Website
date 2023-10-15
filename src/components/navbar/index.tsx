@@ -6,12 +6,8 @@ import Link from "next/link";
 import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../shared/buttons";
 import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
-const Navbar = ({ setState }: any) => {
+const Navbar = ({ state, setState }: any) => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [navstate, setNavstate] = useState({
-    activeTab: "Home",
-    openNav: false,
-  });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -90,131 +86,134 @@ const Navbar = ({ setState }: any) => {
 
   return (
     <div className="bg-white transition-opacity duration-700 ease-in-out z-10">
-      {isScrolled ? (
+      {/* {isScrolled ? (
         <div className="text-gray-700 border-primary w-full justify-center flex py-3">
           <div>
             <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
           </div>
         </div>
-      ) : (
-        <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
-          <div className=" w-full max-w-5xl flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm p-3 ">
-            {/* <div>
-              <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
-            </div> */}
-            <div className="space-x-6 hidden md:flex ">
-              {links.map((link, index) => (
-                <Link
-                  key={link.id || index}
-                  href={link.path}
-                  onClick={() => {
-                    setNavstate((prev) => {
-                      return {
-                        ...prev,
-                        activeTab: `${link.name}`,
-                      };
-                    });
-                    setState((prev: any) => {
-                      return {
-                        ...prev,
-                        active: `${link.name}`,
-                      };
-                    });
-                  }}
-                  className={`cursor-pointer text-sm pb-1 hover:text-red-500 ${
-                    navstate.activeTab == `${link.name}`
-                      ? "text-red-500 border-b-2 border-red-500"
-                      : ""
-                  }`}
-                >
-                  {" "}
-                  {link.name}
-                </Link>
-              ))}
+      ) : ( */}
+      <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
+        {/* <div className=" md:w-full max-w-5xl flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm"> */}
+        <div className="flex justify-between items-center px-3 md:p-3 md:w-full md:max-w-5xl ">
+          {isScrolled ? (
+            <div className="w-full text-gray-700 border-primary md:w-full justify-center flex py-3 md:py-0">
+              <div>
+                <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+              </div>
             </div>
-
-            <Link href={"/contact"} className="space-x-5 hidden md:flex">
-              <Button>Contact Us</Button>
-            </Link>
-
-            <div
-              onClick={() =>
-                setNavstate((prev: any) => {
-                  return {
-                    ...prev,
-                    openNav: true,
-                  };
-                })
-              }
-              className="space-x-5 flex md:hidden"
-            >
-              <RiMenuFill className="text-3xl" />
-            </div>
-          </div>
-
-          {/* MOBILE NAV */}
-
-          {navstate.openNav && (
-            <div
-              className={`bg-black bg-opacity-10 absolute inset-0 flex justify-end transition-all duration-700 ease-in-out`}
-            >
-              <div
-                className={`h-full w-5/6 md:w-3/5 lg:w-2/5 z-10 bg-white border pr-4`}
-              >
-                <div className="cursor-pointer p-3 flex justify-end ml-8 mt-4">
-                  <RiCloseLine
+          ) : (
+            <div className="flex items-center justify-between w-full md:max-w-5xl ">
+              <div className="block text-gray-700 border-primary md:w-full md:justify-center flex py-3 md:hidden">
+                <div>
+                  <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+                </div>
+              </div>
+              <div className="space-x-6 hidden md:flex ">
+                {links.map((link, index) => (
+                  <Link
+                    key={link.id || index}
+                    href={link.path}
                     onClick={() => {
-                      setNavstate((prev) => {
+                      console.log(link.name);
+                      setState((prev: any) => {
                         return {
                           ...prev,
-                          openNav: false,
+                          active: `${link.name}`,
                         };
                       });
                     }}
-                    className="text-4xl"
-                  />
-                </div>
-                <div className="w-11/12 justify-between mx-8 mt-4">
-                  <div className="flex flex-col space-y-3 mb-4">
-                    {links.map((link, index) => (
-                      <Link
-                        key={link.id || index}
-                        href={link.path}
-                        className={`cursor-pointer font-bold text-xl pb-1 hover:text-red-500 ${
-                          navstate.activeTab == `${link.name}`
-                            ? "text-red-500 border-red-500"
-                            : ""
-                        }`}
-                        onClick={() => {
-                          setNavstate((prev) => {
-                            return {
-                              ...prev,
-                              activeTab: `${link.name}`,
-                            };
-                          });
-                          setState((prev: any) => {
-                            return {
-                              ...prev,
-                              active: `${link.name}`,
-                            };
-                          });
-                        }}
-                      >
-                        {" "}
-                        {link.name}
-                      </Link>
-                    ))}
-                  </div>
-
-                  <Link href={"/contact"} className="mt-4 h-auto">
-                    <Button>Contact Us</Button>
+                    className={`cursor-pointer text-sm pb-1 hover:text-red-500 ${
+                      state.active == `${link.name}`
+                        ? "text-red-500 border-b-2 border-red-500"
+                        : ""
+                    }`}
+                  >
+                    {" "}
+                    {link.name}
                   </Link>
-                </div>
+                ))}
+              </div>
+
+              <Link href={"/contact"} className="space-x-5 hidden md:flex">
+                <Button>Contact Us</Button>
+              </Link>
+
+              <div
+                onClick={() =>
+                  setState((prev: any) => {
+                    return {
+                      ...prev,
+                      openNav: !state.openNav,
+                    };
+                  })
+                }
+                className="space-x-5 flex md:hidden my-5"
+              >
+                {state.openNav ? <RiCloseLine className="text-4xl" />: <RiMenuFill className="text-3xl" /> }
               </div>
             </div>
           )}
+
+          {/* <div
+            onClick={() =>
+              setState((prev: any) => {
+                return {
+                  ...prev,
+                  openNav: !state.openNav,
+                };
+              })
+            }
+            className="space-x-5 flex md:hidden my-5"
+          >
+            <RiMenuFill className="text-3xl" />
+          </div> */}
         </div>
-      )}
+
+        {/* MOBILE NAV */}
+
+        {state.openNav && (
+          <div
+            className={`w-96 bg-black bg-opacity-10 absoute inset-0 flex justify-end transition-all duration-700 ease-in-out`}
+          >
+            <div
+              className={`border-8 w-5/6 md:w-3/5 lg:hidden z-10 h-screen bg-pink border pr-4`}
+            >
+              <div className=" justify-between mt-4">
+                <div className="flex flex-col space-y-3 mb-4">
+                  {links.map((link, index) => (
+                    <Link
+                      key={link.id || index}
+                      href={link.path}
+                      className={`cursor-pointer font-bold text-xl pb-1 hover:text-red-500 ${
+                        state.active == `${link.name}`
+                          ? "text-red-500 border-red-500"
+                          : ""
+                      }`}
+                      onClick={() => {
+                        setState((prev: any) => {
+                          return {
+                            ...prev,
+                            active: `${link.name}`,
+                          };
+                        });
+                      }}
+                    >
+                      {" "}
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+
+                <Link href={"/contact"} className="mt-4 h-auto">
+                  <Button>Contact Us</Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+      {/* )} */}
     </div>
   );
 };

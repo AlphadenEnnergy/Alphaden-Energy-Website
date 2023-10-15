@@ -19,11 +19,11 @@ const Home = () => {
   }, []);
   return (
     <PageLayout>
-      <section className="mt-28">
+      <section className="md:mt-24">
         <Slider />
       </section>
       <WhoWeAre />
-      <OurServices />
+      {/* <OurServices /> */}
       <Clientele />
       <LocationMap />
     </PageLayout>
