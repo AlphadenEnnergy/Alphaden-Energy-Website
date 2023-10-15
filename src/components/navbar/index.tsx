@@ -81,6 +81,11 @@ const Navbar = ({ setState }: any) => {
       name: "Affiliates",
       path: "/affiliates",
     },
+    {
+      id: 8,
+      name: "CSR",
+      path: "/csr",
+    },
   ];
 
   return (

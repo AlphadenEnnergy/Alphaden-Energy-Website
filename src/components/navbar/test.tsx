@@ -6,7 +6,7 @@ import Link from "next/link";
 import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../shared/buttons";
 import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
-const Navbar = ({ setState }: any) => {
+const TestNavbar = ({ setState }: any) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [navstate, setNavstate] = useState({
     activeTab: "Home",
@@ -62,137 +62,29 @@ const Navbar = ({ setState }: any) => {
     },
   ];
   return (
-    <div className="bg-white transition-opacity duration-700 ease-in-out z-10">
-      {isScrolled ? (
-        <div className="text-gray-700 border-primary w-full justify-center flex py-4">
-          <div>
-            <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
-          </div>
-        </div>
-      ) : (
-        <div className="text-gray-700 border-primary w-full justify-center md:flex">
-          <div className="flex justify-between items-center md:space-x-96 lg:space-x-40 text-sm p-3 ">
-            <div>
-              <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
-            </div>
-            <div className="space-x-6 hidden lg:flex">
-              {links.map((link, index) => (
-                <Link
-                  key={link.id || index}
-                  href={link.path}
-                  onClick={() => {
-                    setNavstate((prev) => {
-                      return {
-                        ...prev,
-                        activeTab: `${link.name}`,
-                      };
-                    });
-                    setState((prev: any) => {
-                      return {
-                        ...prev,
-                        active: `${link.name}`,
-                      };
-                    });
-                  }}
-                  className={`cursor-pointer text-sm pb-1 hover:text-red-500 ${
-                    navstate.activeTab == `${link.name}`
-                      ? "text-red-500 border-b-2 border-red-500"
-                      : ""
-                  }`}
-                >
-                  {" "}
-                  {link.name}
-                </Link>
-              ))}
-         
-            </div>
-
-            <Link href={"/contact"} className="space-x-5 hidden lg:flex">
-              <Button>Contact Us</Button>
-            </Link>
-
-            <div
-              onClick={() =>
-                setNavstate((prev: any) => {
-                  return {
-                    ...prev,
-                    openNav: true,
-                  };
-                })
-              }
-              className="space-x-5 flex lg:hidden"
-            >
-              <RiMenuFill className="text-3xl" />
-            </div>
-          </div>
-
-          {/* MOBILE NAV */}
-
-          {navstate.openNav && (
-            <div
-              className={` bg-black bg-opacity-10 absolute inset-0 flex justify-end transition-all duration-700 ease-in-out`}
-            >
-              <div
-                className={`h-full w-5/6 md:w-3/5 lg:w-2/5 bg-white border pr-4`}
-              >
-                <div className="cursor-pointer p-3 flex justify-end ml-8 mt-4">
-                  <RiCloseLine
-                    onClick={() => {
-                      setNavstate((prev) => {
-                        return {
-                          ...prev,
-                          openNav: false,
-                        };
-                      });
-                    }}
-                    className="text-4xl"
-                  />
-                </div>
-                <div className="w-11/12 justify-between mx-8 mt-4">
-                  <div className="flex flex-col space-y-3 mb-4">
-                    {links.map((link, index) => (
-                      <Link
-                        key={link.id || index}
-                        href={link.path}
-                        className={`cursor-pointer font-bold text-xl pb-1 hover:text-red-500 ${
-                          navstate.activeTab == `${link.name}`
-                            ? "text-red-500 border-red-500"
-                            : ""
-                        }`}
-                        onClick={() => {
-                          setNavstate((prev) => {
-                            return {
-                              ...prev,
-                              activeTab: `${link.name}`,
-                            };
-                          });
-                          setState((prev: any) => {
-                            return {
-                              ...prev,
-                              active: `${link.name}`,
-                            };
-                          });
-                        }}
-                      >
-                        {" "}
-                        {link.name}
-                      </Link>
-                    ))}
-                    
-                  </div>
-
-                  <Link href={"/contact"} className="mt-4 h-auto">
-                    <Button>Contact Us</Button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      )}
+    <div id="sticky-banner" tabIndex="-1" class="fixed top-0 left-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
+    <div className="flex items-center mx-auto">
+        <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
+            <span className="inline-flex p-1 mr-3 bg-gray-200 rounded-full dark:bg-gray-600 w-6 h-6 items-center justify-center">
+                <svg className="w-3 h-3 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 19">
+                    <path d="M15 1.943v12.114a1 1 0 0 1-1.581.814L8 11V5l5.419-3.871A1 1 0 0 1 15 1.943ZM7 4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V4ZM4 17v-5h1v5H4ZM16 5.183v5.634a2.984 2.984 0 0 0 0-5.634Z"/>
+                </svg>
+                <span className="sr-only">Light bulb</span>
+            </span>
+            <span>New brand identity has been launched for the <a href="https://flowbite.com" className="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">Flowbite Library</a></span>
+        </p>
     </div>
+    <div className="flex items-center">
+        <button data-dismiss-target="#sticky-banner" type="button" className="flex-shrink-0 inline-flex justify-center w-7 h-7 items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white">
+            <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+            </svg>
+            <span className="sr-only">Close banner</span>
+        </button>
+    </div>
+</div>
   );
 };
 
-export default Navbar;
+export default TestNavbar;
 

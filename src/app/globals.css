@@ -15,17 +15,17 @@ body {
 
 .hero {
   background-image: url("./../assets/images/landing/bg-1.jpg");
-  height: auto;
+  height: 100%;
 }
 
 .hero-1 {
   background-image: url("./../assets/images/landing/bg-2.jpg");
-  height: auto;
+  /* height: auto; */
 }
 
 .hero-2 {
   background-image: url("./../assets/images/landing/bg-3.jpg");
-  height: auto;
+  /* height: auto; */
 }
 
 .pulse {
@@ -117,6 +117,9 @@ body {
     left: 0%;
   }
 }
+
+/* OUR SERVICES */
+
 
 @media screen and (max-width: 780px) {
   .clientele {

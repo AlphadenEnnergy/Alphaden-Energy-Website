@@ -1,0 +1,35 @@
+/* .arc {
+  width: 390px;
+  height: 30rem;
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 200%, 80% 0%);
+} */
+
+.arc-container {
+    position: relative;
+    width: 390px;
+    height: 30rem;
+  }
+  
+  .arc {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 200%, 80% 0%);
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .circle1 { top: 10%; left: 45%; }
+  .circle2 { top: 30%; left: 45%; }
+  .circle3 { top: 60%; left: 45%; }
+  .circle4 { top: 80%; left: 45%; }
+  
