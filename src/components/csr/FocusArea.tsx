@@ -95,8 +95,8 @@ const FocusArea = () => {
             <h3 className="text-[16px] font-semibold text-gray-700 mt-4">{area.name}</h3>
             <p className="mt-4">{area.text}</p>
             <div className="mt-4" >
-                {area.points.map((point: string) =>(
-                    <span className="mb-2">
+                {area.points.map((point: string, index: any) =>(
+                    <span className="mb-2" key={index}>
                         {point}
                         <br/>
                     </span>
