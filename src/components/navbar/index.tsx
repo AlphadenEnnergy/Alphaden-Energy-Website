@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../shared/buttons";
-import { RiArrowDropDownLine, RiMenuFill, RiCloseLine } from "react-icons/ri";
+import { RiMenuFill, RiCloseLine } from "react-icons/ri";
 const Navbar = ({ state, setState }: any) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -86,15 +86,7 @@ const Navbar = ({ state, setState }: any) => {
 
   return (
     <div className="bg-white transition-opacity duration-700 ease-in-out z-10">
-      {/* {isScrolled ? (
-        <div className="text-gray-700 border-primary w-full justify-center flex py-3">
-          <div>
-            <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
-          </div>
-        </div>
-      ) : ( */}
       <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
-        {/* <div className=" md:w-full max-w-5xl flex justify-between items-center md:space-x-10 lg:space-x-40 text-sm"> */}
         <div className="flex justify-between items-center px-3 md:p-3 md:w-full md:max-w-5xl ">
           {isScrolled ? (
             <div className="w-full text-gray-700 border-primary md:w-full justify-center flex py-3 md:py-0">
@@ -115,13 +107,14 @@ const Navbar = ({ state, setState }: any) => {
                     key={link.id || index}
                     href={link.path}
                     onClick={() => {
-                      console.log(link.name);
+                      // console.log(link.name);
                       setState((prev: any) => {
                         return {
                           ...prev,
                           active: `${link.name}`,
                         };
                       });
+                      const active = localStorage.setItem('active', link.name);
                     }}
                     className={`cursor-pointer text-sm pb-1 hover:text-red-500 ${
                       state.active == `${link.name}`
@@ -150,24 +143,14 @@ const Navbar = ({ state, setState }: any) => {
                 }
                 className="space-x-5 flex md:hidden my-5"
               >
-                {state.openNav ? <RiCloseLine className="text-4xl" />: <RiMenuFill className="text-3xl" /> }
+                {state.openNav ? (
+                  <RiCloseLine className="text-4xl" />
+                ) : (
+                  <RiMenuFill className="text-3xl" />
+                )}
               </div>
             </div>
           )}
-
-          {/* <div
-            onClick={() =>
-              setState((prev: any) => {
-                return {
-                  ...prev,
-                  openNav: !state.openNav,
-                };
-              })
-            }
-            className="space-x-5 flex md:hidden my-5"
-          >
-            <RiMenuFill className="text-3xl" />
-          </div> */}
         </div>
 
         {/* MOBILE NAV */}

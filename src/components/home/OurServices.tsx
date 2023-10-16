@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import HeaderText from "../shared/headerText/HeaderText";
 import ServicesCarousel from "./ServicesCarousel";
 import curveline from "./../../assets/images/landing/curveline.png";
@@ -76,6 +76,20 @@ function CurvedLineWithCircles() {
       bottom: "0",
     },
   ];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+    }, 5000);
+
+    return () => {
+      clearInterval(interval); // Clear the interval when the component unmounts
+    };
+  }, []);
+
+  const currentItem = items[currentIndex];
+
   return (
     <div className="flex justify-center items-start ">
       <div className="w-1/3 relative hidden md:block">
@@ -85,7 +99,9 @@ function CurvedLineWithCircles() {
             key={item.key}
             className={`absolute flex justify-start items-center space-x-3 ${item.top} ${item.left} ${item.right} ${item.bottom}`}
           >
-            <div className="bg-white text-primary w-12 h-12 text-xl border rounded-full flex justify-center items-center ">
+            <div
+              className={`bg-white text-primary w-12 h-12 text-xl rounded-full flex justify-center items-center ${currentItem.key === item.key? "border-4 border-primary": "border"}`}
+            >
               {item.icon}
             </div>
             <span className="text-left text-sm w-40 text-gray-500">
@@ -96,8 +112,7 @@ function CurvedLineWithCircles() {
         ))}
       </div>
       <div className="w-full mt-4 md:w-2/3 md:mt-10 ">
-        <ServicesCarousel/>
-        
+        <ServicesCarousel />
       </div>
     </div>
   );
