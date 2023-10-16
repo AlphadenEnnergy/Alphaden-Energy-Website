@@ -12,11 +12,11 @@ const Services = () => {
           <HeaderText primary={"Our"} secondary={"Services"} />
           <p className="text-xs text-gray-400 text-center leading-loose mt-4">
             Our core expertise lies in the exploration and production of energy
-            resources. We're at the forefront of identifying new energy
+            resources. We&apos;re at the forefront of identifying new energy
             reserves, leveraging cutting-edge technology to extract resources
-            efficiently, and optimizing production processes to meet the world's
+            efficiently, and optimizing production processes to meet the world&apos;s
             growing energy demands. Our commitment to responsible exploration
-            ensures that we harness the Earth's resources while safeguarding the
+            ensures that we harness the Earth&apos;s resources while safeguarding the
             environment.
           </p>
         </div>

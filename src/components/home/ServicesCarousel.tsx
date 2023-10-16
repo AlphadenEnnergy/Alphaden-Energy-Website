@@ -16,7 +16,7 @@ const ServicesCarousel = () => {
          <Image src={ecpi} alt="name" className=" "/>
          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">ECPI</h2>
-            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today's construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
+            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today&apos;s construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
          </div>
         </div>
         
@@ -24,7 +24,7 @@ const ServicesCarousel = () => {
          <Image src={upstream} alt="name" className=" "/>
          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">Upstream</h2>
-            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today's construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
+            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today&apos;s construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
          </div>
         </div>
         
@@ -32,7 +32,7 @@ const ServicesCarousel = () => {
          <Image src={marine} alt="name" className=" "/>
          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">Marine Services</h2>
-            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today's construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
+            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today&apos;s construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
          </div>
         </div>
         
@@ -40,7 +40,7 @@ const ServicesCarousel = () => {
          <Image src={midstream} alt="name" className=" "/>
          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">Midstream</h2>
-            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today's construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
+            <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today&apos;s construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
          </div>
         </div>
         
