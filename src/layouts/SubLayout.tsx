@@ -19,7 +19,7 @@ const SubLayout = ({ children }: { children: React.ReactNode }) => {
           <Subnav />
           <Navbar state={state} setState={setState} />
         </nav>{" "}
-        <section className="mt-20">{children}</section>
+        <section className="md:mt-24">{children}</section>
       </section>
       <footer>
         <Footer />

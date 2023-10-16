@@ -174,12 +174,12 @@ const Navbar = ({ state, setState }: any) => {
 
         {state.openNav && (
           <div
-            className={`w-96 bg-black bg-opacity-10 absoute inset-0 flex justify-end transition-all duration-700 ease-in-out`}
+            className={`w-96 bg-white bg-opacity-10 absoute inset-0 flex justify-end transition-all duration-700 ease-in-out`}
           >
             <div
-              className={`border-8 w-5/6 md:w-3/5 lg:hidden z-10 h-screen bg-pink border pr-4`}
+              className={` w-full md:w-3/5 lg:hidden z-10 h-screen bg-pink text-center pr-4`}
             >
-              <div className=" justify-between mt-4">
+              <div className="flex flex-col justify-center items-center mt-4">
                 <div className="flex flex-col space-y-3 mb-4">
                   {links.map((link, index) => (
                     <Link

@@ -1,7 +1,9 @@
 "use client";
-import React from "react";
+import React, { useEffect } from 'react';
 import HeaderText from "../shared/headerText/HeaderText";
 import "../../css/ourServices.css"
+import curveline from './../../assets/images/landing/curveline.png'
+import Image from 'next/image';
 const OurServices = () => {
 
   return (
@@ -32,32 +34,10 @@ const OurServices = () => {
 export default OurServices;
 
 function CurvedLineWithCircles() {
-    const radius = 150; // Adjust the radius as needed
-  const circlePositions = [
-    { angle: 30, label: 'Circle 1' },
-    { angle: 60, label: 'Circle 2' },
-    { angle: 120, label: 'Circle 3' },
-    { angle: 150, label: 'Circle 4' },
-  ];
 
-  // return (
-  //   // <div className="-ml-80 arc"></div>
-  // );
   return (
-    <div className="arc-container">
-      <div className="arc"></div>
-      {circlePositions.map((position, index) => (
-        <div
-          className="circle"
-          key={index}
-          style={{
-            top: `${radius * Math.sin((position.angle * Math.PI) / 180) + 50}%`, // Adding 50% to center it
-            left: `${50 - radius * Math.cos((position.angle * Math.PI) / 180)}%`,
-          }}
-        >
-          {position.label}
-        </div>
-      ))}
+    <div>
+      <Image src={curveline} alt={''}/>
     </div>
-  )
+  );
 };

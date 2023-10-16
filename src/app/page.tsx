@@ -23,7 +23,7 @@ const Home = () => {
         <Slider />
       </section>
       <WhoWeAre />
-      {/* <OurServices /> */}
+      <OurServices />
       <Clientele />
       <LocationMap />
     </PageLayout>
