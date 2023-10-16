@@ -3,7 +3,7 @@ import Header from "@/components/services/Header";
 import SubLayout from "@/layouts/SubLayout";
 import HeaderText from "@/components/shared/headerText/HeaderText";
 
-const HSEQPolicy = () => {
+const Services = () => {
   return (
     <SubLayout>
       <Header />
@@ -28,4 +28,4 @@ const HSEQPolicy = () => {
   );
 };
 
-export default HSEQPolicy;
+export default Services;
