@@ -6,6 +6,9 @@ import seplat from "@/assets/images/landing/clientele/seplat.svg";
 import nnpc from "@/assets/images/landing/clientele/nnpc.svg";
 import shell from "@/assets/images/landing/clientele/shell.svg";
 import total from "@/assets/images/landing/clientele/total.svg";
+import agip from "@/assets/images/landing/clientele/agip.svg";
+import addax from "@/assets/images/landing/clientele/addax.svg";
+import exonmobile from "@/assets/images/landing/clientele/exonmobile.svg";
 
 const Clientele = () => {
   const clientele = [
@@ -33,6 +36,21 @@ const Clientele = () => {
       key: 5,
       name: "Total",
       url: total,
+    },
+    {
+      key: 6,
+      name: "Exon Mobile",
+      url: exonmobile,
+    },
+    {
+      key: 7,
+      name: "Agip",
+      url: agip,
+    },
+    {
+      key: 8,
+      name: "Addax",
+      url: addax,
     },
   ];
 
@@ -63,7 +81,7 @@ const Clientele = () => {
               />
             ))}
           </div>
-          <div className="scroll-child secondary flex justify-between w-full ml-8">
+          <div className="hidden scroll-child secondary md:flex justify-between w-full ml-8">
             {clientele.map((client) => (
               <Image
                 key={client.key}
