@@ -33,7 +33,7 @@ export const management = [
   {
     id: 1,
     name: "Pascal Anyanwu",
-    position: "CEO",
+    position: "Chief Executive Officer - CEO",
     url: "/",
     imgSrc: "",
   },
