@@ -25,17 +25,50 @@ const Data = () => {
   ];
 
   return (
-    <section className="px-0 flex flex-col justify-center items-center w-full md:px-20 mb-20">
+    <>
+      <section className="hidden px-0 md:flex flex-col justify-center items-center w-full md:px-20 mb-20">
+        <div className="grid grid-cols-1 mt-10">
+          {serviceItems.map((item) => (
+            <div
+              key={item.id}
+              className="group w-full max-w-5xl py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
+            >
+              <div className="">
+                <Image src={item.imgSrc} alt={item.title} className="" />
+              </div>
+
+              <div className="px-5 -mt-4 mx-2 md:-mt-12">
+                <p className="bg-gray-600 p-3 text-white md:p-5">
+                  {item.title}
+                </p>
+                <p className="text-gray-400 mr-4 mt-4 text-sm leading-loose">
+                  {item.text}
+                </p>
+                <button className="text-blue-600 flex items-center mt-3 transition-transformmotion-reduce:transform-none">
+                  Read more{" "}
+                  <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section className="px-0 flex flex-col justify-center items-center w-full md:px-20 mb-20 md:hidden">
       <div className="grid grid-cols-1 mt-10">
         {serviceItems.map((item) => (
           <div
             key={item.id}
-            className="group w-full max-w-5xl py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
+            className="group w-full max-w-5xl pb-10 md:pb-0 md:py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
           >
-            <Image src={item.imgSrc} alt={item.title} className="" />
-            <div className="px-5 -mt-12 mx-2">
-              <p className="bg-gray-600 p-5 text-white ">{item.title}</p>
-              <p className="text-gray-400 mr-4 mt-4 text-sm leading-loose">{item.text}</p>
+            <div className="w-full flex justify-center">
+              <Image src={item.imgSrc} alt={item.title} width={350} />
+            </div>
+
+            <div className="px-5 -mt-4 mx-2 md:-mt-12">
+              <p className="bg-gray-600 p-3 text-white md:p-5">{item.title}</p>
+              <p className="text-gray-400 mr-4 mt-4 text-sm leading-loose">
+                {item.text}
+              </p>
               <button className="text-blue-600 flex items-center mt-3 transition-transformmotion-reduce:transform-none">
                 Read more{" "}
                 <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />
@@ -45,6 +78,7 @@ const Data = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 
