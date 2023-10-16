@@ -2,15 +2,20 @@
 import React from "react";
 import HeaderText from "../shared/headerText/HeaderText";
 import { Button } from "../shared/buttons";
-import Link from "next/link"; 
+import Link from "next/link";
 
 const ContactUsForm = () => {
   return (
     <section className="WhoWeAre my-4 flex flex-col items-center justify-center mb-20">
-      <div className="mt-10 contact w-full max-w-5xl h-auto flex flex-col justify-center items-start px-8 md:px-0 md:h-[30rem]">
-        <div className=" flex flex-col mt-0 w-full md:w-auto">
-          <div className="flex flex-col items-center md:block">
-            <HeaderText primary="Contact" secondary="Us" />
+      <div className="mt-10 contact w-full max-w-5xl h-auto flex flex-col justify-center items-start px-8 md:px-0 md:h-[42rem]">
+        <div className=" flex flex-col mt-0 w-full md:w-2/5 pr-">
+          <div className="flex flex-col items-start md:block">
+            <div className="flex flex-col items-start">
+              <h2 className="text-3xl font-bold text-primary">
+                Contact <span className="text-secondary">Us</span>
+              </h2>
+              <div className="bg-secondary h-2 w-16 rounded-xl mt-3"></div>
+            </div>
           </div>
 
           <p className="text-xs text-gray-400 w-full max-w-md mt-2 leading-loose">
@@ -107,7 +112,9 @@ const ContactUsForm = () => {
                 <label htmlFor="offers" className="text-gray-500">
                   You agree to our friendly
                 </label>{" "}
-                <Link href="/privacy" className="underline">privacy policy</Link>
+                <Link href="/privacy" className="underline">
+                  privacy policy
+                </Link>
               </div>
             </div>
 

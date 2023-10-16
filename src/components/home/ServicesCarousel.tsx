@@ -8,32 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import Image from "next/image";
 
 const ServicesCarousel = () => {
-  const serviceItems = [
-    {
-      id: 1,
-      imgSrc: ecpi,
-      name: "ECPI",
-      text: "4th /5th floor, 11A Oko Awo street, Victoria island,Lagos, Nigeria",
-    },
-    {
-      id: 2,
-      imgSrc: upstream,
-      name: "Upstream",
-      text: "No 36 Trans Amadi Layout, Port Harcourt, Rivers State, Nigeria.",
-    },
-    {
-      id: 3,
-      imgSrc: marine,
-      name: "Marine Services",
-      text: "#302, 42, Geojejungang-ro,15-Gil, Geoje-si, Kyeongsangnam-do, Republic of Korea",
-    },
-    {
-      id: 4,
-      imgSrc: midstream,
-      name: "Midstream",
-      text: "5048 Nicollet Avenue, Minneapolis Mn. 55419, USA",
-    },
-  ];
+ 
   return (
     <div>
       <Carousel autoPlay interval={5000} infiniteLoop showThumbs={false} showArrows={false} showStatus={false} showIndicators={false}>
