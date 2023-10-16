@@ -1,17 +1,17 @@
-import Data from "@/components/affiliates/Data";
-import Header from "@/components/affiliates/Header";
+import Header from "@/components/csr/Header";
 import SubLayout from "@/layouts/SubLayout";
-import HeaderText from "@/components/shared/headerText/HeaderText";
+import Welcome from "@/components/csr/Welcome";
+import Vision from "@/components/csr/Vision";
+import FocusArea from "@/components/csr/FocusArea";
 
 const CSR = () => {
   return (
     <SubLayout>
+      <Welcome />
       <Header />
       <section className="w-full flex  flex-col justify-start items-center mt-8 md:mt-0">
-        <div className="w-full max-w-3xl items-center justify-center mt-10">
-          <HeaderText primary={"Our"} secondary={"CSR"} />
-        </div>
-         <Data />
+        <Vision/>
+        <FocusArea/>
       </section>
     </SubLayout>
   );

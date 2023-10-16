@@ -7,7 +7,7 @@ const Affiliates = () => {
   return (
     <SubLayout>
       <Header />
-      <section className="w-full flex  flex-col justify-start items-center">
+      <section className="w-full flex  flex-col justify-start items-center mt-8 md:mt-0">
         <div className="w-full max-w-3xl items-center justify-center mt-10">
           <HeaderText primary={"Our"} secondary={"Affiliates"} />
         </div>
