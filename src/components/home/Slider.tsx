@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Slider = () => {
   return (
-    <Carousel autoPlay interval={10000} infiniteLoop showThumbs={false}>
+    <Carousel autoPlay interval={10000} infiniteLoop showThumbs={false} showArrows={false} showStatus={false} >
     <div className="pulse bg hero w-full flex-col items-center justify-between text-sm lg:flex transition delay-700 duration-300 ease-in-out">
       <div className="w-full flex flex-col justify-center items-center">
         <div className="text-left max-w-5xl my-64 flex flex-col justify-center items-start px-8 md:px-0">

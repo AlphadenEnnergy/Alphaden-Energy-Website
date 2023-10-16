@@ -41,7 +41,7 @@ const WhoWeAre = () => {
           </p>
 
           <Link
-            href={"/"}
+            href={"/about"}
             className="group text-primary flex items-center space-x-2 my-5"
           >
             <BsArrowRightCircle className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none" />
