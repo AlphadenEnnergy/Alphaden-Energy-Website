@@ -61,6 +61,10 @@ body {
   background-image: url("./../assets/images/HSEQPolicy/csr.png");
 }
 
+.epci {
+  background-image: url("./../assets/images/epci/epci.png");
+}
+
 .about-us {
   background-image: url("./../assets/images/aboutUs/aboutUs.svg");
 }
