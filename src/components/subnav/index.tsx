@@ -14,7 +14,7 @@ const Subnav: React.FC = () => {
             target="_blank"
             className="cursor-pointer"
           >
-            4th /5th floor, 11A Oko Awo street, Victoria island, Lagos, Nigeria
+            4th/5th floor, 11A Oko Awo street, Victoria island, Lagos, Nigeria
           </Link>
           <Link
             href={"mailto:info@alphadenenergy.com"}
