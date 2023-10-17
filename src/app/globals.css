@@ -53,6 +53,10 @@ body {
   background-image: url("./../assets/images/aboutUs/about.png");
 }
 
+.partners {
+  background-image: url("./../assets/images/partners/partners.png");
+}
+
 .clientele {
   background-image: url("./../assets/images/landing/clientele/clientele.svg");
 }
