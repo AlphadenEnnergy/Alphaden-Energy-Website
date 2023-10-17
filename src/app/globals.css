@@ -69,6 +69,10 @@ body {
   background-image: url("./../assets/images/sipca/sipca.png");
 }
 
+.oilfield {
+  background-image: url("./../assets/images/oilfield/oilfield.png");
+}
+
 .about-us {
   background-image: url("./../assets/images/aboutUs/aboutUs.svg");
 }
