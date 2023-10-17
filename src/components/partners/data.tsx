@@ -1,6 +1,39 @@
 import React from "react";
 import { FiUsers, FiHeart, FiCheckCircle, FiTrendingUp } from "react-icons/fi";
 
+import image1 from "../../assets/images/partners/AdditiveManufacturing/1.jpg";
+import image2 from "../../assets/images/partners/AdditiveManufacturing/2.jpg";
+
+import imgs1 from "../../assets/images/partners/Electrical/1.jpg";
+// import imgs2 from "../../assets/images/partners/Electrical/2.jpg";
+import imgs3 from "../../assets/images/partners/Electrical/3.jpg";
+import imgs4 from "../../assets/images/partners/Electrical/4.jpg";
+import imgs5 from "../../assets/images/partners/Electrical/5.jpg";
+import imgs6 from "../../assets/images/partners/Electrical/6.jpg";
+import imgs7 from "../../assets/images/partners/Electrical/7.jpg";
+import imgs8 from "../../assets/images/partners/Electrical/8.jpg";
+import imgs9 from "../../assets/images/partners/Electrical/9.jpg";
+import imgs10 from "../../assets/images/partners/Electrical/10.jpg";
+import imgs11 from "../../assets/images/partners/Electrical/11.jpg";
+
+import im1 from "../../assets/images/partners/Enclosures/1.jpg";
+import im2 from "../../assets/images/partners/Enclosures/2.jpg";
+import im3 from "../../assets/images/partners/Enclosures/3.jpg";
+import im4 from "../../assets/images/partners/Enclosures/4.jpg";
+import im5 from "../../assets/images/partners/Enclosures/5.jpg";
+import im6 from "../../assets/images/partners/Enclosures/6.jpg";
+import im7 from "../../assets/images/partners/Enclosures/7.jpg";
+import im8 from "../../assets/images/partners/Enclosures/8.jpg";
+import im9 from "../../assets/images/partners/Enclosures/9.jpg";
+import im10 from "../../assets/images/partners/Enclosures/10.jpg";
+import im11 from "../../assets/images/partners/Enclosures/12.jpg";
+import im12 from "../../assets/images/partners/Enclosures/13.jpg";
+import im13 from "../../assets/images/partners/Enclosures/14.jpg";
+import im14 from "../../assets/images/partners/Enclosures/15.jpg";
+import im15 from "../../assets/images/partners/Enclosures/16.jpg";
+import im16 from "../../assets/images/partners/Enclosures/17.jpg";
+import im17 from "../../assets/images/partners/Enclosures/11.jpg";
+
 import img1 from "../../assets/images/partners/PipesandValves/1.jpg";
 import img2 from "../../assets/images/partners/PipesandValves/2.jpg";
 import img3 from "../../assets/images/partners/PipesandValves/3.jpg";
@@ -77,6 +110,42 @@ export const data = [
   },
 ];
 
+export const additive = [
+  image1,
+  image2,
+]
+export const electrical = [
+  imgs1,
+  // imgs2,
+  imgs3,
+  imgs4,
+  imgs5,
+  imgs6,
+  imgs7,
+  imgs8,
+  imgs9,
+  imgs10,
+  imgs11,
+]
+export const enclosures = [
+  im1,
+  im2,
+  im3,
+  im4,
+  im5,
+  im6,
+  im7,
+  im8,
+  im9,
+  im10,
+  im11,
+  im12,
+  im13,
+  im14,
+  im15,
+  im16,
+  im17,
+]
 export const pipeandValves = [
   img1,
   img2,
