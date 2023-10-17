@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { data } from "./data";
+import { pipeandValves } from "./data";
+import Image from "next/image";
 
 const Features = () => {
   return (
@@ -8,27 +9,21 @@ const Features = () => {
       <div className="w-full max-w-5xl my-5 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <h3 className="text-2xl max-w-lg font-semibold ">
-            We’re an ambitious and smart team with a shared mission
+            Pipes Valves and Fittings
           </h3>
-          <p className="text-xs text-gray-400 w-full max-w-4xl mt-2 leading-loose">
-            Our shared values keep us connected and guide us as one team.
-          </p>
         </div>
 
         <div className="w-full max-w-5xl gap-4 mt-8">
-          <div className="grid grid-cols-1 space-y-5 md:space-y-0 md:grid-cols-4">
-            {data.map((data, i) => (
-            <div key={i} className="flex flex-col space-y-3 items-center px-5">
-              <span className="p-2 border-2 flex items-center justify-center rounded-full text-primary">{data.icon}</span>
-              <h4 className="font-semibold ">{data.title}</h4>
-              <p className="text-[11px] text-gray-400 leading-[16px]">{data.text}</p>
+          <div className="grid grid-cols-1 space-y-4 md:space-y-0 md:grid-cols-4">
+            {pipeandValves.map((data, i) => (
+            <div key={i} className="flex flex-col items-center px-5 m-10">
+              <Image src={data} alt={""} width={100} height={100}/>
             </div>
           ))}
           </div>
           
         </div>
 
-        <div className="bg about-us h-72 mt-16"></div>
       </div>
     </section>
   );
