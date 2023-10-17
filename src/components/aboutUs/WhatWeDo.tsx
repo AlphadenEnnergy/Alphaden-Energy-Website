@@ -15,31 +15,26 @@ const WhatWeDo = () => {
             highly specialized team of technicians excels in meeting a wide
             array of demands, from project design to construction.
             <br />
-            <br />
             The name &quot;Alphaden&quot; derives from &quot;Alpha&apos;s Den,&quot; signifying a
             collective of individuals who are champions in their respective
             fields. We work collaboratively with a shared mission, focusing on
             safe and efficient service delivery, as well as customer
             satisfaction, among other goals.
             <br />
-            <br />
             Our relentless commitment to positively impact the natural
             environment has been a cornerstone of our identity, and we have
             consistently upheld our name through excellence and strategic
             ingenuity in successfully executing diverse projects.
             <br />
-            <br />
             Alphaden also stands among the select 100 companies chosen by the
             Nigerian Content Development Monitoring Board (NCDMB) to participate
             in the Project100 initiative. This initiative is geared towards
             fostering local manufacturing and technology capabilities.
-            <br />
             <br /> We take pride in our ability to deliver intricate projects to
             clients in the oil, gas, and energy sectors. Leveraging industry
             relationships and providing cost-effective, fit-for-purpose service
             delivery, we ensure that we not only meet but exceed our clients&apos;
             needs.
-            <br />
             <br /> Equipped with versatile project management capabilities and a
             diverse, skilled workforce spanning various disciplines, Alphaden
             offers a comprehensive range of services, including engineering,
