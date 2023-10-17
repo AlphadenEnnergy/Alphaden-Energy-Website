@@ -65,6 +65,10 @@ body {
   background-image: url("./../assets/images/epci/epci.png");
 }
 
+.sipca {
+  background-image: url("./../assets/images/sipca/sipca.png");
+}
+
 .about-us {
   background-image: url("./../assets/images/aboutUs/aboutUs.svg");
 }
