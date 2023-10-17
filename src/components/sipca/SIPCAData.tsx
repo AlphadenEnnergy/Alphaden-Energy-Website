@@ -10,9 +10,9 @@ const SIPCAData = () => {
       the Nigerian Content Act, we in the process of building capacity with our
       OEM partners to locally assemble Well Head Control Panels in-country.
       <br />
-      One of Alphaden's remarkable achievements lies in its pivotal role in
+      One of Alphaden&apos;s remarkable achievements lies in its pivotal role in
       engineering design, procurement, construction, installation, and
-      commissioning of the Wellhead Control Panel (WHCP) for Chevron's Abiteye
+      commissioning of the Wellhead Control Panel (WHCP) for Chevron&apos;s Abiteye
       NAG development.
       <br />
       <div className="w-full h-80 bg-gray-300 mt-4"></div>

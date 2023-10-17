@@ -10,12 +10,12 @@ const EPCIData = () => {
       (EPCI) solutions. These encompass a broad spectrum of offerings, including
       the provision of pipes, valves, fittings, OCTG (Oil Country Tubular
       Goods), and a diverse selection of customized spare parts tailored to
-      various projects. Notable among these projects are Total's Egina and
-      Chevron's Makaraba, Meji, and Okan projects, among others.
+      various projects. Notable among these projects are Total&apos;s Egina and
+      Chevron&apos;s Makaraba, Meji, and Okan projects, among others.
       <br />
       <div className="w-full h-80 bg-gray-300 mt-4"></div>
       <br />
-      Additionally, Alphaden proudly serves as the EPC Contractor for Shell's
+      Additionally, Alphaden proudly serves as the EPC Contractor for Shell&apos;s
       Assa North Ohaji (ANOH) South Gas Development project, awarded In 2018,
       the contract is for the EPC, Site preparation & Industrial Area
       Infrastructure Development by the Shell Petroleum Development Company
@@ -48,7 +48,7 @@ const EPCIData = () => {
       projects, demonstrating exceptional expertise in seamlessly integrating
       engineering, procurement, and construction services across all project
       stages. We are commercially flexible, offering various commercial models
-      customized to meet our clients' needs, including extensive lump-sum
+      customized to meet our clients&apos; needs, including extensive lump-sum
       turnkey expertise (LSTK) in onshore engineering, procurement, and
       construction (EPC), as well as offshore engineering, procurement,
       construction, and installation (EPCI). We also provide engineering,

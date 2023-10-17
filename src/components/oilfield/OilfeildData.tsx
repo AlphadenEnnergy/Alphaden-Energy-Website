@@ -11,10 +11,10 @@ const OilfeildData = () => {
         the completion process, spanning from the reservoir to the production
         facility. Whether dealing with a conventional well or the most intricate
         subsea multilateral, our primary objective is to fully grasp our
-        clients' completion challenges. Leveraging the industry's most extensive
+        clients&apos; completion challenges. Leveraging the industry&apos;s most extensive
         array of established products and cutting-edge technologies, we provide
         tailored infrastructure and well integrity solutions to ensure safe and
-        efficient production throughout the lifespan of our clients' assets.
+        efficient production throughout the lifespan of our clients&apos; assets.
         <br />
         <br />
       </div>
@@ -24,7 +24,7 @@ const OilfeildData = () => {
         </h2>
         Coiled tubing (CT) plays a pivotal role in various well site operations.
         However, its true value extends beyond mere conveyance; it lies in the
-        performance achieved at the pipe's end.
+        performance achieved at the pipe&apos;s end.
         <br />
         Both on the surface and downhole, we provide practical solutions for
         tasks such as well cleanouts, stimulation, and specialized applications.
@@ -51,7 +51,7 @@ const OilfeildData = () => {
         products for displacement, casing cleaning, blowout preventer (BOP)
         operations, riser cleaning, and debris management. Our solutions
         encompass displacement simulation, torque-and-drag analysis, and load
-        analysis. Whether you're operating on land, offshore, or in Deepwater
+        analysis. Whether you&apos;re operating on land, offshore, or in Deepwater
         wells, you can rely on us to save you both time and money.
         <br />
         <br />

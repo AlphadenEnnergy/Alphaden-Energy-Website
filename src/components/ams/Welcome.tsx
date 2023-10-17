@@ -15,7 +15,7 @@ const Welcome = () => {
           In our pursuit of excellence, Alphaden Energy has embraced additive
           manufacturing services. Our in-house 3D printing capabilities allow us
           to create customized parts and tools with speed and precision. Whether
-          it's producing spare components for critical equipment or developing
+          it&apos;s producing spare components for critical equipment or developing
           rapid prototypes for new drilling technologies, we harness additive
           manufacturing for innovation and efficiency.
         </p>

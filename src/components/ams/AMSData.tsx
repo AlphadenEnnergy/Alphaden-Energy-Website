@@ -36,7 +36,7 @@ const AMSData = () => {
       <div className="w-full h-80 bg-gray-300 mt-2"></div>
       <br />
       This versatile process accommodates components of varying sizes,
-      constrained solely by the vacuum chamber's dimensions, and the Electron
+      constrained solely by the vacuum chamber&apos;s dimensions, and the Electron
       Beam (EB) serves as the energy source, melting wire feedstock and adding
       layers to achieve the desired geometry, facilitating the creation of new
       components, incorporation of features, or repair of parts.
