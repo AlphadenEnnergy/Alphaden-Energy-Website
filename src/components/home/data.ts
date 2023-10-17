@@ -3,7 +3,7 @@ export const locations = [
     id: 1,
     city: "Lagos",
     address:
-      "4th /5th floor, 11A Oko Awo street, Victoria island,Lagos, Nigeria",
+      "4th/5th floor, 11A Oko Awo street, Victoria island,Lagos, Nigeria",
   },
   {
     id: 2,
