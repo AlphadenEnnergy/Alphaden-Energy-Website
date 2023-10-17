@@ -69,7 +69,7 @@ const Navbar = ({ state, setState }: any) => {
     },
     {
       id: 5,
-      name: "OEM/Partners",
+      name: "OEM Relationships",
       path: "/partners",
     },
     {
