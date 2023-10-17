@@ -30,29 +30,29 @@ export const data = [
 
 
 export const management = [
-  {
-    id: 1,
-    imgSrc: "",
-    name: "Paschal C. Anyanwu ",
-    position: "Chief Executive Officer (CEO)",
-    text: `
-    Paschal Anyanwu is currently the Chief Executive Officer for Alphaden Energy and Oilfield Limited. A fully owned
-    Nigerian company with two-decade worth of experience in Oilfield servicing and Engineering, Procurement,
-    Construction, and installation services with offices in Lagos, Port-harcourt , Owerri, and South Korea. Alphaden boasts
-    the likes of Chevron Nigeria Limited (CNL), Mobil producing Nigeria Unlimited (MPN), Shell Petroleum Development
-    Company (SPDC), Total Nigeria Plc (TNL), Nigeria Agip Oil Company (NAOC) to name a few, as clients. Furthermore,
-    He hold interests in Alpha Marine Strategies LTD. Anframco Oilfield Services LTD and Alnac Oilfield Services LTD
-    In the past five years he led a team of scientist and engineers to develop what has been recognized as the most
-    comprehensive, fastest and environmentally friendly process/solution in restoring Ogoni Land (The worst oil spill in the
-    history of oil exploration in Nigeria, his company Alphaden led the development of a 250 MW power plant and a
-    second one under development; repaired and replaced a 24inch gas pipeline offshore Nigeria and much more
-    Currently Alphaden is doing the site preparation and building the field logistic base (FLB) and the industrial
-    infrastructure (IA) for SPDC ASSA NORTH/OHAJI SOUTH Project, which is the largest onshore oil and gas project in
-    Nigeria. Alphaden currently has a gas field and in support of the Nigerian Governments gas flare elimination plan, is
-    constructing a gas processing plant for the commercialization of flared gas in the Niger Delta. Alphaden is also the
-    major procurement company for chevron on the Okan, Meji, Makaraba and Abiteye de-bottling neck gas offshore.
-    `,
-  },
+  // {
+  //   id: 1,
+  //   imgSrc: "",
+  //   name: "Paschal C. Anyanwu ",
+  //   position: "Paschal C. Anyanwu ",
+  //   text: `
+  //   Paschal Anyanwu is currently the Chief Executive Officer for Alphaden Energy and Oilfield Limited. A fully owned
+  //   Nigerian company with two-decade worth of experience in Oilfield servicing and Engineering, Procurement,
+  //   Construction, and installation services with offices in Lagos, Port-harcourt , Owerri, and South Korea. Alphaden boasts
+  //   the likes of Chevron Nigeria Limited (CNL), Mobil producing Nigeria Unlimited (MPN), Shell Petroleum Development
+  //   Company (SPDC), Total Nigeria Plc (TNL), Nigeria Agip Oil Company (NAOC) to name a few, as clients. Furthermore,
+  //   He hold interests in Alpha Marine Strategies LTD. Anframco Oilfield Services LTD and Alnac Oilfield Services LTD
+  //   In the past five years he led a team of scientist and engineers to develop what has been recognized as the most
+  //   comprehensive, fastest and environmentally friendly process/solution in restoring Ogoni Land (The worst oil spill in the
+  //   history of oil exploration in Nigeria, his company Alphaden led the development of a 250 MW power plant and a
+  //   second one under development; repaired and replaced a 24inch gas pipeline offshore Nigeria and much more
+  //   Currently Alphaden is doing the site preparation and building the field logistic base (FLB) and the industrial
+  //   infrastructure (IA) for SPDC ASSA NORTH/OHAJI SOUTH Project, which is the largest onshore oil and gas project in
+  //   Nigeria. Alphaden currently has a gas field and in support of the Nigerian Governments gas flare elimination plan, is
+  //   constructing a gas processing plant for the commercialization of flared gas in the Niger Delta. Alphaden is also the
+  //   major procurement company for chevron on the Okan, Meji, Makaraba and Abiteye de-bottling neck gas offshore.
+  //   `,
+  // },
   {
     id: 2,
     imgSrc: "",

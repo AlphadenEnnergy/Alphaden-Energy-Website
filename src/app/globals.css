@@ -49,6 +49,10 @@ body {
   filter: brightness(10%);
 }
 
+.about {
+  background-image: url("./../assets/images/aboutUs/about.png");
+}
+
 .clientele {
   background-image: url("./../assets/images/landing/clientele/clientele.svg");
 }

@@ -10,19 +10,19 @@ const WhoWeAre = () => {
       {/* <div className="bg WhoWeAre h-80">
         
       </div> */}
-      <div className="who-we-are w-full max-w-5xl h-auto flex flex-col justify-center items-start px-8 md:px-0 md:h-[30rem]">
-        <div className="flex flex-col mt-0 md:mt-32">
+      <div className="w-full max-w-5xl h-auto flex flex-col justify-center items-start px-8 md:px-0 ">
+        <div className="flex flex-col mt-0 md:mt-10">
           <div className="flex flex-col items-center md:block">
-            {/* <HeaderText primary="Who" secondary="We Are"/> */}
-            <div className="flex flex-col items-center md:items-start">
+            <HeaderText primary="Who" secondary="We Are"/>
+            {/* <div className="flex flex-col items-center md:items-start">
               <h2 className="text-3xl font-bold text-primary">
                 Who <span className="text-secondary">We Are</span>
               </h2>
               <div className="bg-secondary h-2 w-16 rounded-xl mt-3"></div>
-            </div>
+            </div> */}
           </div>
 
-          <p className="text-xs text-gray-400 w-full max-w-md mt-8 leading-loose">
+          <p className="text-xs text-gray-400 w-full  mt-8 leading-loose">
             The &apos;ALPHADEN&apos;S is a hub of professional and well
             experienced Alpha&apos;s, championing their fields while
             collectively making up a provider of fit-for-purpose services to
