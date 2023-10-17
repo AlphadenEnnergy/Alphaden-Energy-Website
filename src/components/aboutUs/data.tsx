@@ -18,7 +18,7 @@ export const data = [
     id: 3,
     icon: <FiCheckCircle />,
     title: "Core Values",
-    text: "People First, Integrity, Innovation, and Efficiency serve as the guiding compass that directs every facet of our operations.",
+    text: "P.I.P.E People First, Integrity, Innovation, and Efficiency.",
   },
   {
     id: 4,
