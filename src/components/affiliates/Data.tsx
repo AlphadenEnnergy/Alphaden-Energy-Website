@@ -9,7 +9,7 @@ const Data = () => {
     {
       id: 1,
       imgSrc: gas,
-      name: "ECPI",
+      name: "EPCI",
       title: "ALPHADEN GAS LIMITED",
       text: `Alphaden Gas Limited is an indigenous gas processing and distribution company domiciled in Lagos state, Nigeria. Since its incorporation, we have strategically positioned ourselves as a major player in the Nigerian gas space capable of competing globally with other industry gas players, utilizing cutting edge technology, whilst saving cost and effectively improving the environment. Innovation and hard work are at the center of our operations as we offer advanced and efficient services that meets the expectation of our clients and partners`,
       link: "/affiliates",

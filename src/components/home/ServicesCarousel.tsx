@@ -1,5 +1,5 @@
 import React from "react";
-import ecpi from "./../../assets/images/landing/services/ecpi.png";
+import epci from "./../../assets/images/landing/services/epci.png";
 import upstream from "./../../assets/images/landing/services/upstream.png";
 import marine from "./../../assets/images/landing/services/marine.png";
 import midstream from "./../../assets/images/landing/services/midstream.png";
@@ -13,9 +13,9 @@ const ServicesCarousel = () => {
     <div>
       <Carousel autoPlay interval={5000} infiniteLoop showThumbs={false} showArrows={false} showStatus={false} showIndicators={false}>
         <div className=" flex flex-col transition delay-700 duration-300 ease-in-out">
-         <Image src={ecpi} alt="name" className=" "/>
+         <Image src={epci} alt="name" className=" "/>
          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
-            <h2 className="font-bold">ECPI</h2>
+            <h2 className="font-bold">EPCI</h2>
             <p className="text-xs mt-2 leading-loose text-gray-400">We understand that today&apos;s construction projects must not only meet industry standards but also contribute to a healthier planet. With this mission in mind, we have curated a portfolio of cutting-edge products and solutions that prioritize both performance and sustainability.</p>
          </div>
         </div>

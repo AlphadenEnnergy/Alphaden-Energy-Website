@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import menAtWork from "./../../assets/images/HSEQPolicy/hseq.svg";
-import ecpi from "./../../assets/images/landing/services/ecpi.png";
+import epci from "./../../assets/images/landing/services/epci.png";
 import upstream from "./../../assets/images/landing/services/upstream.png";
 import marine from "./../../assets/images/landing/services/marine.png";
 import midstream from "./../../assets/images/landing/services/midstream.png";
@@ -11,9 +11,9 @@ const Data = () => {
   const serviceItems = [
     {
       id: 1,
-      imgSrc: ecpi,
-      name: "ECPI",
-      title: "ECPI",
+      imgSrc: epci,
+      name: "EPCI",
+      title: "EPCI",
       text: `Alphaden Energy stands out for its EPCI expertise. The company seamlessly integrates engineering, procurement, construction, and installation services, ensuring a streamlined project lifecycle. From designing state-of-the-art offshore platforms to constructing efficient pipelines and installing critical equipment, PetroTech is your trusted partner in complex energy projects.`,
       link: "/services",
     },

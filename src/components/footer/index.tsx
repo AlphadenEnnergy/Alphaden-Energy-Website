@@ -37,10 +37,10 @@ const Footer = () => {
             <Link href={"/"} className="text-gray-400 md:text-white">
               Our Services
             </Link>
-            <Link href={"/"}>ECPI</Link>
-            <Link href={"/"}>Marine Support</Link>
-            <Link href={"/"}>Upstream</Link>
-            <Link href={"/"}>Midstream</Link>
+            <Link href={"/epci"}>EPCI Services</Link>
+            <Link href={"/sipca"}>System Intergration, Process Control and Automation</Link>
+            <Link href={"/ams"}>Additive Manufacturing Services</Link>
+            <Link href={"/oilfeild"}>Oilfield Services</Link>
           </div>
           <div className="flex flex-col space-y-3 text-xs">
             <Link href={"/"} className="text-gray-400 md:text-white">
