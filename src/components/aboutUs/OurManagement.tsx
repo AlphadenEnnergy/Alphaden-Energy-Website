@@ -16,7 +16,7 @@ const OurManagement = () => {
         </div>
       </div>
       <div className="w-full max-w-3xl my-14 flex flex-col items-center">
-        <div className="w-1/3  h-80 mx-6 border-2 flex flex-col justify-end bg-gray-400 md:m-4">
+        <div className="w-full max-w-[350px] md:w-1/3  h-80 md:mx-6 border-2 flex flex-col justify-end bg-gray-400 m-4">
           <div className="flex flex-col space-y-2 border p-4 m-4 text-white bg-gray-500">
             <p className="font-semibold text-lg">Paschal C. Anyanwu </p>
             <span className="text-[10px]">Paschal C. Anyanwu </span>

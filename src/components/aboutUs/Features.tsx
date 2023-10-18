@@ -21,7 +21,11 @@ const Features = () => {
             <div key={i} className="flex flex-col space-y-3 items-center px-5">
               <span className="p-2 border-2 flex items-center justify-center rounded-full text-primary">{data.icon}</span>
               <h4 className="font-semibold ">{data.title}</h4>
-              <p className="text-[11px] text-gray-400 leading-[16px]">{data.text}</p>
+              <div>
+                <p className="text-xs text-gray-400 leading-[16px]">{data.first}</p>
+              <p className="text-xs text-gray-400 leading-[16px] leading-snug">{data.text}</p>
+              </div>
+              
             </div>
           ))}
           </div>

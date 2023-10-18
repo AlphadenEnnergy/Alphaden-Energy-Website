@@ -7,10 +7,10 @@ const Services = () => {
   return (
     <SubLayout>
       <Header />
-      <section className="w-full flex  flex-col justify-start items-center">
+      <section className="w-full flex  flex-col justify-start items-center px-4 ">
         <div className="w-full max-w-3xl items-center justify-center mt-10">
           <HeaderText primary={"Our"} secondary={"Services"} />
-          <p className="text-sm text-gray-400 text-center leading-loose mt-4">
+          <p className="text-xs md:text-sm text-gray-400 text-center leading-loose mt-4">
             Our core expertise lies in the exploration and production of energy
             resources. We&apos;re at the forefront of identifying new energy
             reserves, leveraging cutting-edge technology to extract resources

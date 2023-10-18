@@ -6,19 +6,27 @@ export const data = [
     id: 1,
     icon: <FiUsers />,
     title: "Mission Statement",
-    text: "Constantly adopting efficiency dynamics in empowering people to deliver excellence with innovation in the pursuit of perfection.",
+    text: `Constantly adopting efficiency 
+    dynamics in empowering people to 
+    deliver excellence with innovation in 
+    the pursuit of perfection.`,
   },
   {
     id: 2,
     icon: <FiHeart />,
     title: "Our Vision",
-    text: "To be the dominant EPCI service provider from Africa, delivering capital projects globally.",
+    text: `To be the dominant EPCI service 
+    provider from Africa, delivering 
+    capital projects globally.`,
   },
   {
     id: 3,
     icon: <FiCheckCircle />,
     title: "Core Values",
-    text: "P.I.P.E People First, Integrity, Innovation, and Efficiency.",
+    first: "P.I.P.E",
+    text: ` 
+    People First, Integrity, Innovation, 
+    and Efficiency.`,
   },
   {
     id: 4,
@@ -27,7 +35,6 @@ export const data = [
     text: "Our Strategy seeks to maintain us as one of the global leaders in the oil and gas industry with a focus.",
   },
 ];
-
 
 export const management = [
   // {
@@ -86,7 +93,8 @@ export const management = [
     id: 3,
     imgSrc: "",
     name: "Peter Aisagbonhi ",
-    position: "Assistant General Manager Operations / Head of Legal and Contract",
+    position:
+      "Assistant General Manager Operations / Head of Legal and Contract",
     text: `
     Peter Aisagbonhi is a competent professional that has experience providing legal, contract and business advisory
     services to companies in a bid to further strengthen their business operations. Peter has effectively managed various
