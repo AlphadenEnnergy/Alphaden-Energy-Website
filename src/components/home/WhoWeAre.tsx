@@ -28,11 +28,9 @@ const WhoWeAre = () => {
             collectively making up a provider of fit-for-purpose services to
             clients across various industries.
             <br />
-            <br />
             An Indigenous company, founded over 2 decades ago yet quite modern
             as we continue to show that People, Innovation, Integrity &
             Efficiency values are key towards the success of every project.
-            <br />
             <br />
             We have an unquenchable desire to contribute positively to the
             development of our natural environment & have stayed true to our

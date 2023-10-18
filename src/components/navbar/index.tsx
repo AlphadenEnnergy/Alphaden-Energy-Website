@@ -112,7 +112,7 @@ const Navbar = () => {
   return (
     <div className="bg-white transition-opacity duration-700 ease-in-out z-10">
       <div className="text-gray-700 border-primary w-full z-10 w-full justify-center md:flex">
-        <div className="flex justify-between items-center px-3 md:p-3 md:w-full md:max-w-7xl ">
+        <div className="flex justify-between items-center px-3 md:p-3 md:w-full md:max-w-7xl">
           {isScrolled ? (
             <div className="w-full text-gray-700 border-primary md:w-full justify-center flex py-3 md:py-0">
               <div>
@@ -120,13 +120,13 @@ const Navbar = () => {
               </div>
             </div>
           ) : (
-            <div className="flex items-center justify-between w-full md:max-w-7xl ">
+            <div className="flex items-center justify-between w-full md:max-w-7xl  ">
               <div className="block text-gray-700 border-primary md:w-full md:justify-center flex py-3 md:hidden">
                 <div>
                   <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
                 </div>
               </div>
-              <div className="space-x-6 hidden md:flex ">
+              <div className="hidden w-full md:flex justify-between md:max-w-3xl">
                 {links.map((link, index) => (
                   <Link
                     key={link.id || index}
