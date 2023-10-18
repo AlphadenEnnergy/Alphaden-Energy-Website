@@ -63,7 +63,7 @@ const Clientele = () => {
             Our <span className="text-secondary">Clientele</span>
           </h2>
           <div className="bg-secondary h-2 w-16 rounded-xl mt-3"></div>
-          <p className="text-xs text-gray-400 w-full max-w-2xl mt-8">
+          <p className="text-sm text-gray-400 w-full max-w-2xl mt-8">
             From year to year, our clientele base has increased significantly
             due to our commitment and dedication to work with the combined
             effort of the staffers of Alphaden Energy and Oilfield Limited

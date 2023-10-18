@@ -18,7 +18,7 @@ const ContactUsForm = () => {
             </div>
           </div>
 
-          <p className="text-xs text-gray-400 w-full max-w-md mt-2 leading-loose">
+          <p className="text-sm text-gray-400 w-full max-w-md mt-2 leading-loose">
             Our friendly team would reach out to you
           </p>
 
@@ -32,7 +32,7 @@ const ContactUsForm = () => {
                   type="text"
                   name="firstname"
                   placeholder="First name"
-                  className="mt-1 block text-xs w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
+                  className="mt-1 block text-sm w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
                 />
               </div>
               <div className="flex flex-col">
@@ -43,7 +43,7 @@ const ContactUsForm = () => {
                   type="text"
                   name="lastname"
                   placeholder="Last name"
-                  className="mt-1 block text-xs w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
+                  className="mt-1 block text-sm w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
                 />
               </div>
             </div>
@@ -55,7 +55,7 @@ const ContactUsForm = () => {
                 type="email"
                 name="email"
                 placeholder="you@example.com"
-                className="mt-1 block text-xs w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
+                className="mt-1 block text-sm w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
               />
             </div>
             <div>
@@ -71,7 +71,7 @@ const ContactUsForm = () => {
                     id="country"
                     name="country"
                     autoComplete="country"
-                    className="h-full text-xs rounded-md border-0 bg-transparent py-0 pl-3 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary"
+                    className="h-full text-sm rounded-md border-0 bg-transparent py-0 pl-3 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary"
                   >
                     <option>NG</option>
                     <option>KR</option>
@@ -82,7 +82,7 @@ const ContactUsForm = () => {
                   type="text"
                   name="phone-number"
                   id="phone-number"
-                  className="block text-xs w-full rounded-md border-0 py-3 md:py-1.5 pl-16 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
+                  className="block text-sm w-full rounded-md border-0 py-3 md:py-1.5 pl-16 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
                   placeholder="+234 (000) 000-0000"
                 />
               </div>
@@ -94,7 +94,7 @@ const ContactUsForm = () => {
               <textarea
                 name="message"
                 placeholder="Enter message..."
-                className="mt-1 block text-xs w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
+                className="mt-1 block text-sm w-full rounded-md border-0 py-3 md:py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:leading-6"
               />
             </div>
 
@@ -108,7 +108,7 @@ const ContactUsForm = () => {
                   className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                 />
               </div>
-              <div className="ml-3 text-xs leading-6">
+              <div className="ml-3 text-sm leading-6">
                 <label htmlFor="offers" className="text-gray-500">
                   You agree to our friendly
                 </label>{" "}

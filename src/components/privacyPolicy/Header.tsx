@@ -8,7 +8,7 @@ const Header = () => {
         <div className="bg clientele h-72 flex flex-col items-center justify-center">
 
           <h1 className="text-white text-4xl">Privacy Policy</h1>
-          <p className="w-full max-w-2xl text-xs text-gray-300 mt-4 px-4 leading-snug italic">Your privacy is important to us at Alphaden Energy. We respect your privacy regarding any information we may collect from you across our website.</p>
+          <p className="w-full max-w-2xl text-sm text-gray-300 mt-4 px-4 leading-snug italic">Your privacy is important to us at Alphaden Energy. We respect your privacy regarding any information we may collect from you across our website.</p>
         </div>
       </div>
     </section>

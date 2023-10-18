@@ -12,7 +12,7 @@ export default function LocationMap() {
         <div className="my-8 flex flex-col space-y-1">
           <span className="text-[10px] text-secondary">Our location</span>
           <h2 className="font-semibold text-xl">Visit Us</h2>
-          <p className="text-xs text-gray-500">Say hello to our friendly team at one of these locations.</p>
+          <p className="text-sm text-gray-500">Say hello to our friendly team at one of these locations.</p>
         </div>
         <div className="border-gray-300 w-full max-w-xs">
           {locations.map((location) => (
@@ -32,7 +32,7 @@ export default function LocationMap() {
                   : ""
               }`}
             >
-              <p className="font-semibold text-xs">{location.city}</p>
+              <p className="font-semibold text-sm">{location.city}</p>
               <p className="mt-2 text-[10px] text-gray-500 leading-snug">
                 {location.address}
               </p>

@@ -4,12 +4,12 @@ import menAtWork from "./../../assets/images/HSEQPolicy/hseq.svg"
 const Data = () => {
   return (
     <section className="px-0 flex flex-col justify-center items-center w-full md:px-20">
-       <div className="flex flex-col text-white text-xs my-10 w-full max-w-5xl space-x-0 space-y-3 px-8 md:px-0 md:space-x-2 md:space-y-0 md:flex-row">
+       <div className="flex flex-col text-white text-sm my-10 w-full max-w-5xl space-x-0 space-y-3 px-8 md:px-0 md:space-x-2 md:space-y-0 md:flex-row">
         <button className="bg-primary p-3">Health, Safety and Environment (HSEQ) Policy</button>
         <button className="bg-[#A6EF10] p-3 text-primary">Quality Policy</button>
       </div>
       <div className="w-full max-w-5xl mb-4 h-auto px-8 md:px-0 md:h-auto">
-        <p className="leading-loose text-gray-500 text-xs w-full">
+        <p className="leading-loose text-gray-500 text-sm w-full">
           Alphaden Energy & Oil Field Limited is committed to ensuring that the
           quality of products and services delivered are of the highest standard
           at all times conforming to local and international standards and
@@ -24,7 +24,7 @@ const Data = () => {
         </p>
       </div>
       <div className="flex w-full max-w-5xl mb-20 h-auto px-8 md:px-0 md:h-auto">
-        <p className="leading-loose text-gray-500 text-xs  max-w-xl mr-2">
+        <p className="leading-loose text-gray-500 text-sm  max-w-xl mr-2">
           From the foregoing, utmost importance is given to conformance with
           international and local acceptable quality standards, which is
           intended to sustain Alphaden Energy & Oilfield Limited in the

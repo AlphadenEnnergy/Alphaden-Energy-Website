@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SIPCAData = () => {
   return (
-    <div className="mt-2 w-full max-w-5xl mb-20 h-auto flex flex-col justify-start items-start text-left text-xs text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+    <div className="mt-2 w-full max-w-5xl mb-20 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
       <br />
       <h1 className="text-xl font-bold mb-3">Automation Services: </h1>
       As part of our involvement to develop local content capacity in line with

@@ -6,7 +6,7 @@ const Welcome = () => {
   return (
     <section className="flex flex-col items-center justify-center">
       <Header />
-      <div className=" mt-2 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-xs text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+      <div className=" mt-2 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
         <h2 className="text-3xl font-bold mt-8 max-w-3xl">
           System Integration, Process Control and Automation
         </h2>

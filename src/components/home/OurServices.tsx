@@ -17,7 +17,7 @@ const OurServices = () => {
       <div className="w-full max-w-5xl my-16 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <HeaderText primary="Our" secondary="Services" />
-          <p className="text-xs text-gray-400 w-full max-w-2xl mt-8 leading-loose">
+          <p className="text-sm text-gray-400 w-full max-w-2xl mt-8 leading-loose">
             At Alphaden Energy, we stand at the forefront of industry
             innovation, offering a diverse range of services that empower
             growth, sustainability, and success across various sectors. With a

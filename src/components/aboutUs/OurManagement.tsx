@@ -9,7 +9,7 @@ const OurManagement = () => {
       <div className="w-full max-w-5xl mt-10 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <HeaderText primary="Our" secondary="Management" />
-          <p className="text-xs text-gray-400 w-full max-w-xl mt-3 leading-snug">
+          <p className="text-sm text-gray-400 w-full max-w-xl mt-3 leading-snug">
             Our philosophy is simple — hire a team of diverse, passionate people
             and foster a culture that empowers you to do you best work.
           </p>
