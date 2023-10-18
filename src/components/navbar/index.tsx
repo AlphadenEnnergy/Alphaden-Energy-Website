@@ -90,7 +90,7 @@ const Navbar = () => {
     {
       id: 4,
       name: "Projects",
-      path: "/",
+      path: "/projects",
     },
     {
       id: 5,
