@@ -112,7 +112,7 @@ const Data = () => {
               <br />
               Full authority for the implementation and administration of the
               quality controls described in the Quality manual has been
-              delegated to the Quality Control Manager "QCM". The QCM has the
+              delegated to the Quality Control Manager &quot;QCM&quot;. The QCM has the
               responsibility and organizational freedom to identify quality
               control problems, stop work, recommend solutions and verify
               resolution of such problems.
