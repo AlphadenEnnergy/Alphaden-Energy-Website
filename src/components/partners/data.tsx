@@ -115,6 +115,7 @@ export const additive = [
   image2,
 ]
 export const electrical = [
+  img1,
   imgs1,
   // imgs2,
   imgs3,
@@ -147,7 +148,7 @@ export const enclosures = [
   im17,
 ]
 export const pipeandValves = [
-  img1,
+  
   img2,
   img3,
   img4,
