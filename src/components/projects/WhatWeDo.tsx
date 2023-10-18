@@ -5,10 +5,10 @@ import HeaderText from "../shared/headerText/HeaderText";
 const WhatWeDo = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-4">
-      <div className="w-full max-w-5xl md:my-10 h-auto flex flex-col justify-center items-center px-8 md:px-0 md:h-auto">
+      <div className="w-full max-w-7xl md:my-10 h-auto flex flex-col justify-center items-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <HeaderText primary="Projects" secondary="" />
-          <p className=" text-sm text-gray-500 w-full max-w-5xl mt-8 leading-loose block">
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block">
             <span className="italic">
               {" "}
               At Alphaden Energy, we take immense pride in our track record of
@@ -22,8 +22,8 @@ const WhatWeDo = () => {
             <br />
             <br />
           </p>
-          <p className=" text-sm text-gray-500 w-full max-w-5xl mt-8 leading-loose block">
-            <span className="font-bold text-gray-700 text-md block">
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block">
+            <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT TITLE: ASSA NORTH OHAJI SOUTH PROJECT: EPC, SITE
               PREPARATION & INDUSTRIAL AREA INFRASTRUCTURE DEVELOPMENT <br />{" "}
               CLIENT: SHELL PETROLEUM DEVELOPMENT COMPANY (SPDC) <br />
@@ -41,7 +41,7 @@ const WhatWeDo = () => {
             Industrial and Residential Areas; Community Electricity
             Interdependency Project (CEIP); and products evacuation pipelines.
             The following are
-            <span className="font-bold text-gray-700 text-md block mt-3">
+            <span className="font-bold text-gray-700 text-sm md:text-md block mt-3">
               1. Site Preparation for Project Site which includes:
             </span>{" "}
             a. Site clearance of Project site. <br />
@@ -52,7 +52,7 @@ const WhatWeDo = () => {
             <br />
             d. Reconstruction of external access road (first 7km section of
             Assa/Ohoba/Obosima road).
-            <span className="font-bold text-gray-700 text-md block mt-3">
+            <span className="font-bold text-gray-700 text-sm md:text-md block mt-3">
               2. EPC of a Field Logistics Base (FLB) & Industrial Area (IA)
               infrastructure including:
             </span>{" "}
@@ -84,7 +84,7 @@ const WhatWeDo = () => {
             outdoor recreation lighting, road lighting and underground
             ducting/piping works. <br />
             v. Government Security Agency (GSA) Living Quarters
-            <span className="font-bold text-gray-700 text-md block mt-3">
+            <span className="font-bold text-gray-700 text-sm md:text-md block mt-3">
               3. EPC of Field Logistics Base (FLB) Residential area
               infrastructure which includes: infrastructure including:
             </span>{" "}
@@ -95,8 +95,8 @@ const WhatWeDo = () => {
             d. Outdoor recreation facilities comprising a lawn tennis court and
             a basketball court.
           </p>
-          <p className=" text-sm text-gray-500 w-full max-w-5xl mt-8 leading-loose block border-t-2 pt-4">
-            <span className="font-bold text-gray-700 text-md block">
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
+            <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT TITLE: PROVISION OF SITE PREPARATION AND ROAD WORKS FOR
               REMOTE LOCATIONS (NIGERIA GAS COMPANY MANIFOLD) <br />
               CLIENT: ANOH GAS PROCESSING COMPANY (AGPC) <br />
@@ -118,8 +118,8 @@ const WhatWeDo = () => {
             e. Landscaping &amp; Complete planting of carpet grass at the export
             gas pig receiver station NGC manifold.
           </p>
-          <p className=" text-sm text-gray-500 w-full max-w-5xl mt-8 leading-loose block border-t-2 pt-4">
-            <span className="font-bold text-gray-700 text-md block">
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
+            <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT TITLE: WELL TEST FLARE PIPING AND BUNDWALL CONSTRUCTION
               FOR ASSA NORTH OHAJI SOUTH GAS DEVELOPMENT PROJECT
               <br />
@@ -157,8 +157,8 @@ const WhatWeDo = () => {
             <br />
             9. Construction of Bund wall for flare stack area.
           </p>
-          <p className=" text-sm text-gray-500 w-full max-w-5xl mt-8 leading-loose block border-t-2 pt-4">
-            <span className="font-bold text-gray-700 text-md block">
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
+            <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT TITLE: WELLBAY & WELL RIGS CAMP CONSTRUCTION FOR ASSA
               NORTH OHAJI SOUTH PROJECT
               <br />
@@ -180,8 +180,8 @@ const WhatWeDo = () => {
             <br />
             4. Preparation of area for well rig camp.
           </p>
-          <p className=" text-sm text-gray-500 w-full max-w-5xl mt-8 leading-loose block border-t-2 pt-4">
-            <span className="font-bold text-gray-700 text-md block">
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
+            <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT TITLE: RECONSTRUCTION OF EXTERNAL ACCESS ROAD (FIRST 7KM
               SECTION OF
               <br />

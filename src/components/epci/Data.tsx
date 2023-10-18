@@ -30,12 +30,12 @@ const Data = () => {
         {serviceItems.map((item) => (
           <div
             key={item.id}
-            className="group w-full max-w-5xl py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
+            className="group w-full max-w-7xl py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
           >
             <Image src={item.imgSrc} alt={item.title} className="" />
             <div className="px-5 -mt-12 mx-2">
               <p className="bg-gray-600 p-5 text-white ">{item.title}</p>
-              <p className="text-gray-400 mr-4 mt-4 text-sm leading-loose">{item.text}</p>
+              <p className="text-gray-400 mr-4 mt-4 text-sm md:text-md leading-loose">{item.text}</p>
               <button className="text-blue-600 flex items-center mt-3 transition-transformmotion-reduce:transform-none">
                 Read more{" "}
                 <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />

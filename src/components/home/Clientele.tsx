@@ -57,13 +57,13 @@ const Clientele = () => {
   return (
     <section className="flex flex-col items-center justify-center">
       <div className="bg clientele h-80"></div>
-      <div className="w-full max-w-5xl my-16 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
+      <div className="w-full max-w-7xl my-16 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <h2 className="text-3xl font-bold text-primary">
             Our <span className="text-secondary">Clientele</span>
           </h2>
           <div className="bg-secondary h-2 w-16 rounded-xl mt-3"></div>
-          <p className="text-sm text-gray-400 w-full max-w-2xl mt-8">
+          <p className="text-sm md:text-md text-gray-400 w-full max-w-2xl mt-8">
             From year to year, our clientele base has increased significantly
             due to our commitment and dedication to work with the combined
             effort of the staffers of Alphaden Energy and Oilfield Limited

@@ -6,10 +6,10 @@ const Welcome = () => {
   return (
     <section className="flex flex-col items-center justify-center">
       <Header />
-      <div className=" mt-2 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
-        <h2 className="text-3xl font-bold mt-8 max-w-3xl">Oilfield Services</h2>
+      <div className=" mt-2 w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+        <h2 className="text-3xl font-bold mt-8 max-w-5xl">Oilfield Services</h2>
         <div className="bg-secondary h-2 w-64 md:w-64 rounded-xl mt-3 mb-8"></div>
-        <p className="w-full max-w-3xl">
+        <p className="w-full max-w-5xl">
           Alphaden Energy comprehensive oilfield services are the driving force
           behind our energy solutions. From exploration and drilling to
           reservoir management and maintenance, we employ a range of specialized

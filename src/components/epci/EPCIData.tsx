@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const EPCIData = () => {
   return (
-    <div className="mt-2 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+    <div className="mt-2 w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
       <br />
       Since its inception, Alphaden has consistently excelled in delivering
       comprehensive Engineering, Procurement, Construction, and Installation

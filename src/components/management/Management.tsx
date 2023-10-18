@@ -200,12 +200,12 @@ gas/Acting Project Manager ASSA NORTH.
         {managementItems.map((item) => (
           <div
             key={item.id}
-            className="group md:flex w-full max-w-5xl py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md "
+            className="group md:flex w-full max-w-7xl py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md "
           >
             <div className="w-full mt-3 md:w-1/3 h-96 bg-gray-400 border-2 mr-4 md:mt-0"></div>
             <div className="w-full mt-3 md:w-2/3 md:mt-0">
               <h2 className="font-bold text-gray-600">{item.name} - <span className="italic font-medium">{item.position}</span> </h2>
-              <p className=" text-gray-400 text-sm leading-loose">
+              <p className=" text-gray-400 text-sm md:text-md leading-loose">
                 {item.text}{" "}
               </p>
             </div>

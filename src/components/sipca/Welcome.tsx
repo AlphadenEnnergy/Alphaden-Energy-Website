@@ -6,12 +6,12 @@ const Welcome = () => {
   return (
     <section className="flex flex-col items-center justify-center">
       <Header />
-      <div className=" mt-2 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
-        <h2 className="text-3xl font-bold mt-8 max-w-3xl">
+      <div className=" mt-2 w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+        <h2 className="text-3xl font-bold mt-8 max-w-5xl">
           System Integration, Process Control and Automation
         </h2>
         <div className="bg-secondary h-2 w-64 md:w-96 rounded-xl mt-3 mb-8"></div>
-        <p className="w-full max-w-3xl">
+        <p className="w-full max-w-5xl">
           The convergence of System Integration, Process Control, and Automation
           allows Alphaden Energy to deliver energy solutions that are not only
           efficient but also sustainable and safe. By harnessing the power of

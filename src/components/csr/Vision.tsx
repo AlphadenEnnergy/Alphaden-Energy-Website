@@ -3,7 +3,7 @@ import React from "react";
 const Vision = () => {
   return (
     <div  className="flex flex-col items-center justify-center">
-      <div className="mt-10 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+      <div className="mt-10 w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
         <h2 className="text-2xl mb-2">Our Vision</h2>
         <p>
           To be an unyielding driving force in comprehensive societal
@@ -12,7 +12,7 @@ const Vision = () => {
           world.
         </p>
       </div>
-      <div className="w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+      <div className="w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
         <h2 className="text-2xl mb-2">Who We Are</h2>
         <p>
           The Alphaden Fortune Foundation is a non-profit organization dedicated

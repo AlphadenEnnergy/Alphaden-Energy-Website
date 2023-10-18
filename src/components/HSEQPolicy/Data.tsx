@@ -6,7 +6,7 @@ const Data = () => {
 
   return (
     <section className="px-0 flex flex-col justify-center items-center w-full md:px-20">
-      <div className="flex flex-col text-white text-sm my-10 w-full max-w-5xl space-x-0 space-y-3 px-8 md:px-0 md:space-x-2 md:space-y-0 md:flex-row">
+      <div className="flex flex-col text-white text-sm md:text-md my-10 w-full max-w-7xl space-x-0 space-y-3 px-8 md:px-0 md:space-x-2 md:space-y-0 md:flex-row">
         <button
           className={`${
             state === "hsse"
@@ -30,8 +30,8 @@ const Data = () => {
       </div>
       {state == "hsse" && (
         <>
-          <div className="w-full max-w-5xl mb-4 h-auto px-8 md:px-0 md:h-auto">
-            <p className="leading-loose text-gray-500 text-sm w-full">
+          <div className="w-full max-w-7xl mb-4 h-auto px-8 md:px-0 md:h-auto">
+            <p className="leading-loose text-gray-500 text-sm md:text-md w-full">
               To set standards which ensure compliance with all relevant health,
               safety, environmental and security regulations and legislative
               requirements.
@@ -82,7 +82,7 @@ const Data = () => {
               sub-contractors involved in our operations.
             </p>
           </div>
-          <div className="flex w-full max-w-5xl mb-20 h-auto px-8 md:px-0 md:h-auto">
+          <div className="flex w-full max-w-7xl mb-20 h-auto px-8 md:px-0 md:h-auto">
             <div className="hidden md:block">
               <Image
                 src={menAtWork}
@@ -96,8 +96,8 @@ const Data = () => {
       )}
       {state == "policy" && (
         <>
-          <div className="w-full max-w-5xl mb-4 h-auto px-8 md:px-0 md:h-auto">
-            <p className="leading-loose text-gray-500 text-sm w-full">
+          <div className="w-full max-w-7xl mb-4 h-auto px-8 md:px-0 md:h-auto">
+            <p className="leading-loose text-gray-500 text-sm md:text-md w-full">
               Alphaden Energy recognizes that in today’s competitive
               marketplace, effective quality systems are essential when
               providing quality cost effective services to our clients.

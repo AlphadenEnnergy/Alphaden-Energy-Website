@@ -4,8 +4,8 @@ import React from "react";
 const Welcome = () => {
   return (
     <section className="flex flex-col items-center justify-center">
-      <div className="mt-20 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
-        <h2 className="text-3xl font-bold my-10 max-w-3xl">
+      <div className="mt-20 w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+        <h2 className="text-3xl font-bold my-10 max-w-5xl">
           Welcome to <span className="text-red-400">Alphaden</span> <span className="text-secondary">Fortune </span> Foundation: Empowering Communities,
           Restoring & Hope
         </h2>

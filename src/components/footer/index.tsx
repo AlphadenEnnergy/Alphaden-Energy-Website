@@ -10,12 +10,12 @@ const Footer = () => {
 
   return (
     <div className="px-5 bg-primary text-white flex flex-col items-center justify-center md:px-0">
-      <div className="px-2 w-full max-w-5xl my-12 flex justify-between">
+      <div className="px-2 w-full max-w-7xl my-12 flex justify-between">
         <div className="hidden md:flex flex-col">
-          <div className="flex flex-col space-y-3 text-sm ">
+          <div className="flex flex-col space-y-3 text-sm md:text-md ">
             <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
           </div>
-          <div className="flex flex-col space-y-3 text-sm mt-3 w-48">
+          <div className="flex flex-col space-y-3 text-sm md:text-md mt-3 w-48">
             <Link href={"/"} className="uppercase">
               Alphaden Energy
             </Link>
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full max-w-xl grid grid-cols-2 md:grid-cols-3 text-gray-300">
-          <div className="flex flex-col space-y-3 text-sm">
+          <div className="flex flex-col space-y-3 text-sm md:text-md">
             <Link href={"/about"} className="text-gray-400 md:text-white">
               About Us
             </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
             <Link href={"/about"}>Our Company</Link>
             <Link href={"/management"}>Management</Link>
           </div>
-          <div className="flex flex-col space-y-3 text-sm">
+          <div className="flex flex-col space-y-3 text-sm md:text-md">
             <Link href={"/"} className="text-gray-400 md:text-white">
               Our Services
             </Link>
@@ -42,7 +42,7 @@ const Footer = () => {
             <Link href={"/ams"}>Additive Manufacturing Services</Link>
             <Link href={"/oilfield"}>Oilfield Services</Link>
           </div>
-          <div className="flex flex-col space-y-3 text-sm">
+          <div className="flex flex-col space-y-3 text-sm md:text-md">
             <Link href={"/"} className="text-gray-400 md:text-white">
               Legal{" "}
             </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-500 w-full max-w-5xl py-8 text-gray-300 text-sm flex items-center flex-col-reverse md:flex-row md:justify-between ">
+      <div className="border-t border-gray-500 w-full max-w-7xl py-8 text-gray-300 text-sm md:text-md flex items-center flex-col-reverse md:flex-row md:justify-between ">
         <div className="text-gray-400 mt-3 md:mt-0">&copy; {currentYear} Alphaden Energy. All rights reserved.</div>
         <div className="flex justify-between w-28 text-lg">
           <Link href={"/"}><BsTwitter/></Link>

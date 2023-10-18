@@ -23,7 +23,7 @@ const ServicesCarousel = () => {
           <Image src={epci} alt="name" className=" " />
           <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">EPCI</h2>
-            <p className="text-sm mt-2 leading-loose text-gray-400">
+            <p className="text-sm md:text-md mt-2 leading-loose text-gray-400">
               Alphaden Energy stands out for its EPCI expertise. The company
               seamlessly integrates engineering, procurement, construction, and
               installation services, ensuring a streamlined project lifecycle.
@@ -40,7 +40,7 @@ const ServicesCarousel = () => {
             <h2 className="font-bold">
               System Integration, Process Control and Automation
             </h2>
-            <p className="text-sm mt-2 leading-loose text-gray-400">
+            <p className="text-sm md:text-md mt-2 leading-loose text-gray-400">
               The convergence of System Integration, Process Control, and
               Automation allows Alphaden Energy to deliver energy solutions that
               are not only efficient but also sustainable and safe. By
@@ -55,7 +55,7 @@ const ServicesCarousel = () => {
           <Image src={marine} alt="name" className=" " />
           <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">Additive Manufacturing Service</h2>
-            <p className="text-sm mt-2 leading-loose text-gray-400">
+            <p className="text-sm md:text-md mt-2 leading-loose text-gray-400">
               In our pursuit of excellence, Alphaden Energy has embraced
               additive manufacturing services. Our in-house 3D printing
               capabilities allow us to create customized parts and tools with
@@ -71,7 +71,7 @@ const ServicesCarousel = () => {
           <Image src={midstream} alt="name" className=" " />
           <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">Oilfield Services</h2>
-            <p className="text-sm mt-2 leading-loose text-gray-400">
+            <p className="text-sm md:text-md mt-2 leading-loose text-gray-400">
               Alphaden Energy comprehensive oilfield services are the driving
               force behind our energy solutions. From exploration and drilling
               to reservoir management and maintenance, we employ a range of

@@ -87,7 +87,7 @@ const FocusArea = () => {
   ];
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="mt-10 w-full max-w-5xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+      <div className="mt-10 w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
         <h2 className="text-2xl mb-2">Our Focus Area</h2>
         {areas.map((area) => (
           <div key={area.key} className="mb-8">

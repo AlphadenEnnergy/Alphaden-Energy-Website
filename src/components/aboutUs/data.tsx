@@ -23,7 +23,7 @@ export const data = [
     id: 3,
     icon: <FiCheckCircle />,
     title: "Core Values",
-    first: "P.I.P.E",
+    first: "P.I.I.E",
     text: ` 
     People First, Integrity, Innovation, 
     and Efficiency.`,

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const OilfeildData = () => {
   return (
-    <div className="mt-2 w-full max-w-5xl mb-20 h-auto flex flex-col justify-start items-start text-left text-sm text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
+    <div className="mt-2 w-full max-w-7xl mb-20 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
       <br />
       <div>
         <h2 className="text-xl font-bold mb-3">Well Completion & Simulation</h2>

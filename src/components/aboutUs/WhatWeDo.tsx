@@ -5,10 +5,10 @@ import HeaderText from "../shared/headerText/HeaderText";
 const WhatWeDo = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-4">
-      <div className="w-full max-w-5xl md:my-10 h-auto flex flex-col justify-center items-center px-8 md:px-0 md:h-auto">
+      <div className="w-full max-w-7xl md:my-10 h-auto flex flex-col justify-center items-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <HeaderText primary="About" secondary="Us" />
-          <p className="hidden text-sm text-gray-400 w-full max-w-5xl mt-8 leading-loose md:block">
+          <p className="hidden text-sm md:text-md text-gray-400 w-full max-w-7xl mt-8 leading-loose md:block">
             ALPHADEN Energy & Oilfield Limited, established more than two
             decades ago, is a proudly indigenous company dedicated to serving
             the energy, manufacturing, renewables, and oil & gas industries. Our

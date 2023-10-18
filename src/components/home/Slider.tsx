@@ -8,10 +8,10 @@ import Link from "next/link";
 const Slider = () => {
   return (
     <Carousel autoPlay interval={10000} infiniteLoop showThumbs={false} showArrows={false} showStatus={false} >
-    <div className="pulse bg hero w-full flex-col items-center justify-between text-sm lg:flex transition delay-700 duration-300 ease-in-out">
+    <div className="pulse bg hero w-full flex-col items-center justify-between text-sm md:text-md lg:flex transition delay-700 duration-300 ease-in-out">
       <div className="w-full flex flex-col justify-center items-center">
-        <div className="text-left max-w-5xl my-64 flex flex-col justify-center items-start px-8 md:px-0">
-          <h1 className="text-white text-3xl md:leading-tight font-bold md:text-5xl">
+        <div className="text-left w-full max-w-7xl my-64 flex flex-col justify-start items-start px-8 md:px-0">
+          <h1 className="text-white text-3xl max-w-5xl md:leading-tight font-bold md:text-5xl">
             Providing the most efficient dynamic processes using business
             intelligence, technology and innovation.
           </h1>
@@ -24,10 +24,10 @@ const Slider = () => {
         </div>
       </div>
     </div>
-    <div className="pulse bg hero-1 w-full flex-col items-center justify-between text-sm lg:flex transition delay-700 duration-300 ease-in-out">
+    <div className="pulse bg hero-1 w-full flex-col items-center justify-between text-sm md:text-md lg:flex transition delay-700 duration-300 ease-in-out">
       <div className="w-full flex flex-col justify-center items-center">
-        <div className="text-left max-w-5xl my-64 flex flex-col justify-center items-start px-8 md:px-0">
-          <h1 className="text-white text-3xl md:leading-tight font-bold md:text-5xl">
+        <div className="text-left w-full max-w-7xl my-64 flex flex-col justify-start items-start px-8 md:px-0">
+          <h1 className="text-white text-3xl max-w-5xl md:leading-tight font-bold md:text-5xl">
             Providing the most efficient dynamic processes using business
             intelligence, technology and innovation.
           </h1>
@@ -40,10 +40,10 @@ const Slider = () => {
         </div>
       </div>
     </div>
-    <div className="pulse bg hero-2 w-full flex-col items-center justify-between text-sm lg:flex transition delay-700 duration-300 ease-in-out">
+    <div className="pulse bg hero-2 w-full flex-col items-center justify-between text-sm md:text-md lg:flex transition delay-700 duration-300 ease-in-out">
       <div className="w-full flex flex-col justify-center items-center">
-        <div className="text-left max-w-5xl my-64 flex flex-col justify-center items-start px-8 md:px-0">
-          <h1 className="text-white text-3xl md:leading-tight font-bold md:text-5xl">
+        <div className="text-left w-full max-w-7xl my-64 flex flex-col justify-start items-start px-8 md:px-0">
+          <h1 className="text-white text-3xl max-w-5xl md:leading-tight font-bold md:text-5xl">
             Providing the most efficient dynamic processes using business
             intelligence, technology and innovation.
           </h1>

@@ -5,10 +5,10 @@ import HeaderText from "../shared/headerText/HeaderText";
 const WhatWeDo = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-4">
-      <div className="w-full max-w-5xl md:my-10 h-auto flex flex-col justify-center items-center px-8 md:px-0 md:h-auto">
+      <div className="w-full max-w-7xl md:my-10 h-auto flex flex-col justify-center items-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <HeaderText primary="OEM" secondary="Relationships" />
-          <p className="hidden text-sm text-gray-500 w-full max-w-5xl mt-8 leading-loose md:block">
+          <p className="hidden text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose md:block">
             Alphaden Energy is an Indigenous ISO (9001:2008) certified
             organization, founded over 2 decades ago yet quite modern as we
             continue to show that People, Innovation, Integrity & Efficiency
