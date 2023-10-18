@@ -13,7 +13,7 @@ const EPCIData = () => {
       various projects. Notable among these projects are Total&apos;s Egina and
       Chevron&apos;s Makaraba, Meji, and Okan projects, among others.
       <br />
-      <div className="w-full h-80 bg-gray-300 mt-4"></div>
+      <div className="w-full h-96 bg-gray-300 mt-4"></div>
       <br />
       Additionally, Alphaden proudly serves as the EPC Contractor for Shell&apos;s
       Assa North Ohaji (ANOH) South Gas Development project, awarded In 2018,
@@ -26,8 +26,8 @@ const EPCIData = () => {
       Field Logistics Base and Primary Treatment Facility.
       <br />
       <div className="w-full md:flex mt-4 md:space-x-4">
-        <div className="w-full md:w-1/2 h-80 bg-gray-300"></div>
-        <div className="w-full md:w-1/2 grid grid-cols-1 h-80 space-y-4">
+        <div className="w-full md:w-1/2 h-96 bg-gray-300"></div>
+        <div className="w-full md:w-1/2 grid grid-cols-1 h-96 space-y-4">
           <div className="w-full bg-gray-300"></div>
           <div className="w-full bg-gray-300"></div>
         </div>
@@ -40,8 +40,8 @@ const EPCIData = () => {
       the ANOH project.
       <br />
       <div className="w-full md:flex mt-4 md:space-x-4">
-        <div className="w-full md:w-1/2 h-80 bg-gray-300"></div>
-        <div className="w-full md:w-1/2 h-80 bg-gray-300"></div>
+        <div className="w-full md:w-1/2 h-96 bg-gray-300"></div>
+        <div className="w-full md:w-1/2 h-96 bg-gray-300"></div>
       </div>
       <br />
       ALPHADEN offers excellent turnkey services for a wide range of industrial
@@ -55,7 +55,7 @@ const EPCIData = () => {
       procurement, and construction management (EPCm) services as part of our
       extensive portfolio.
       <br />
-      <div className="w-full h-80 bg-gray-300 mt-4"></div>
+      <div className="w-full h-96 bg-gray-300 mt-4"></div>
       <br />
       With a wealth of OEM relationships and well-managed industry connections,
       we remain committed to our mission of delivering fit-for-purpose services
@@ -77,7 +77,7 @@ const EPCIData = () => {
       Instrumentation & Automation, Umbilicals and submarine cables, and Pumps
       and Compressors.
       <br />
-      <div className="w-full h-80 bg-gray-300 mt-4"></div>
+      <div className="w-full h-96 bg-gray-300 mt-4"></div>
       <br />
       Our expertise also extends to equipment, modular installation, and
       commissioning projects. All our personnel possess the requisite skills for
@@ -88,8 +88,8 @@ const EPCIData = () => {
       processes, as required by our clients.
       <br />
       <div className="w-full md:flex mt-4 md:space-x-4">
-        <div className="w-full md:w-1/2 h-80 bg-gray-300"></div>
-        <div className="w-full md:w-1/2 h-80 bg-gray-300"></div>
+        <div className="w-full md:w-1/2 h-96 bg-gray-300"></div>
+        <div className="w-full md:w-1/2 h-96 bg-gray-300"></div>
       </div>
       <br />
       Alphaden employs highly skilled structural and facilities engineering
