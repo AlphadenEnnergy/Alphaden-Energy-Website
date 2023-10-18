@@ -66,7 +66,7 @@ const Features = () => {
       <div className="w-full max-w-7xl mt-5 mb-20 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <h3 className="text-2xl max-w-lg font-semibold ">
-            Encosures, Instrumentation, Lighting and Signalling, Grounding and lighting Protection
+            Encosures, Instrumentation, Lighting and Signaling, Grounding and lighting Protection
           </h3>
         </div>
 
