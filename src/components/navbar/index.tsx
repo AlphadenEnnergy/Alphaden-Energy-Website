@@ -107,7 +107,6 @@ const Navbar = ({ state, setState }: any) => {
                     key={link.id || index}
                     href={link.path}
                     onClick={() => {
-                      // console.log(link.name);
                       setState((prev: any) => {
                         return {
                           ...prev,

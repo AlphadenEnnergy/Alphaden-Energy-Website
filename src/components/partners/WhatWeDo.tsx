@@ -9,7 +9,7 @@ const WhatWeDo = () => {
         <div className="flex flex-col items-center">
           <HeaderText primary="OEM" secondary="Relationships" />
           <p className="hidden text-xs text-gray-500 w-full max-w-5xl mt-8 leading-loose md:block">
-            Alpha den Energy is an Indigenous ISO (9001:2008) certified
+            Alphaden Energy is an Indigenous ISO (9001:2008) certified
             organization, founded over 2 decades ago yet quite modern as we
             continue to show that People, Innovation, Integrity & Efficiency
             values are key to-wards the success of every project. In the Energy

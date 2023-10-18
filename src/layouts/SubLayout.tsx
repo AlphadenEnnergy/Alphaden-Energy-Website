@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from 'react';
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
@@ -8,12 +9,15 @@ import "./../app/globals.css";
 
 const SubLayout = ({ children }: { children: React.ReactNode }) => {
   const [state, setState] = useState({
-    active: "Home",
+    active: null,
     openNav: false,
   });
 
-//  localStorage.setItem('active', state.active);
-
+  useEffect(() => {
+    if (typeof localStorage !== 'undefined') {
+      // localStorage.setItem('active', state.active);
+    }
+  }, [state.active]);
 
   console.log(state.active, "ACTIVE STATE");
   return (

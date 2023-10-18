@@ -41,10 +41,10 @@ const Data = () => {
                 <p className="bg-gray-600 p-3 text-white md:p-5">
                   {item.title}
                 </p>
-                <p className="text-gray-400 mr-4 mt-4 text-sm leading-loose">
+                <p className="text-gray-400 mr-4 mt-4 text-xs leading-loose">
                   {item.text}
                 </p>
-                <button className="text-blue-600 flex items-center mt-3 transition-transformmotion-reduce:transform-none">
+                <button className="text-primary text-sm font-bold flex items-center mt-3 transition-transformmotion-reduce:transform-none">
                   Read more{" "}
                   <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />
                 </button>
@@ -66,10 +66,10 @@ const Data = () => {
 
             <div className="px-5 -mt-4 mx-2 md:-mt-12">
               <p className="bg-gray-600 p-3 text-white md:p-5">{item.title}</p>
-              <p className="text-gray-400 mr-4 mt-4 text-sm leading-loose">
+              <p className="text-gray-400 mr-4 mt-4 text-xs leading-loose">
                 {item.text}
               </p>
-              <button className="text-blue-600 flex items-center mt-3 transition-transformmotion-reduce:transform-none">
+              <button className="text-primary text-sm font-bold flex items-center mt-3 transition-transformmotion-reduce:transform-none">
                 Read more{" "}
                 <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />
               </button>
