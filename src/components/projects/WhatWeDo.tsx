@@ -22,8 +22,8 @@ const WhatWeDo = () => {
             <br />
             <br />
           </p>
-          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block">
-            <span className="font-bold text-gray-700 text-sm md:text-md block">
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 md:leading-loose block">
+            <span className="font-bold text-gray-700 text-sm md:text-md block md:">
               PROJECT: ASSA NORTH OHAJI SOUTH PROJECT: EPC, SITE
               PREPARATION & INDUSTRIAL AREA INFRASTRUCTURE DEVELOPMENT <br />{" "}
               CLIENT: SHELL PETROLEUM DEVELOPMENT COMPANY (SPDC) <br />
