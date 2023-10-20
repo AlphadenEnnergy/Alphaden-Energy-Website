@@ -52,7 +52,7 @@ const Data = () => {
           <Link href={item.link} key={item.id} className="group w-full lg:w-auto border-2 border-transparent p-4 rounded-md shadow hover:shadow-xl">
             <Image src={item.imgSrc} alt={item.title} width={1000}/>
             <p className="bg-gray-600 p-5 text-white">{item.title}</p>
-            <p className="text-gray-400 mr-4 mt-4 text-xs md:text-sm md:text-md leading-loose">{item.text}</p>
+            <p className="text-gray-400 mr-4 mt-4 text-xs md:text-sm md:text-md leading-[30px]">{item.text}</p>
             <button className="text-primary font-bold flex items-center mt-3 transition-transformmotion-reduce:transform-none">Read more <FiArrowUpRight className="ml-2 group-hover:translate-x-1 "/></button>
           </Link>
         ))}

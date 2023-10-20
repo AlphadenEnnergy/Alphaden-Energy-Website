@@ -5,8 +5,8 @@ const Data = () => {
     <section className="px-0 flex justify-center items-center w-full md:px-20">
       <div className="w-full max-w-7xl mb-20 h-auto px-8 md:px-0 md:h-auto">
         <p className="leading-loose text-gray-500 text-sm md:text-md">
-          These Terms and Conditions ("Terms") govern your use of the Alphaden
-          Energy & Oilfield Limited website (the "Website"). By accessing or
+          These Terms and Conditions (&quot;Terms&quot;) govern your use of the Alphaden
+          Energy & Oilfield Limited website (the &quot;Website&quot;). By accessing or
           using the Website, you agree to comply with and be bound by these
           Terms. The use of this Website is for lawful purposes only and you
           agree to use the Website in a manner that does not violate existing
