@@ -1,10 +1,9 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import WhatWeDo from "@/components/aboutUs/WhatWeDo";
 import Features from "@/components/aboutUs/Features";
 import OurManagement from "@/components/aboutUs/OurManagement";
 import Header from "@/components/aboutUs/Header";
-import SubLayout from "@/layouts/SubLayout";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
@@ -27,7 +26,9 @@ const AboutUs = () => {
         >
           <Subnav />
           <Navbar state={state} setState={setState} />
-        </nav>{" "}
+        </nav>
+
+        {/* PAGE START */}
         <section className=" md:mt-24">
           <Header />
           <section
@@ -38,6 +39,8 @@ const AboutUs = () => {
             <OurManagement />
           </section>
         </section>
+        {/* PAGE END */}
+
       </section>
       <footer>
         <Footer />
