@@ -1,12 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import image1 from "./../../assets/images/oilfield/1.png"
+import image2 from "./../../assets/images/oilfield/2.png"
+import image3 from "./../../assets/images/oilfield/3.png"
+import image4 from "./../../assets/images/oilfield/4.png"
+import image5 from "./../../assets/images/oilfield/5.png"
 
 const OilfeildData = () => {
   return (
     <div className="mt-2 w-full max-w-7xl mb-20 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
       <br />
       <div>
-        <h2 className="text-xl font-bold mb-3">Well Completion & Simulation</h2>
+        <h2 className="text-xl font-bold ">Well Completion & Simulation</h2>
         The foundation of production performance lies in achieving excellence in
         the completion process, spanning from the reservoir to the production
         facility. Whether dealing with a conventional well or the most intricate
@@ -18,8 +23,13 @@ const OilfeildData = () => {
         <br />
         <br />
       </div>
+      <br />
+      <div className="w-full mt-4">
+        <Image src={image1} alt={"Project Photo"} height={1000}/>
+      </div>
+      <br />
       <div>
-        <h2 className="text-xl font-bold mb-3">
+        <h2 className="text-xl font-bold ">
           Coiled Tubing Systems & Services:
         </h2>
         Coiled tubing (CT) plays a pivotal role in various well site operations.
@@ -37,9 +47,14 @@ const OilfeildData = () => {
         <br />
         <br />
       </div>
+       <br />
+      <div className="w-full mt-4">
+        <Image src={image2} alt={"Project Photo"} height={1000}/>
+      </div>
+      <br />
       <div>
-        <h2 className="text-xl font-bold mb-3">Wellbore Cleanup: </h2>
-        Our technology for wellbore cleanup and displacement enhances
+        <h2 className="text-xl font-bold ">Wellbore Cleanup: </h2>
+        Our technology fo2 wellbore cleanup and displacement enhances
         operational efficiency by reducing risk and minimizing nonproductive
         time. Mechanical tools and chemicals are used to eliminate debris that
         disrupts normal operations without harming the integrity of the well
@@ -56,8 +71,13 @@ const OilfeildData = () => {
         <br />
         <br />
       </div>
+      <br />
+      <div className="w-full mt-4">
+        <Image src={image3} alt={"Project Photo"} height={1000}/>
+      </div>
+      <br />
       <div>
-        <h2 className="text-xl font-bold mb-3">Fishing Services: </h2>
+        <h2 className="text-xl font-bold ">Fishing Services: </h2>
         Our extensive range of fishing systems and tools, coupled with our
         industry-leading expertise in fishing, safely and efficiently remove
         wellbore obstructions, significantly reducing the costs associated with
@@ -69,9 +89,13 @@ const OilfeildData = () => {
         <br />
         <br />
       </div>
-
+      <br />
+      <div className="w-full mt-4">
+        <Image src={image4} alt={"Project Photo"} height={1000}/>
+      </div>
+      <br />
       <div>
-        <h2 className="text-xl font-bold mb-3">Lower Completions</h2>
+        <h2 className="text-xl font-bold ">Lower Completions</h2>
         <span className="font-bold text-gray-700">Sand Control:</span> We
         recognize that sand production poses significant challenges to equipment
         and investments. With this awareness, we adopt a comprehensive approach
@@ -98,8 +122,13 @@ const OilfeildData = () => {
         <br />
         <br />
       </div>
+      <br />
+      <div className="w-full mt-4">
+        <Image src={image5} alt={"Project Photo"} height={1000}/>
+      </div>
+      <br />
       <div>
-        <h2 className="text-xl font-bold mb-3">Upper Completions</h2>
+        <h2 className="text-xl font-bold ">Upper Completions</h2>
         <span className="font-bold text-gray-700">
           Pressure Pumping Services:
         </span>{" "}

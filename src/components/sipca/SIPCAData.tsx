@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import image1 from "./../../assets/images/sipca/1.png"
 const SIPCAData = () => {
   return (
     <div className="mt-2 w-full max-w-7xl mb-20 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
@@ -15,7 +15,9 @@ const SIPCAData = () => {
       commissioning of the Wellhead Control Panel (WHCP) for Chevron&apos;s Abiteye
       NAG development.
       <br />
-      <div className="w-full h-80 bg-gray-300 mt-4"></div>
+      <div className="w-full bg-gray-300 mt-4">
+      <Image src={image1} alt={"Project Photo"} height={1000}/>
+      </div>
       <br />
       With our global partners and local capabilities, we provide tailored
       automation solutions and integration of disparate systems to attain

@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import image1 from "./../../assets/images/ams/1.png"
+import image2 from "./../../assets/images/ams/2.png"
+import image3 from "./../../assets/images/ams/3.png"
 
 const AMSData = () => {
   return (
@@ -20,7 +23,9 @@ const AMSData = () => {
         discussion.
       </span>
       <br />
-      <div className="w-full h-80 bg-gray-300 mt-2"></div>
+      <div className="w-full mt-2">
+      <Image src={image1} alt={"Project Photo"} height={1000}/>
+      </div>
       <br />
       <br />
       <h1 className="text-xl font-bold mb-5">
@@ -33,7 +38,9 @@ const AMSData = () => {
       deposits metal layers until reaching the near-net shape. Subsequently, the
       part undergoes final heat treatment and machining.
       <br />
-      <div className="w-full h-80 bg-gray-300 mt-2"></div>
+      <div className="w-full mt-2">
+      <Image src={image2} alt={"Project Photo"} height={1000}/>
+      </div>
       <br />
       This versatile process accommodates components of varying sizes,
       constrained solely by the vacuum chamber&apos;s dimensions, and the Electron
@@ -41,7 +48,9 @@ const AMSData = () => {
       layers to achieve the desired geometry, facilitating the creation of new
       components, incorporation of features, or repair of parts.
       <br />
-      <div className="w-full h-80 bg-gray-300 mt-2"></div>
+      <div className="w-full mt-2">
+      <Image src={image3} alt={"Project Photo"} height={1000}/>
+      </div>
       <br />
       <br />
       <h1 className="text-xl font-bold mb-5">
