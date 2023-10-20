@@ -5,85 +5,11 @@ const Data = () => {
     <section className="px-0 flex justify-center items-center w-full md:px-20">
       <div className="w-full max-w-7xl mb-20 h-auto px-8 md:px-0 md:h-auto">
         <p className="leading-loose text-gray-500 text-sm md:text-md">
-          Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
-          suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis
-          montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere
-          vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien
-          varius id.
-          <br />
-          Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat
-          mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis
-          fusce augue enim. Quis at habitant diam at. Suscipit tristique risus,
-          at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet
-          sodales id est ac volutpat.
+        These Terms and Conditions ("Terms") govern your use of the Alphaden Energy & Oilfield Limited website (the "Website"). By accessing or using the Website, you agree to comply with and be bound by these Terms. The use of this Website is for lawful purposes only and you agree to use the Website in a manner that does not violate existing laws in Nigeria. Alphaden reserves the right to modify or discontinue any aspect of the Website, including its content without any prior notice. Your use of our website is subject to our Privacy Policy that governs how we collect, use, and disclose your personal information. The Website and its content, which includes but not limited to text, graphics, logos, images, audio, video, and software, forms the property of Alphaden Energy & Oilfield Limited and is protected by existing Nigerian Copyright and other intellectual property laws. The website may contain links to other third-party websites – note that these links are provided for your convenience and Alphaden does not control the content of the third-party website and will not be held responsible for their content or privacy practices.
+        <br />To the extent permitted by law, Alphaden Energy & Oilfield Limited shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of the Website or any content therein.
+        <br />By using the Alphaden Energy Website, you acknowledge that you have read, understood, and agreed to these Terms and Conditions.
         </p>
-        <div className="mt-8">
-          <h2 className="text-lg mb-3 text-gray-700 font-semibold mt-5">What information do we collect?</h2>
-          <p className="leading-loose text-gray-500 text-sm md:text-md">
-            Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
-            suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum
-            quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris
-            posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At
-            feugiat sapien varius id.
-            <br />
-            Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat
-            mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu
-            quis fusce augue enim. Quis at habitant diam at. Suscipit tristique
-            risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie
-            aliquet sodales id est ac volutpat.
-          </p>
-        </div>
-        <div>
-          <h2 className="text-lg mb-3 text-gray-700 font-semibold mt-5">Do we use cookies and other tracking technologies?</h2>
-          <p className="leading-loose text-gray-500 text-sm md:text-md">
-            Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
-            suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum
-            quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris
-            posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At
-            feugiat sapien varius id.
-          </p>
-        </div>
-        <div>
-          <h2 className="text-lg mb-3 text-gray-700 font-semibold mt-5">How long do we keep your information?</h2>
-          <p className="leading-loose text-gray-500 text-sm md:text-md">
-            Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
-            suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum
-            quis montes, sit sit. In turpis vel et quam imperdiet. Ipsum molestie
-            aliquet sodales id est ac volutpat.
-          </p>
-        </div>
-        <div>
-          <h2 className="text-lg mb-3 text-gray-700 font-semibold mt-5">How do we keep your information safe?</h2>
-          <p className="leading-loose text-gray-500 text-sm md:text-md">
-            Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
-            suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum
-            quis montes, sit sit. In turpis vel et quam imperdiet. Ipsum molestie
-            aliquet sodales id est ac volutpat.
-          </p>
-        </div>
-        <div>
-          <h2 className="text-lg mb-3 text-gray-700 font-semibold mt-5">What are your privacy rights?</h2>
-          <p className="leading-loose text-gray-500 text-sm md:text-md">
-            Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
-            suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum
-            quis montes, sit sit. In turpis vel et quam imperdiet. Ipsum molestie
-            aliquet sodales id est ac volutpat.
-          </p>
-        </div>
-        <div>
-          <h2 className="text-lg mb-3 text-gray-700 font-semibold mt-5">How can you contact us about this policy?</h2>
-          <p className="leading-loose text-gray-500 text-sm md:text-md">
-            Sagittis et eu at elementum, quis in. Proin praesent volutpat
-            egestas sociis sit lorem nunc nunc sit. Eget diam curabitur mi ac.
-            Auctor rutrum lacus malesuada massa ornare et. Vulputate consectetur
-            ac ultrices at diam dui eget fringilla tincidunt. Arcu sit dignissim
-            massa erat cursus vulputate gravida id. Sed quis auctor vulputate
-            hac elementum gravida cursus dis. Lectus id duis vitae porttitor
-            enim gravida morbi. Eu turpis posuere semper feugiat volutpat elit,
-            ultrices suspendisse. Auctor vel in vitae placerat. Suspendisse
-            maecenas ac donec scelerisque diam sed est duis purus.
-          </p>
-        </div>
+        
       </div>
     </section>
   );
