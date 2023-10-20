@@ -48,7 +48,6 @@ body {
 .darker {
   filter: brightness(10%);
 }
-
 .about {
   background-image: url("./../assets/images/aboutUs/about.png");
 }
