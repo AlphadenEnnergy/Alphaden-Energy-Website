@@ -7,7 +7,7 @@ const Welcome = () => {
       <div className="mt-20 w-full max-w-7xl mb-5 h-auto flex flex-col justify-start items-start text-left text-sm md:text-md text-gray-500 leading-loose px-8 md:px-0 md:h-auto">
         <h2 className="text-3xl font-bold my-10 max-w-5xl">
           Welcome to <span className="text-red-400">Alphaden</span> <span className="text-secondary">Fortune </span> Foundation: Empowering Communities,
-          Restoring & Hope
+          and Restoring Hope
         </h2>
         Humanity&apos;s paramount objective is to continually seek pathways toward
         the collective betterment of all. This guiding principle permeates every

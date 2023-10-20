@@ -26,13 +26,14 @@ const CSR = () => {
         <Subnav />
         <Navbar state={state} setState={setState} />
       </nav>
+      <section className=" md:mt-24">
       <Welcome />
       <Header />
       <section className="w-full flex  flex-col justify-start items-center mt-8 md:mt-0">
         <Vision/>
         <FocusArea/>
       </section>
-    
+    </section>
       </section>
       <footer>
         <Footer />
