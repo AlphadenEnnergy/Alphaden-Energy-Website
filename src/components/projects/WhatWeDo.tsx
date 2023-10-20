@@ -24,7 +24,7 @@ const WhatWeDo = () => {
           </p>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
-              PROJECT TITLE: ASSA NORTH OHAJI SOUTH PROJECT: EPC, SITE
+              PROJECT: ASSA NORTH OHAJI SOUTH PROJECT: EPC, SITE
               PREPARATION & INDUSTRIAL AREA INFRASTRUCTURE DEVELOPMENT <br />{" "}
               CLIENT: SHELL PETROLEUM DEVELOPMENT COMPANY (SPDC) <br />
               ROLE: MAIN CONTRACTOR
@@ -97,7 +97,7 @@ const WhatWeDo = () => {
           </p>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
-              PROJECT TITLE: PROVISION OF SITE PREPARATION AND ROAD WORKS FOR
+              PROJECT: PROVISION OF SITE PREPARATION AND ROAD WORKS FOR
               REMOTE LOCATIONS (NIGERIA GAS COMPANY MANIFOLD) <br />
               CLIENT: ANOH GAS PROCESSING COMPANY (AGPC) <br />
               ROLE: MAIN CONTRACTOR <br />
@@ -120,7 +120,7 @@ const WhatWeDo = () => {
           </p>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
-              PROJECT TITLE: WELL TEST FLARE PIPING AND BUNDWALL CONSTRUCTION
+              PROJECT: WELL TEST FLARE PIPING AND BUNDWALL CONSTRUCTION
               FOR ASSA NORTH OHAJI SOUTH GAS DEVELOPMENT PROJECT
               <br />
               CLIENT: THE SHELL PETROLEUM DEVELOPMENT COMPANY OF NIGERIA LTD.
@@ -159,7 +159,7 @@ const WhatWeDo = () => {
           </p>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
-              PROJECT TITLE: WELLBAY & WELL RIGS CAMP CONSTRUCTION FOR ASSA
+              PROJECT: WELLBAY & WELL RIGS CAMP CONSTRUCTION FOR ASSA
               NORTH OHAJI SOUTH PROJECT
               <br />
               CLIENT: THE SHELL PETROLEUM DEVELOPMENT COMPANY OF NIGERIA LTD.
@@ -182,7 +182,7 @@ const WhatWeDo = () => {
           </p>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
-              PROJECT TITLE: RECONSTRUCTION OF EXTERNAL ACCESS ROAD (FIRST 7KM
+              PROJECT: RECONSTRUCTION OF EXTERNAL ACCESS ROAD (FIRST 7KM
               SECTION OF
               <br />
               ASSA/OHOBA.OBOSIMA ROAD)

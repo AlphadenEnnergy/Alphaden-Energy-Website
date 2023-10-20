@@ -69,6 +69,10 @@ body {
   background-image: url("./../assets/images/HSEQPolicy/banner.svg");
 }
 
+.service {
+  background-image: url("./../assets/images/services/service.png");
+}
+
 .csr {
   background-image: url("./../assets/images/HSEQPolicy/csr.png");
 }

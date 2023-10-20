@@ -10,8 +10,7 @@ const OurManagement = () => {
         <div className="flex flex-col items-center">
           <HeaderText primary="Our" secondary="Management" />
           <p className="text-sm md:text-md text-gray-400 w-full max-w-xl mt-3 leading-snug">
-            Our philosophy is simple — hire a team of diverse, passionate people
-            and foster a culture that empowers you to do you best work.
+          Our shared values keep us connected and guide us as one team.
           </p>
         </div>
       </div>
@@ -19,7 +18,7 @@ const OurManagement = () => {
         <div className="w-full max-w-[350px] md:w-1/3  h-80 md:mx-6 border-2 flex flex-col justify-end bg-gray-400 m-4">
           <div className="flex flex-col space-y-2 border p-4 m-4 text-white bg-gray-500">
             <p className="font-semibold text-lg">Paschal C. Anyanwu </p>
-            <span className="text-[10px]">Paschal C. Anyanwu </span>
+            <span className="text-[10px]">Chief Executive Officer - CEO </span>
           </div>
         </div>
         <div className="gap-4 justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:px-5 lg:px-0">

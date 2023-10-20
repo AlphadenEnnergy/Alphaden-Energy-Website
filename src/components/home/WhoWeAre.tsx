@@ -23,7 +23,7 @@ const WhoWeAre = () => {
           </div>
 
           <p className="text-sm md:text-md text-gray-400 w-full  mt-8 leading-loose">
-            The &apos;ALPHADEN&apos;S is a hub of professional and well
+            Alphaden is a hub of professional and well
             experienced Alpha&apos;s, championing their fields while
             collectively making up a provider of fit-for-purpose services to
             clients across various industries.

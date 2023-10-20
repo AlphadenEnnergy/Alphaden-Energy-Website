@@ -208,7 +208,7 @@ gas/Acting Project Manager ASSA NORTH.
     id: 7,
     imgSrc: "",
     name: "Nneoma Onukwugha ",
-    position: " (Manager Buss/Dev & Admin)",
+    position: " Divisional Manager, Oil & Gas",
     text: `
     Mrs. Nneoma holds a member of the Institute of Accountancy, Member British Project Management, Nigerian Institute
     of Management, and a Member Waste Management Society of Nigeria (WAMASON). She has a Higher National
