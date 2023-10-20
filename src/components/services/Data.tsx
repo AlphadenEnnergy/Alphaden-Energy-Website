@@ -45,11 +45,12 @@ const Data = () => {
   ];
 
   return (
-    <section className="px-0 flex flex-col justify-center items-center w-full md:px-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
+    <section className="px-0 flex flex-col justify-center items-center w-full mb-20 md:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
         {serviceItems.map((item) => (
-          <Link href={item.link} key={item.id} className="group w-full lg:w-[500px] md:mr-8 md:my-8 border-2 border-transparent p-4 rounded-md shadow hover:shadow-xl">
-            <Image src={item.imgSrc} alt={item.title} width={500}/>
+          // <Link href={item.link} key={item.id} className="group w-full lg:w-[500px] border-2 border-transparent p-4 rounded-md shadow hover:shadow-xl">
+          <Link href={item.link} key={item.id} className="group w-full lg:w-auto border-2 border-transparent p-4 rounded-md shadow hover:shadow-xl">
+            <Image src={item.imgSrc} alt={item.title} width={1000}/>
             <p className="bg-gray-600 p-5 text-white">{item.title}</p>
             <p className="text-gray-400 mr-4 mt-4 text-xs md:text-sm md:text-md leading-loose">{item.text}</p>
             <button className="text-primary font-bold flex items-center mt-3 transition-transformmotion-reduce:transform-none">Read more <FiArrowUpRight className="ml-2 group-hover:translate-x-1 "/></button>
