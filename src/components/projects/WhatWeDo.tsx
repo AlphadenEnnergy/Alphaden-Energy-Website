@@ -15,7 +15,7 @@ import image10 from "./../../assets/images/projects/10.png";
 
 const WhatWeDo = () => {
   return (
-    <section className="flex flex-col items-center justify-center mt-4">
+    <section className="flex flex-col items-center justify-center mt-4 mb-16">
       <div className="w-full max-w-7xl md:my-10 h-auto flex flex-col justify-center items-center px-8 md:px-0 md:h-auto">
         <div className="flex flex-col items-center">
           <HeaderText primary="Projects" secondary="" />
@@ -53,7 +53,7 @@ const WhatWeDo = () => {
             </div>
             <div className="w-full md:flex md:space-x-4">
               <div className="w-3/5">
-                <Image src={image3} alt={"Project Photo"} height={500} />
+                <Image src={image3} alt={"Project Photo"} height={1000} />
               </div>
               <div className="w-11/12">
                 <Image src={image4} alt={"Project Photo"} height={1000} />
