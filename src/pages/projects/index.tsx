@@ -27,13 +27,13 @@ const Partners = () => {
         <Subnav />
         <Navbar state={state} setState={setState} />
       </nav>
-
+      <section className=" md:mt-24">
       <Header/>
       <section
         className={`w-full flex-col items-center justify-between text-sm md:text-md lg:flex transition delay-700 duration-300 ease-in-ou`}
       >
          <WhatWeDo/>
-      </section>
+      </section> </section>
       </section>
       <footer>
         <Footer />
