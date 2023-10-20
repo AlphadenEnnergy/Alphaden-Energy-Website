@@ -7,11 +7,11 @@ import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../shared/buttons";
 import { RiMenuFill, RiCloseLine } from "react-icons/ri";
 // const Navbar = ({ state, setState }: any) => {
-const Navbar = () => {
-  const [state, setState] = useState({
-    active: "Home",
-    openNav: false,
-  });
+const Navbar = ({ state, setState}: any) => {
+  // const [state, setState] = useState({
+  //   active: "Home",
+  //   openNav: false,
+  // });
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
