@@ -26,11 +26,11 @@ const Footer = () => {
         </div>
         <div className="w-full max-w-xl grid grid-cols-2 md:grid-cols-3 text-gray-300 space-x-3">
           <div className="flex flex-col space-y-3 text-sm md:text-md">
-            <Link href={"/about"} className="text-gray-400 md:text-white">
+            <Link href={"/about-us"} className="text-gray-400 md:text-white">
               About Us
             </Link>
-            <Link href={"/about"}>What we do</Link>
-            <Link href={"/about"}>Our Company</Link>
+            <Link href={"/about-us"}>What we do</Link>
+            <Link href={"/about-us"}>Our Company</Link>
             <Link href={"/management"}>Management</Link>
           </div>
           <div className="flex flex-col space-y-3 text-sm md:text-md">

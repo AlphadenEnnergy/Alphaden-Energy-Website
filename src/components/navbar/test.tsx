@@ -38,7 +38,7 @@ const TestNavbar = ({ setState }: any) => {
     {
       id: 2,
       name: "About Us",
-      path: "/about",
+      path: "/about-us",
     },
     {
       id: 6,
