@@ -33,6 +33,9 @@ const WhatWeDo = () => {
             <br />
             <br />
           </p>
+          <div className="w-full mt-4">
+            <Image src={image1} alt={"Project Photo"} />
+          </div>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 md:leading-loose block">
             <span className="font-bold text-gray-700 text-sm md:text-md block md:">
               PROJECT: ASSA NORTH OHAJI SOUTH PROJECT: EPC, SITE PREPARATION &
@@ -44,6 +47,19 @@ const WhatWeDo = () => {
               SCOPE OF WORK:
             </span>{" "}
           </p>
+          <div className="w-full md:flex flex-col mt-4 md:space-y-4">
+            <div className="w-full">
+              <Image src={image2} alt={"Project Photo"} height={1000} />
+            </div>
+            <div className="w-full md:flex md:space-x-4">
+              <div className="w-3/5">
+                <Image src={image3} alt={"Project Photo"} height={500} />
+              </div>
+              <div className="w-11/12">
+                <Image src={image4} alt={"Project Photo"} height={1000} />
+              </div>
+            </div>
+          </div>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT: PROVISION OF SITE PREPARATION AND ROAD WORKS FOR REMOTE
@@ -55,6 +71,19 @@ const WhatWeDo = () => {
               LOCATION: ASSA, IMO STATE, NIGERIA SCOPE OF WORK:
             </span>{" "}
           </p>
+          <div className="w-full md:flex flex-col mt-4 md:space-y-4">
+            <div className="w-full">
+              <Image src={image5} alt={"Project Photo"} height={1000} />
+            </div>
+            <div className="w-full md:flex md:space-x-4">
+              <div className="">
+                <Image src={image6} alt={"Project Photo"} height={1000} />
+              </div>
+              <div className="">
+                <Image src={image7} alt={"Project Photo"} height={1000} />
+              </div>
+            </div>
+          </div>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT: WELL TEST FLARE PIPING AND BUNDWALL CONSTRUCTION FOR ASSA
@@ -69,6 +98,19 @@ const WhatWeDo = () => {
               SCOPE OF WORK:
             </span>{" "}
           </p>
+          <div className="w-full md:flex flex-col mt-4 md:space-y-4">
+            
+            <div className="w-full md:flex md:space-x-4">
+              <div className="">
+                <Image src={image8} alt={"Project Photo"} height={1000} />
+              </div>
+              <div className="">
+                <Image src={image9} alt={"Project Photo"} height={1000} />
+              </div>
+            </div><div className="w-full">
+              <Image src={image10} alt={"Project Photo"} height={1000} />
+            </div>
+          </div>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT: WELLBAY & WELL RIGS CAMP CONSTRUCTION FOR ASSA NORTH
