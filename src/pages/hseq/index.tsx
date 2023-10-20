@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Data from "@/components/HSEQPolicy/Data";
 import Header from "@/components/HSEQPolicy/Header";
-import SubLayout from "@/layouts/SubLayout";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
@@ -12,6 +11,7 @@ const HSEQPolicy = () => {
     active: "HSEQ Policy",
     openNav: false,
   });
+  
   return (
     <main
     className={`flex min-h-screen flex-col justify-between relative overflow-x-hidden`}
@@ -24,11 +24,12 @@ const HSEQPolicy = () => {
         <Subnav />
         <Navbar state={state} setState={setState} />
       </nav>
-
+      <section className=" md:mt-24">
       <Header />
       <div className="w-full flex justify-center">
         <Data />
       </div>
+      </section>
       </section>
       <footer>
         <Footer />
