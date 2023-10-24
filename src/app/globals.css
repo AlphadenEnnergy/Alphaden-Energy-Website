@@ -76,6 +76,10 @@ body {
   background-image: url("./../assets/images/affiliates/techHeader.png");
 }
 
+.techbody {
+  background-image: url("./../assets/images/affiliates/techBody.png");
+}
+
 .service {
   background-image: url("./../assets/images/services/service.png");
 }

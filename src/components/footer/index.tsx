@@ -32,6 +32,7 @@ const Footer = () => {
             <Link href={"/about-us"}>What we do</Link>
             <Link href={"/about-us"}>Our Company</Link>
             <Link href={"/management"}>Management</Link>
+            <Link href={"/newsletter"}>Newsletter</Link>
           </div>
           <div className="flex flex-col space-y-3 text-sm md:text-md">
             <Link href={"/"} className="text-gray-400 md:text-white">
