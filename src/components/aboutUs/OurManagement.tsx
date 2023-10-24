@@ -10,7 +10,7 @@ const OurManagement = () => {
         <div className="flex flex-col items-center">
           <HeaderText primary="Our" secondary="Management" />
           <p className="text-sm md:text-md text-gray-400 w-full max-w-xl mt-3 leading-snug">
-          Our shared values keep us connected and guide us as one team.
+            Our shared values keep us connected and guide us as one team.
           </p>
         </div>
       </div>
@@ -36,9 +36,17 @@ const OurManagement = () => {
         </div>
       </div>
       <div className="w-full max-w-7xl my-10 flex flex-col items-center">
-        <h2 className="uppercase font-bold text-xl text-gray-500 my-4">Message from our CEO</h2>
-        <div className="w-full h-80 bg-black rounded-xl">
-
+        <h2 className="uppercase font-bold text-xl text-gray-500 my-4">
+          Message from our CEO
+        </h2>
+        <div className="w-full md:h-[40rem] bg-black rounded-xl">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/gXjzqrSMAUQ?mute=1"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </section>
