@@ -54,7 +54,7 @@ const OilfeildData = () => {
       <br />
       <div>
         <h2 className="text-xl font-bold ">Wellbore Cleanup: </h2>
-        Our technology fo2 wellbore cleanup and displacement enhances
+        Our technology for wellbore cleanup and displacement enhances
         operational efficiency by reducing risk and minimizing nonproductive
         time. Mechanical tools and chemicals are used to eliminate debris that
         disrupts normal operations without harming the integrity of the well

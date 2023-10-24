@@ -121,7 +121,33 @@ const ContactUsForm = () => {
             <Button>Send message</Button>
           </form>
         </div>
-      </div>
+
+       
+      </div> 
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl mt-10">
+          <div className="flex flex-col items-center justify-center space-y-2">
+            <p>Email</p>
+            <p className="text-gray-400 text-sm">Questions or queries? Get in touch!</p>
+            <Link
+              href={"mailto:info@alphadenenergy.com"}
+              target="_blank"
+              className="underline cursor-pointer text-primary"
+            >
+              info@alphadenenergy.com
+            </Link>
+          </div>
+          <div className="mt-8 flex flex-col items-center justify-center space-y-2 md:mt-0">
+            <p >Phone</p>
+            <p className="text-gray-400 text-sm">Mon-Fri from 8am to 5pm.</p>
+            <Link
+              href={"tel:+234(0)700 ALPHADEN"}
+              target="_blank"
+              className="cursor-pointer flex  text-primary"
+            >
+              +234(0)700
+            </Link>
+          </div>
+        </div>
     </section>
   );
 };
