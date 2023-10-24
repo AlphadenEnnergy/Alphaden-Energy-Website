@@ -46,8 +46,8 @@ const Gas = () => {
               <br />
               Alphaden utilizes cutting edge technology in capturing these
               flares, commercializing and turning the same into other reusable
-              end products - such as Liquefied Natural Gas (“LNG”), Liquefied
-              Petroleum Gas (“LPG”), Compressed Natural Gas (“CNG"), Urea etc.
+              end products - such as Liquefied Natural Gas (&quot;LNG&quot;), Liquefied
+              Petroleum Gas (&quot;LPG&quot;), Compressed Natural Gas (&quot;CNG&quot;), Urea etc.
               We are committed to excellence and customer satisfaction as we
               utilize our state-of-the-art facilities and highly trained
               personnel in ensuring we maintain consistency in delivering safe

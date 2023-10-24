@@ -10,7 +10,7 @@ import "../../app/globals.css";
 
 const Services = () => {
   const [state, setState] = useState({
-    active: "Our Services",
+    active: "",
     openNav: false,
   });
   return (

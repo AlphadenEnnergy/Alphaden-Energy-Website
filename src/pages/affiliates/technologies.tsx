@@ -88,7 +88,7 @@ const Technologies = () => {
               Safety is paramount, and we take it seriously. With our
               cutting-edge surveillance and security technologies, we provide
               robust solutions to law enforcement for threat detection,
-              real-time asset protection, and monitoring. Whether it's
+              real-time asset protection, and monitoring. Whether it&apos;s
               safeguarding critical infrastructure or enhancing public safety,
               Alphaden Technologies sets the standard for technology and
               data-driven systems.
@@ -102,7 +102,7 @@ const Technologies = () => {
               designed to be fast, secure, and flexible, accommodating various
               payment methods and seamlessly integrating with existing systems.
               We empower merchants to offer frictionless checkout experiences
-              while ensuring customers' data remains protected.
+              while ensuring customers&apos; data remains protected.
             </p>
 
             <div className="w-full max-w-7xl mb-5 h-auto flex flex-col justify-center items-center text-center px-8 md:px-0 md:h-auto">
@@ -130,7 +130,7 @@ const Technologies = () => {
               <span className="mt-4 block text-xl font-semibold">
                 Customized Solutions:
               </span>
-              We understand that each business has unique requirements. That's
+              We understand that each business has unique requirements. That&apos;s
               why we tailor our solutions to meet your specific needs, ensuring
               maximum efficiency and effectiveness.
               <br />
