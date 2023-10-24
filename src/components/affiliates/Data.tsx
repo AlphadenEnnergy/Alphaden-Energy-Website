@@ -3,6 +3,7 @@ import Image from "next/image";
 import gas from "./../../assets/images/services/gas.png";
 import tectltd from "./../../assets/images/services/tectltd.png";
 import { FiArrowUpRight } from "react-icons/fi";
+import Link from "next/link";
 
 const Data = () => {
   const serviceItems = [
@@ -12,7 +13,7 @@ const Data = () => {
       name: "EPCI",
       title: "ALPHADEN GAS LIMITED",
       text: `Alphaden Gas Limited is an indigenous gas processing and distribution company domiciled in Lagos state, Nigeria. Since its incorporation, we have strategically positioned ourselves as a major player in the Nigerian gas space capable of competing globally with other industry gas players, utilizing cutting edge technology, whilst saving cost and effectively improving the environment. Innovation and hard work are at the center of our operations as we offer advanced and efficient services that meets the expectation of our clients and partners`,
-      link: "/affiliates",
+      link: "/affiliates/gas",
     },
     {
       id: 2,
@@ -20,7 +21,7 @@ const Data = () => {
       name: "Upstream",
       title: "ALPHADEN TECHNOLOGIES LIMITED",
       text: `At Alphaden Technologies, we are a cutting-edge innovation powerhouse, specializing in the development of disruptive software and hardware solutions for a wide range of industries. With a strong emphasis on the oil and gas industry, logistics industry, fintech services, surveillance/security technologies, and retail payment platforms, we are poised to revolutionize these sectors and take them to new heights.`,
-      link: "/affiliates",
+      link: "/affiliates/technologies",
     },
   ];
 
@@ -29,7 +30,8 @@ const Data = () => {
       <section className="hidden px-0 md:flex flex-col justify-center items-center w-full md:px-20 mb-20">
         <div className="grid grid-cols-1 mt-10">
           {serviceItems.map((item) => (
-            <div
+            <Link
+              href={item.link}
               key={item.id}
               className="group w-full max-w-7xl py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
             >
@@ -49,35 +51,38 @@ const Data = () => {
                   <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />
                 </button>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
       <section className="px-0 flex flex-col justify-center items-center w-full md:px-20 mb-20 md:hidden">
-      <div className="grid grid-cols-1 mt-10">
-        {serviceItems.map((item) => (
-          <div
-            key={item.id}
-            className="group w-full max-w-7xl pb-10 md:pb-0 md:py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
-          >
-            <div className="w-full flex justify-center">
-              <Image src={item.imgSrc} alt={item.title} width={350} />
-            </div>
+        <div className="grid grid-cols-1 mt-10">
+          {serviceItems.map((item) => (
+            <Link
+              href={item.link}
+              key={item.id}
+              className="group w-full max-w-7xl pb-10 md:pb-0 md:py-8 md:mr-8 md:my-2 border-2 border-transparent rounded-md hover:shadow-xl"
+            >
+              <div className="w-full flex justify-center">
+                <Image src={item.imgSrc} alt={item.title} width={350} />
+              </div>
 
-            <div className="px-5 -mt-4 mx-2 md:-mt-12">
-              <p className="bg-gray-600 p-3 text-white md:p-5">{item.title}</p>
-              <p className="text-gray-400 mr-4 mt-4 text-sm md:text-md leading-loose">
-                {item.text}
-              </p>
-              <button className="text-primary text-sm md:text-md font-bold flex items-center mt-3 transition-transformmotion-reduce:transform-none">
-                Read more{" "}
-                <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
+              <div className="px-5 -mt-4 mx-2 md:-mt-12">
+                <p className="bg-gray-600 p-3 text-white md:p-5">
+                  {item.title}
+                </p>
+                <p className="text-gray-400 mr-4 mt-4 text-sm md:text-md leading-loose">
+                  {item.text}
+                </p>
+                <button className="text-primary text-sm md:text-md font-bold flex items-center mt-3 transition-transformmotion-reduce:transform-none">
+                  Read more{" "}
+                  <FiArrowUpRight className="ml-2 group-hover:translate-x-1 " />
+                </button>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
     </>
   );
 };

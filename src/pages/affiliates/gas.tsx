@@ -11,7 +11,7 @@ import { useState } from "react";
 
 const Gas = () => {
   const [state, setState] = useState({
-    active: "Gas",
+    active: "Affiliates",
     openNav: false,
   });
 

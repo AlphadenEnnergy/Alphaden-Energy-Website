@@ -11,7 +11,7 @@ import { useState } from "react";
 
 const Technologies = () => {
   const [state, setState] = useState({
-    active: "Technologies",
+    active: "Affiliates",
     openNav: false,
   });
 
