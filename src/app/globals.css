@@ -68,6 +68,14 @@ body {
   background-image: url("./../assets/images/HSEQPolicy/banner.svg");
 }
 
+.gas {
+  background-image: url("./../assets/images/affiliates/gasHeader.png");
+}
+
+.tech {
+  background-image: url("./../assets/images/affiliates/techHeader.png");
+}
+
 .service {
   background-image: url("./../assets/images/services/service.png");
 }
