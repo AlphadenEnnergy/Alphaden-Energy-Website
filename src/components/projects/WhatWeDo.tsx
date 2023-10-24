@@ -33,6 +33,25 @@ const WhatWeDo = () => {
             <br />
             <br />
           </p>
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block pt-4">
+            <span className="font-bold text-gray-700 text-sm md:text-md block md:">
+            PROJECT: OBAMA GAS FLARE
+            <br />CLIENT: NLNG
+            <br />ROLE: MAIN CONTRACTOR
+            <br />LOCATION: OKOROMA, BAYELSEA STATE, NIGERIA
+
+            </span>{" "}
+          </p>
+          <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
+            <span className="font-bold text-gray-700 text-sm md:text-md block md:">
+            PROJECT: TEBIDABA GAS FLARE
+            <br />CLIENT: NLNG
+            <br />ROLE: MAIN CONTRACTOR
+            <br />LOCATION: TEBIDABA, BAYELSEA STATE, NIGERIA
+
+            </span>{" "}
+          </p>
+          
           <div className="w-full mt-4">
             <Image src={image1} alt={"Project Photo"} />
           </div>
