@@ -6,7 +6,7 @@ const Data = () => {
       <div className="w-full max-w-7xl my-16">
         <h1 className="text-3xl font-bold">
           A major milestone was reached by Alphaden when a $60m facility was secured
-          from AfreximBank for the construction of the its gas processing
+          from AfreximBank for the construction of its gas processing
           facility.
         </h1>
         <div className="w-full md:h-[40rem] bg-black rounded-xl my-10">

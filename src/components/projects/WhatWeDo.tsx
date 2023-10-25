@@ -38,24 +38,40 @@ const WhatWeDo = () => {
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block md:">
               PROJECT: OBAMA GAS FLARE
-              <br />
-              CLIENT: NLNG
+      
               <br />
               ROLE: MAIN CONTRACTOR
               <br />
               LOCATION: OKOROMA, BAYELSEA STATE, NIGERIA
             </span>{" "}
+            We are constructing a 20 mmscfd mini-LNG facility in Okoroma
+            Bayelsea state. The facility will cater to up to 5 days site storage
+            for all products and the same amount of off-site storage. The
+            products will be transported to the offsite storage facility via
+            self-propelled barges and will be transported to the customer site
+            regasification stations via purpose-fit distribution trucks. The
+            trucks will be able to transport up to 20MT per load, enough to
+            generate up to 120,000kwh of electricity.
           </p>
+          <div className="w-full md:flex flex-col mt-4 md:space-y-4">
+            <div className="w-full">
+              <Image src={image11} alt={"Project Photo"} height={1000} />
+            </div>
+          </div>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block md:">
               PROJECT: TEBIDABA GAS FLARE
-              <br />
-              CLIENT: NLNG
+             
               <br />
               ROLE: MAIN CONTRACTOR
               <br />
               LOCATION: TEBIDABA, BAYELSEA STATE, NIGERIA
             </span>{" "}
+            Upon the recent completion of the Nigerian Gas Flare
+            Commercialization program, we were awarded the rights to
+            commercialize the gas from the tebidaba Flowstation. We are
+            currently finalizing with investors the capital required to develop
+            the project.
           </p>
 
           <div className="w-full mt-4">
