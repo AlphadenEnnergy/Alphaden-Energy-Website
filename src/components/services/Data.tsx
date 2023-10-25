@@ -38,7 +38,7 @@ const Data = () => {
       id: 4,
       imgSrc: midstream,
       name: "Midstream",
-      title: "Oilfield",
+      title: "Oilfield Services",
       text: `Alphaden Energy comprehensive oilfield services are the driving force behind our energy solutions. From exploration and drilling to reservoir management and maintenance, we employ a range of specialized services to extract and process hydrocarbons efficiently. Our expertise in system integration, process control, automation, and additive manufacturing has helped us maintain high standards of safety, reliability, and sustainability.`,
       link: "/oilfield",
     },

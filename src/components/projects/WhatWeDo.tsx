@@ -62,8 +62,7 @@ const WhatWeDo = () => {
               PETROLEUM DEVELOPMENT COMPANY (SPDC) <br />
               ROLE: MAIN CONTRACTOR
               <br />
-              STATUS: ONGOING LOCATION: ASSA, IMO STATE, NIGERIA <br />
-              SCOPE OF WORK:
+              {/* STATUS: ONGOING LOCATION: ASSA, IMO STATE, NIGERIA <br /> */}
             </span>{" "}
           </p>
           <div className="w-full md:flex flex-col mt-4 md:space-y-4">
@@ -85,9 +84,9 @@ const WhatWeDo = () => {
               LOCATIONS (NIGERIA GAS COMPANY MANIFOLD) <br />
               CLIENT: ANOH GAS PROCESSING COMPANY (AGPC) <br />
               ROLE: MAIN CONTRACTOR <br />
-              STATUS: COMPLETED
+              {/* STATUS: COMPLETED */}
               <br />
-              LOCATION: ASSA, IMO STATE, NIGERIA SCOPE OF WORK:
+              LOCATION: ASSA, IMO STATE, NIGERIA.
             </span>{" "}
           </p>
           <div className="w-full md:flex flex-col mt-4 md:space-y-4">
@@ -111,10 +110,9 @@ const WhatWeDo = () => {
               CLIENT: THE SHELL PETROLEUM DEVELOPMENT COMPANY OF NIGERIA LTD.
               <br />
               ROLE: MAIN CONTRACTOR
+              {/* <br />
+              STATUS: COMPLETED */}
               <br />
-              STATUS: COMPLETED
-              <br />
-              SCOPE OF WORK:
             </span>{" "}
           </p>
           <div className="w-full md:flex flex-col mt-4 md:space-y-4">
@@ -138,10 +136,9 @@ const WhatWeDo = () => {
               CLIENT: THE SHELL PETROLEUM DEVELOPMENT COMPANY OF NIGERIA LTD.
               <br />
               ROLE: MAIN CONTRACTOR
+              {/* <br />
+              STATUS: COMPLETED */}
               <br />
-              STATUS: COMPLETED
-              <br />
-              SCOPE OF WORK:
             </span>{" "}
           </p>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
@@ -154,10 +151,9 @@ const WhatWeDo = () => {
               CLIENT: THE SHELL PETROLEUM DEVELOPMENT COMPANY OF NIGERIA LTD.
               <br />
               ROLE: MAIN CONTRACTOR
+              {/* <br />
+              STATUS: ONGOING */}
               <br />
-              STATUS: ONGOING
-              <br />
-              SCOPE OF WORK:
             </span>{" "}
           </p>
         </div>
