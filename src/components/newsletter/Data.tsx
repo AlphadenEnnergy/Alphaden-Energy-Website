@@ -13,7 +13,7 @@ const Data = () => {
     <section className="px-0 flex flex-col justify-center items-center w-full mb-20 md:px-20">
       <div className="w-full max-w-7xl my-16">
         <h1 className="text-3xl font-bold">
-          A major milestone was by Alphaden when a $60m facility was secured
+          A major milestone was reached by Alphaden when a $60m facility was secured
           from AfreximBank for the construction of the its gas processing
           facility.
         </h1>
