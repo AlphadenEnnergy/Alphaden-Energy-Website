@@ -12,8 +12,8 @@ import image7 from "./../../assets/images/projects/7.png";
 import image8 from "./../../assets/images/projects/8.png";
 import image9 from "./../../assets/images/projects/9.png";
 import image10 from "./../../assets/images/projects/10.png";
-import image11 from "./../../assets/images/projects/11.jpeg";
-import image12 from "./../../assets/images/projects/12.jpeg";
+import image11 from "./../../assets/images/projects/11.jpg";
+import image12 from "./../../assets/images/projects/12.jpg";
 
 const WhatWeDo = () => {
   return (
@@ -37,10 +37,8 @@ const WhatWeDo = () => {
           </p>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block md:">
-              PROJECT: OBAMA GAS FLARE
+              PROJECT: OBAMA GAS FLARE COMMERCIALIZATION PROJECT
       
-              <br />
-              ROLE: MAIN CONTRACTOR
               <br />
               LOCATION: OKOROMA, BAYELSEA STATE, NIGERIA
             </span>{" "}
@@ -60,10 +58,8 @@ const WhatWeDo = () => {
           </div>
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block md:">
-              PROJECT: TEBIDABA GAS FLARE
+              PROJECT: TEBIDABA GAS FLARE COMMERCIALIZATION PROJECT
              
-              <br />
-              ROLE: MAIN CONTRACTOR
               <br />
               LOCATION: TEBIDABA, BAYELSEA STATE, NIGERIA
             </span>{" "}

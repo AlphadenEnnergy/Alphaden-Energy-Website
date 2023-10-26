@@ -144,7 +144,7 @@ const ContactUsForm = () => {
               target="_blank"
               className="cursor-pointer flex  text-primary"
             >
-              +234(0)700
+              +234(0)700 ALPHADEN
             </Link>
           </div>
         </div>
