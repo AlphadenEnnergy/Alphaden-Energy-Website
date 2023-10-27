@@ -12,8 +12,8 @@ import image7 from "./../../assets/images/projects/7.png";
 import image8 from "./../../assets/images/projects/8.png";
 import image9 from "./../../assets/images/projects/9.png";
 import image10 from "./../../assets/images/projects/10.png";
-import image11 from "./../../assets/images/projects/11.jpg";
-import image12 from "./../../assets/images/projects/12.jpg";
+import image11 from "./../../assets/images/projects/11.png";
+import image12 from "./../../assets/images/projects/12.jpeg";
 
 const WhatWeDo = () => {
   return (
