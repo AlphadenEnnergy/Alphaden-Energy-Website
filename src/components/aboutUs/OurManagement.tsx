@@ -60,7 +60,7 @@ const OurManagement = () => {
             //     <span className="text-[10px]">{person.position}</span>
             //   </div>
             // </div>
-            <div className="px-4 rounded-lg border-4 bg-gray-200 w-full border-gray-600 flex items-center">
+            <div  key={i} className="px-4 rounded-lg border-4 bg-gray-200 w-full border-gray-600 flex items-center">
               <div className="w-16 h-16 bg-white flex items-center justify-center rounded-full border-2">
                 <Image src={Logo} alt={""} width={40} />
               </div>
