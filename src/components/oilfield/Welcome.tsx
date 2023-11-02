@@ -10,7 +10,7 @@ const Welcome = () => {
         <h2 className="text-3xl font-bold mt-8 max-w-5xl">Oilfield Services</h2>
         <div className="bg-secondary h-2 w-64 md:w-64 rounded-xl mt-3 mb-8"></div>
         <p className="w-full max-w-5xl">
-          Alphaden Energy comprehensive oilfield services are the driving force
+          Alphaden&apos;s comprehensive oilfield services are the driving force
           behind our energy solutions. From exploration and drilling to
           reservoir management and maintenance, we employ a range of specialized
           services to extract and process hydrocarbons efficiently. Our

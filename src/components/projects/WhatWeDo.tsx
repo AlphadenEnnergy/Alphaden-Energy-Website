@@ -40,7 +40,7 @@ const WhatWeDo = () => {
               PROJECT: OBAMA GAS FLARE COMMERCIALIZATION PROJECT
       
               <br />
-              LOCATION: OKOROMA, BAYELSEA STATE, NIGERIA
+              LOCATION: OKOROMA, BAYELSA STATE, NIGERIA
             </span>{" "}
             We are constructing a 20 mmscfd mini-LNG facility in Okoroma
             Bayelsea state. The facility will cater to up to 5 days site storage
@@ -61,7 +61,7 @@ const WhatWeDo = () => {
               PROJECT: TEBIDABA GAS FLARE COMMERCIALIZATION PROJECT
              
               <br />
-              LOCATION: TEBIDABA, BAYELSEA STATE, NIGERIA
+              LOCATION: TEBIDABA, BAYELSA STATE, NIGERIA
             </span>{" "}
             Upon the recent completion of the Nigerian Gas Flare
             Commercialization program, we were awarded the rights to
