@@ -6,6 +6,7 @@ import midstream from "./../../assets/images/landing/services/midstream.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicesCarousel = () => {
   return (
@@ -21,7 +22,7 @@ const ServicesCarousel = () => {
       >
         <div className=" flex flex-col transition delay-700 duration-300 ease-in-out">
           <Image src={epci} alt="name" className=" " />
-          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
+          <Link href={"/epci"} className="cursor-pointer -mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">EPCI</h2>
             <p className="text-sm md:text-md mt-2 leading-loose text-gray-400">
               Alphaden Energy stands out for its EPCI expertise. The company
@@ -31,12 +32,12 @@ const ServicesCarousel = () => {
               efficient pipelines and installing critical equipment, Alphaden
               Energy is your trusted partner in complex energy projects.
             </p>
-          </div>
+          </Link>
         </div>
 
         <div className=" flex flex-col transition delay-700 duration-300 ease-in-out">
           <Image src={upstream} alt="name" className=" " />
-          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
+          <Link href={"/epci"} className="cursor-pointer -mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">
               System Integration, Process Control and Automation
             </h2>
@@ -48,12 +49,12 @@ const ServicesCarousel = () => {
               at the forefront of the oil and gas industry, setting new
               standards for performance and reliability.
             </p>
-          </div>
+          </Link>
         </div>
 
         <div className=" flex flex-col transition delay-700 duration-300 ease-in-out">
           <Image src={marine} alt="name" className=" " />
-          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
+          <Link href={"/ams"} className="cursor-pointer -mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">Additive Manufacturing Service</h2>
             <p className="text-sm md:text-md mt-2 leading-loose text-gray-400">
               In our pursuit of excellence, Alphaden Energy has embraced
@@ -64,12 +65,12 @@ const ServicesCarousel = () => {
               technologies, we harness additive manufacturing for innovation and
               efficiency.
             </p>
-          </div>
+          </Link>
         </div>
 
         <div className=" flex flex-col transition delay-700 duration-300 ease-in-out">
           <Image src={midstream} alt="name" className=" " />
-          <div className="-mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
+          <Link href={"/oilfield"} className="cursor-pointer -mt-4 top-80 text-black text-left w-full bg-white p-5 shadow-xl -mt:16 md:w-2/3">
             <h2 className="font-bold">Oilfield Services</h2>
             <p className="text-sm md:text-md mt-2 leading-loose text-gray-400">
               Alphaden Energy comprehensive oilfield services are the driving
@@ -80,7 +81,7 @@ const ServicesCarousel = () => {
               automation, and additive manufacturing has helped us maintain high
               standards of safety, reliability, and sustainability.
             </p>
-          </div>
+          </Link>
         </div>
       </Carousel>
     </div>
