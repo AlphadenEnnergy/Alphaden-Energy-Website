@@ -91,18 +91,18 @@ const Footer = () => {
           &copy; {currentYear} Alphaden Energy. All rights reserved.
         </div>
         <div className="flex justify-between w-28 text-lg">
-          <Link href={"/"}>
+          <Link href={"https://twitter.com/alphaden421024"} target="_blank">
             <BsTwitter />
           </Link>
-          <Link href={"/"}>
+          <Link href={"https://www.instagram.com/alphadenenergy/"} target="_blank">
             <BsInstagram />
           </Link>
-          <Link href={"/"}>
+          <Link href={"https://www.linkedin.com/in/alphadenenergy/"} target="_blank">
             <BsLinkedin />
           </Link>
-          <Link href={"/"}>
+          {/* <Link href={"/"} target="_blank">
             <BsFacebook />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
