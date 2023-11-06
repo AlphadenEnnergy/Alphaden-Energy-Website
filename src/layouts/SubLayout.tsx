@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
 import "./../app/globals.css";
+import NavbarTest from "@/components/navbar/test";
 
 const SubLayout = ({ children }: { children: React.ReactNode }) => {
   const [state, setState] = useState({
@@ -21,6 +22,7 @@ const SubLayout = ({ children }: { children: React.ReactNode }) => {
         >
           <Subnav />
           <Navbar state={state} setState={setState} />
+          {/* <NavbarTest/> */}
         </nav>{" "}
         <section className=" md:mt-24">{children}</section>
       </section>

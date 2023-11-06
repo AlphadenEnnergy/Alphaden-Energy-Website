@@ -9,22 +9,26 @@ import { RiMenuFill, RiCloseLine } from "react-icons/ri";
 const Navbar = ({ state, setState}: any) => {
 
   const [isScrolled, setIsScrolled] = useState(false);
+  const [prevScrollY, setPrevScrollY] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
+   const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      setIsScrolled(currentScrollY > 0);
+      if (currentScrollY > prevScrollY) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
       }
+      setPrevScrollY(currentScrollY);
     };
-
-    window.addEventListener("scroll", handleScroll);
+    
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [prevScrollY]);
 
 
   const links = [
