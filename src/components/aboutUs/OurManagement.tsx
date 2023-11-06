@@ -4,6 +4,7 @@ import { management } from "./data";
 import HeaderText from "../shared/headerText/HeaderText";
 import Image from "next/image";
 import Logo from "../../assets/images/shared/logo.svg";
+import Link from "next/link";
 
 const OurManagement = () => {
   function truncateStringWithReadMore(input: string, maxWords: number): string {
@@ -48,10 +49,10 @@ const OurManagement = () => {
             Alphaden Energy and Oilfield Limited. A fully owned Nigerian company
             with two-decade worth of experience in Oilfield servicing and
             Engineering, Procurement{" "}
-            <a href="/management" className="font-bold">
+            <Link href="/management" className="font-bold">
               {" "}
               ...Read more
-            </a>
+            </Link>
           </p>
         </div>
 
@@ -73,10 +74,10 @@ const OurManagement = () => {
               </div>{" "}
               <p className="text-gray-500 text-xs pb-4">
                 {truncateStringWithReadMore(person.text, 30)}
-                <a href="/management" className="font-bold">
+                <Link href="/management" className="font-bold">
                   {" "}
                   ...Read more
-                </a>
+                </Link>
               </p>
             </div>
           ))}
