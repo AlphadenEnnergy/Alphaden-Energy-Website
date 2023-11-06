@@ -14,7 +14,7 @@ const Features = () => {
         </div>
 
         <div className="w-full max-w-7xl gap-4 mt-8">
-          <div className="grid grid-cols-2 space-y-4 md:space-y-0 md:grid-cols-4 lg:grid-cols-5">
+          <div className="flex md:space-y-0 md:grid-cols-4 lg:grid-cols-5 justify-center">
             {additive.map((data, i) => (
             <div key={i} className="flex flex-col items-center px-5">
               <Image src={data} alt={""} width={100} height={100}/>
