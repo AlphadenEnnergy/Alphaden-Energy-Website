@@ -27,7 +27,7 @@ const Gas = () => {
           <Subnav />
           <Navbar state={state} setState={setState} />
         </nav>
-        <section className=" md:mt-24">
+        <section className="p-8 mt-10 md:mt-24 lg:p-0">
           <HeaderGas />
           <section className="w-full flex  flex-col justify-start items-center mt-8 md:mt-0">
             <p className="w-full max-w-7xl text-gray-500 text-sm leading-loose my-10">
