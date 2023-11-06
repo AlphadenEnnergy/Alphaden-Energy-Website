@@ -6,12 +6,8 @@ import Link from "next/link";
 import logo from "../../assets/images/shared/logo.svg";
 import { Button } from "../shared/buttons";
 import { RiMenuFill, RiCloseLine } from "react-icons/ri";
-// const Navbar = ({ state, setState }: any) => {
 const Navbar = ({ state, setState}: any) => {
-  // const [state, setState] = useState({
-  //   active: "Home",
-  //   openNav: false,
-  // });
+
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -30,41 +26,6 @@ const Navbar = ({ state, setState}: any) => {
     };
   }, []);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem("active", state.active);
-  }, [state.active]);
-  
-
-  const clickLink = (link: any) => {
-    setState((prev: any) => {
-      return {
-        ...prev,
-        active: `${link.name}`,
-      };
-    });
-    if (typeof localStorage !== "undefined") {
-      const activeTab = localStorage.setItem("active", link.name);
-      console.log(activeTab, "LOCAL STORAGE ACTIVE")
-    }
-  };
-
-  console.log(state.active, "STATE ACTIVE")
 
   const links = [
     {
@@ -131,7 +92,7 @@ const Navbar = ({ state, setState}: any) => {
                   <Link
                     key={link.id || index}
                     href={link.path}
-                    onClick={() => clickLink(link)}
+                    // onClick={() => clickLink(link)}
                     className={`cursor-pointer text-sm md:text-md pb-1 hover:text-red-500 ${
                       state.active == `${link.name}`
                         ? "text-red-500 border-b-2 border-red-500"

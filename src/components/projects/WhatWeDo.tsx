@@ -107,11 +107,10 @@ const WhatWeDo = () => {
               LOCATIONS (NIGERIA GAS COMPANY MANIFOLD) <br />
               CLIENT: ANOH GAS PROCESSING COMPANY (AGPC) <br />
               ROLE: MAIN CONTRACTOR <br />
-              {/* STATUS: COMPLETED */}
               LOCATION: ASSA, IMO STATE, NIGERIA.
             </span>{" "}
           </p>
-          <div className="w-full md:flex flex-col mt-4 md:space-y-4">
+          {/* <div className="w-full md:flex flex-col mt-4 md:space-y-4">
             <div className="w-full">
               <Image src={image5} alt={"Project Photo"} height={1000} />
             </div>
@@ -123,7 +122,7 @@ const WhatWeDo = () => {
                 <Image src={image7} alt={"Project Photo"} height={1000} />
               </div>
             </div>
-          </div>
+          </div> */}
           <p className=" text-sm md:text-md text-gray-500 w-full max-w-7xl mt-8 leading-loose block border-t-2 pt-4">
             <span className="font-bold text-gray-700 text-sm md:text-md block">
               PROJECT: WELL TEST FLARE PIPING AND BUNDWALL CONSTRUCTION FOR ASSA

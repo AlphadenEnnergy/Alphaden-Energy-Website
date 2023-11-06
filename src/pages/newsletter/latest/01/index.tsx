@@ -30,7 +30,7 @@ const Services = () => {
         <section className=" md:mt-24">
           <Header />
           <section className="w-full flex  flex-col justify-start items-center px-4 ">
-            <div className="w-full max-w-5xl items-center justify-center mt-10">
+            {/* <div className="w-full max-w-5xl items-center justify-center mt-10">
               <HeaderText primary={"Newsletters"} secondary={""} />
               <p className="text-xs md:text-sm md:text-md text-gray-400 text-center leading-loose mt-4">
                 We are thrilled to introduce our newsletter, where we bring you
@@ -39,9 +39,8 @@ const Services = () => {
                 share our company&apos;s achievements, and provide valuable resources
                 to our readers.
               </p>
-            </div>
+            </div> */}
             <Data />
-            {/* <Main/> */}
           </section>
         </section>
         <footer>
