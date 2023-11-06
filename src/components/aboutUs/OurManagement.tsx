@@ -6,13 +6,12 @@ import Image from "next/image";
 import Logo from "../../assets/images/shared/logo.svg";
 
 const OurManagement = () => {
-
   function truncateStringWithReadMore(input: string, maxWords: number): string {
-    const words = input.split(' ');
-  
+    const words = input.split(" ");
+
     if (words.length > maxWords) {
       const truncatedWords = words.slice(0, maxWords);
-      const truncatedText = truncatedWords.join(' ');
+      const truncatedText = truncatedWords.join(" ");
       return truncatedText;
     } else {
       return input;
@@ -31,23 +30,38 @@ const OurManagement = () => {
       </div>
 
       <div className="w-full max-w-7xl my-14 flex flex-col items-center ">
-        <div className="px-4 rounded-lg border-4 bg-gray-200 w-full  border-gray-600 max-w-md  border-2 flex items-center mb-4 py-2">
-          <div className="w-16 h-16 bg-white flex items-center justify-center rounded-full border-2">
-            <Image src={Logo} alt={""} width={40} />
-          </div>
+        <div className="px-4 rounded-lg border-4 bg-gray-200 w-full  border-gray-600 max-w-md  mb-4 py-2">
+          <div className=" border-2 flex items-center">
+            <div className="w-16 h-16 bg-white flex items-center justify-center rounded-full border-2">
+              <Image src={Logo} alt={""} width={40} />
+            </div>
 
-          <div className="flex flex-col space-y-2 p-2 m-4 mr-2">
-            <p className="font-semibold text-lg">Paschal C. Anyanwu </p>
-            <span className="text-[12px]">Chief Executive Officer - CEO </span>
+            <div className="flex flex-col space-y-2 p-2 m-4 mr-2">
+              <p className="font-semibold text-lg">Paschal C. Anyanwu </p>
+              <span className="text-[12px]">
+                Chief Executive Officer - CEO{" "}
+              </span>
+            </div>
           </div>
+          <p className="text-gray-500 text-xs pb-4">
+            Paschal Anyanwu is currently the Chief Executive Officer for
+            Alphaden Energy and Oilfield Limited. A fully owned Nigerian company
+            with two-decade worth of experience in Oilfield servicing and
+            Engineering, Procurement{" "}
+            <a href="/management" className="font-bold">
+              {" "}
+              ...Read more
+            </a>
+          </p>
         </div>
+
         <div className="gap-4 justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:px-5 lg:px-0">
           {management.map((person, i) => (
             <div
               key={i}
-              className="px-4 border-4 bg-gray-200 w-full border-gray-600 rounded-lg"
+              className="px-4 border-4 bg-gray-200 w-full border-gray-600 rounded-lg flex flex-col justify-between"
             >
-              <div className="flex items-center border-b-2 border-gray-300">
+              <div className="flex items-center">
                 <div className="w-16 h-16 bg-white flex items-center justify-center rounded-full border-2">
                   <Image src={Logo} alt={""} width={40} />
                 </div>
@@ -57,7 +71,13 @@ const OurManagement = () => {
                   <span className="text-[12px]">{person.position}</span>
                 </div>
               </div>{" "}
-              <p className="text-gray-500 text-xs py-4">{truncateStringWithReadMore(person.text, 20)}<a href="/management" className="">...Read more</a></p>
+              <p className="text-gray-500 text-xs pb-4">
+                {truncateStringWithReadMore(person.text, 30)}
+                <a href="/management" className="font-bold">
+                  {" "}
+                  ...Read more
+                </a>
+              </p>
             </div>
           ))}
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import menAtWork from "./../../assets/images/HSEQPolicy/hseq.svg";
 import epci from "./../../assets/images/landing/services/epci.png";
-import upstream from "./../../assets/images/landing/services/upstream.png";
+import upstream from "./../../assets/images/landing/services/upstream.jpeg";
 import marine from "./../../assets/images/landing/services/marine.png";
 import midstream from "./../../assets/images/landing/services/midstream.png";
 import { FiArrowUpRight } from "react-icons/fi";

@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Subnav from "@/components/subnav";
 import "../../app/globals.css";
+import Main from "@/components/newsletter/main";
 
 const Services = () => {
   const [state, setState] = useState({
@@ -38,7 +39,8 @@ const Services = () => {
                 to our readers.
               </p>
             </div>
-            <Data />
+            {/* <Data /> */}
+            <Main/>
           </section>
         </section>
         <footer>

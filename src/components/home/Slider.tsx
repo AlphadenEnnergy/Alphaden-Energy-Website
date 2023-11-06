@@ -22,12 +22,12 @@ const Slider = () => {
               Providing the most efficient dynamic processes by using business
               intelligence, technology and innovation.
             </h1>
-            <div className="mt-8 group">
+            <Link className="mt-4 group" href="/about-us">
               <Button>
                 <span>Learn More</span>
                 <BiRightArrowAlt className="ml-2 text-xl inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none" />{" "}
               </Button>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Slider = () => {
               Providing the most efficient dynamic processes by using business
               intelligence, technology and innovation.
             </h1>
-            <Link className="mt-4 group" href="/contact">
+            <Link className="mt-4 group" href="/about-us">
               <Button>
                 <span>Learn More</span>
                 <BiRightArrowAlt className="ml-2 text-xl inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none" />{" "}
@@ -54,12 +54,12 @@ const Slider = () => {
               Providing the most efficient dynamic processes by using business
               intelligence, technology and innovation.
             </h1>
-            <div className="mt-4 group">
+            <Link className="mt-4 group" href="/about-us">
               <Button>
                 <span>Learn More</span>
                 <BiRightArrowAlt className="ml-2 text-xl inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none" />{" "}
               </Button>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

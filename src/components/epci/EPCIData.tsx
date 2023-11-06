@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "./../../assets/images/epci/1.png"
-import image2 from "./../../assets/images/epci/1a.png"
-import image3 from "./../../assets/images/epci/1b.png"
+import image1 from "./../../assets/images/epci/heroo.jpg"
+import image2 from "./../../assets/images/epci/ref.webp"
+import image3 from "./../../assets/images/epci/hero.jpg"
 import image4 from "./../../assets/images/epci/2.png"
 import image5 from "./../../assets/images/epci/3.png"
 import image6 from "./../../assets/images/epci/4.png"
@@ -40,11 +40,11 @@ const EPCIData = () => {
       <br />
       <div className="w-full md:flex mt-4 md:space-x-4">
         <div className="w-full md:w-1/2 ">
-          <Image src={image2} alt={"Project Photo"} height={1000}/>
+          <Image src={image3} alt={"Project Photo"} height={1000}/>
         </div>
         <div className="w-full md:w-1/2 grid grid-cols-1  space-y-4">
           <div className="w-full">
-            <Image src={image3} alt={"Project Photo"} height={1000}/>
+            <Image src={image2} alt={"Project Photo"} height={1000}/>
           </div>
           <div className="w-full">
             <Image src={image4} alt={"Project Photo"} height={1000}/>
