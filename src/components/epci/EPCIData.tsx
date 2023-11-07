@@ -4,7 +4,7 @@ import image1 from "./../../assets/images/epci/heroo.jpg"
 import image2 from "./../../assets/images/epci/ref.webp"
 import image3 from "./../../assets/images/epci/hero.jpg"
 import image4 from "./../../assets/images/epci/2.png"
-import image5 from "./../../assets/images/epci/3.png"
+import image5 from "./../../assets/images/epci/1st.jpeg"
 import image6 from "./../../assets/images/epci/4.png"
 import image7 from "./../../assets/images/epci/5.png"
 import image8 from "./../../assets/images/epci/6.png"
@@ -24,7 +24,7 @@ const EPCIData = () => {
       Chevron&apos;s Makaraba, Meji, and Okan projects, among others.
       <br />
       <div className="w-full mt-4">
-        <Image src={image1} alt={"Project Photo"} />
+        <Image src={image5} alt={"Project Photo"} />
       </div>
       <br />
       Additionally, Alphaden proudly serves as the EPC Contractor for
@@ -61,7 +61,7 @@ const EPCIData = () => {
       </p>
       <br />
       <div className="w-full md:flex mt-4 md:space-x-4">
-        <div className="w-full md:w-1/2 "><Image src={image5} alt={"Project Photo"} height={1000}/></div>
+        <div className="w-full md:w-1/2 "><Image src={image1} alt={"Project Photo"} height={1000}/></div>
         <div className="w-full md:w-1/2 "><Image src={image6} alt={"Project Photo"} height={1000}/></div>
       </div>
       <br />
