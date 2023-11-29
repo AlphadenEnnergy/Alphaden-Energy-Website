@@ -24,7 +24,7 @@ const Gas = () => {
           id="sticky-banner"
           className="fixed top-0 left-0 right-0 z-50 w-full"
         >
-          <Subnav />
+           {/* <Subnav /> */}
           <Navbar state={state} setState={setState} />
         </nav>
         <section className=" md:mt-24">
