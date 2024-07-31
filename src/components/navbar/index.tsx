@@ -108,10 +108,13 @@ const Navbar = ({ state, setState}: any) => {
                   </Link>
                 ))}
               </div>
-
-              <Link href={"/contact"} className="space-x-5 hidden md:flex">
+                
+              {/* <Link href={"/contact"} className="space-x-5 hidden md:flex">
                 <Button>Contact Us</Button>
-              </Link>
+              </Link> */}
+               <div className="space-x-5 hidden md:flex">
+                  <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+                </div>
 
               <div
                 onClick={() =>
