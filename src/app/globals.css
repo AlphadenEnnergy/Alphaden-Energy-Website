@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: white;
+}
+
+.bg {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.hero {
+  background-image: url("./../assets/images/landing/bg-1.jpg");
+  height: 100%;
+}
+
+.hero-1 {
+  background-image: url("./../assets/images/landing/bg-2.jpg");
+  /* height: auto; */
+}
+
+.hero-2 {
+  background-image: url("./../assets/images/landing/bg-3.jpg");
+  /* height: auto; */
+}
+
+.pulse {
+  animation: pulse 6s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 1,
+  }
+
+  /* 50% {
+    opacity: 0.8;
+  } */
+}
+
+.darker {
+  filter: brightness(10%);
+}
+.about {
+  background-image: url("./../assets/images/aboutUs/about.png");
+}
+
+.partners {
+  background-image: url("./../assets/images/partners/partners.png");
+}
+
+.projects {
+  background-image: url("./../assets/images/projects/projects.png");
+}
+
+.clientele {
+  background-image: url("./../assets/images/landing/clientele/clientele.svg");
+}
+
+.hseq {
+  background-image: url("./../assets/images/HSEQPolicy/banner.svg");
+}
+
+.gas {
+  background-image: url("./../assets/images/affiliates/gasHeader.png");
+}
+
+.tech {
+  background-image: url("./../assets/images/affiliates/chips.jpg");
+}
+
+.techbody {
+  background-image: url("./../assets/images/affiliates/techBody.png");
+}
+
+.service {
+  background-image: url("./../assets/images/services/service.png");
+}
+
+.newsletter {
+  background-image: url("./../assets/images/newsletter/newsletter.png");
+}
+
+.csr {
+  background-image: url("./../assets/images/HSEQPolicy/csr.png");
+}
+
+.epci {
+  background-image: url("./../assets/images/epci/epci.png");
+}
+
+.sipca {
+  background-image: url("./../assets/images/sipca/sipca.png");
+}
+
+.oilfield {
+  background-image: url("./../assets/images/oilfield/oilfield.png");
+}
+
+.about-us {
+  background-image: url("./../assets/images/aboutUs/aboutUs.svg");
+}
+
+.who-we-are {
+  background-image: url("./../assets/images/landing/whoWeAre/whoWeAre.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+.contact {
+  background-image: url("./../assets/images/contactUs/contact.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.scroll-parent {
+  position: relative;
+  width: 100vw;
+  height: 10rem;
+  overflow-x: hidden;
+  overflow-y: none;
+}
+
+.scroll-child {
+  /* width: inherit; */
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 30s linear infinite;
+}
+
+.primary {
+  animation: primary 30s linear infinite;
+}
+
+.secondary {
+  animation: secondary 30s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+/* OUR SERVICES */
+
+
+@media screen and (max-width: 780px) {
+  .clientele {
+    background-image: url("./../assets/images/landing/clientele/clientel.svg");
+  }
+  .who-we-are {
+    background-image: none;
+  }
+  .contact {
+    background-image: none;
+  }
+  .scroll-parent {
+    width: 85vw;
+  }
+
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -50%;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 500%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+  
+}
