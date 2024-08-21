@@ -15,12 +15,13 @@ const Footer = () => {
           <div className="flex flex-col space-y-3 text-sm md:text-md ">
             <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
           </div>
-          <div className="flex flex-col space-y-3 text-sm md:text-md mt-3 w-48">
+          <div className="flex flex-col space-y-3 text-sm md:text-md mt-3 w-58">
             <Link href={"/"} className="uppercase">
               Alphaden Energy
             </Link>
             <Link href={"/"} className="leading-loose">
-              Powering Progress: Your Trusted Energy Partner
+              {/* Powering Progresshhhh: Your Trusted Energy Partner */}
+              <small className=" flex text-sm md:text-md">Industry Leader | Global Reach | Vast Technical Experience | Proven Proficiency</small>
             </Link>
           </div>
         </div>
