@@ -81,14 +81,14 @@ const Navbar = ({ state, setState}: any) => {
           {isScrolled ? (
             <div className="w-full text-gray-700 border-primary md:w-full justify-center flex py-3 md:py-0">
               <div>
-                <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+                <Image src={logo} alt="Alpaden Logo" width={100} height={120} />
               </div>
             </div>
           ) : (
             <div className="flex items-center justify-between w-full md:max-w-7xl  ">
               <div className="block text-gray-700 border-primary md:w-full md:justify-center flex py-3 md:hidden">
                 <div>
-                  <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+                  <Image src={logo} alt="Alpaden Logo" width={100} height={120} />
                 </div>
               </div>
               <div className="hidden w-full md:flex justify-between md:max-w-3xl">
@@ -113,7 +113,7 @@ const Navbar = ({ state, setState}: any) => {
                 <Button>Contact Us</Button>
               </Link> */}
                <div className="space-x-5 hidden md:flex">
-                  <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+                  <Image src={logo} alt="Alpaden Logo" width={100} height={120} />
                 </div>
 
               <div

@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="px-2 w-full max-w-7xl my-12 flex justify-between">
         <div className="hidden md:flex flex-col">
           <div className="flex flex-col space-y-3 text-sm md:text-md ">
-            <Image src={logo} alt="Alpaden Logo" width={70} height={70} />
+            <Image src={logo} alt="Alpaden Logo" width={100} height={120} />
           </div>
           <div className="flex flex-col space-y-3 text-sm md:text-md mt-3 w-58">
             <Link href={"/"} className="uppercase">
